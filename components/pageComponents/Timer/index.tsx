@@ -90,8 +90,7 @@ const TimerComponent = ({
                     <LinksIcons
                         vkLink={data.vkLink}
                         telegramLink={data.telegramLink}
-                        habrLink={data.habrLink}
-                        twitterLink={data.twitterLink}
+                        newsLink={data.newsLink}
                     />
                 </div>
             </section>
