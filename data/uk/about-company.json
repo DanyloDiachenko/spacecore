@@ -1,0 +1,87 @@
+{
+    "main_block": {
+        "imgSrc": "/images/banners/about-company.png",
+        "title": "О компании",
+        "description": "Обеспечьте доступность своего сайта или веб-приложения с помощью SpaceCore. Бесплатно размещайте домены и записи на наших DNS-серверах"
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Онлайн-чат поддержки",
+        "description": "Есть вопросы? Пишите нам в чат! Поддержка 24/7",
+        "buttonText": "Открыть чат"
+    },
+    "services_description_block": [
+        {
+            "imgSrc": "/images/icons/ddos-filters.svg",
+            "title": "Фильтрация всех видов DDoS-атак",
+            "description": "Наши сервисы обеспечивают защиту от всех существующих видов DDoS-атак. Фильтрация на уровне L7 подключается индивидуально"
+        },
+        {
+            "imgSrc": "/images/icons/custom-protection.svg",
+            "title": "Создание индивидуальных правил защиты",
+            "description": "Наши сервисы обеспечивают защиту от всех существующих видов DDoS-атак. Фильтрация на уровне L7 подключается индивидуально"
+        },
+        {
+            "imgSrc": "/images/icons/option-connect.svg",
+            "title": "Опциональное подключение для услуг",
+            "description": "Наши сервисы обеспечивают защиту от всех существующих видов DDoS-атак. Фильтрация на уровне L7 подключается индивидуально"
+        },
+        {
+            "imgSrc": "/images/icons/high-filter-power.svg",
+            "title": "Мощность фильтрации до 2500 Гбит/с",
+            "description": "Наши сервисы обеспечивают защиту от всех существующих видов DDoS-атак. Фильтрация на уровне L7 подключается индивидуально"
+        }
+    ],
+    "services_block": {
+        "title": "Наши услуги",
+        "services": [
+            {
+                "title": "Виртуальные серверы (VDS/VPS)",
+                "imgSrc": "/images/medium/virtual-servers.png",
+                "link": "/virtual-servers"
+            },
+            {
+                "title": "Облачные серверы (CLOUD)",
+                "imgSrc": "/images/medium/cloud-servers.png",
+                "link": "/cloud-servers"
+            },
+            {
+                "title": "Выделенные серверы",
+                "imgSrc": "/images/medium/emitted-servers.png",
+                "link": "/dedicated-servers"
+            },
+            {
+                "title": "Серверы без установки",
+                "imgSrc": "/images/medium/no-installed-servers.png",
+                "link": "/dedicated-servers-no-install"
+            },
+            {
+                "title": "Игровой хостинг",
+                "imgSrc": "/images/medium/game-hosting.png",
+                "link": "/game-hosting"
+            },
+            {
+                "title": "Хостинг для сайтов",
+                "imgSrc": "/images/medium/site-hosting.png",
+                "link": "/hosting-site"
+            },
+            {
+                "title": "Доменные имена",
+                "imgSrc": "/images/medium/domain-names.png",
+                "link": "/domain-name"
+            },
+            {
+                "title": "Бекап-хранилище",
+                "imgSrc": "/images/medium/backup-store.png",
+                "link": "/backup-storage"
+            }
+        ],
+        "buttonText": "",
+        "buttonLink": ""
+    },
+    "interesting_facts_block": {
+        "title": "Интересные факты о SpaceCore",
+        "description": "Что такое текст «рыба» знают все, кто работает с версткой журналов, дизайном и разработкой сайтов. Этот текст служит для демонстрации того, как контент впоследствии будет выглядеть на готовой странице, чтобы увидеть, правильно ли размещаются абзацы, отступы, хорошо ли смотрятся шрифты. Такие рыбные тексты, как правило, не несут никакой смысловой нагрузки"
+    }
+}

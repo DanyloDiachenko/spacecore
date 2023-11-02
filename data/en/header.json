@@ -1,0 +1,425 @@
+{
+    "header_block": {
+        "logoImgSrc": "/images/icons/logo.svg",
+        "logotitle": "Charting the stars since 2018",
+        "servicesWorkTitle": "All services operational",
+        "servicesNotWorkTitle": "Some services are currently unavailable",
+        "email": "support@spacecore.pro",
+        "emailLink": "mailto:support@spacecore.pro",
+        "logintitle": "Log In",
+        "loginLink": "/login",
+        "registerTitle": "Register",
+        "registerLink": "/register",
+        "servicesLink": "/uptime",
+        "navigation": [
+            {
+                "title": "Products",
+                "isShort": false,
+                "leftMenu": [
+                    {
+                        "title": "Virtual Servers (VDS/VPS)",
+                        "link": "/virtual-servers",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/all-countries.svg",
+                                "title": "Any",
+                                "link": "/virtual-servers"
+                            },
+                            {
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Germany, Falkenstein",
+                                "link": "/virtual-servers?country=de"
+                            },
+                            {
+                                "icon": "/images/icons/finland.svg",
+                                "title": "Finland, Helsinki",
+                                "link": "/virtual-servers?country=fi"
+                            },
+                            {
+                                "icon": "/images/icons/france.svg",
+                                "title": "France, Gravelines",
+                                "link": "/virtual-servers?country=fr"
+                            },
+                            {
+                                "icon": "/images/icons/russia.svg",
+                                "title": "Russia, Moscow",
+                                "link": "/virtual-servers?country=ru"
+                            },
+                            {
+                                "icon": "/images/icons/russia.svg",
+                                "title": "Russia, Saint Petersburg",
+                                "link": "/virtual-servers?country=ru"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Contabo Servers",
+                        "link": "/cloud-servers",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Germany",
+                                "link": "/cloud-servers"
+                            },
+                            {
+                                "icon": "/images/icons/finland.svg",
+                                "title": "Finland",
+                                "link": "/cloud-servers"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Dedicated Servers",
+                        "link": "/dedicated-servers",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/all-countries.svg",
+                                "title": "Any",
+                                "link": "/dedicated-servers"
+                            },
+                            {
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Germany, Falkenstein",
+                                "link": "/dedicated-servers?country=de"
+                            },
+                            {
+                                "icon": "/images/icons/finland.svg",
+                                "title": "Finland, Helsinki",
+                                "link": "/dedicated-servers?country=fi"
+                            },
+                            {
+                                "icon": "/images/icons/russia.svg",
+                                "title": "Russia, Moscow",
+                                "link": "/dedicated-servers?country=ru"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Servers without Setup Fee",
+                        "link": "/dedicated-servers-no-install",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/all-countries.svg",
+                                "title": "Any",
+                                "link": "/dedicated-servers-no-install"
+                            },
+                            {
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Germany, Falkenstein",
+                                "link": "/dedicated-servers-no-install?country=de"
+                            },
+                            {
+                                "icon": "/images/icons/finland.svg",
+                                "title": "Finland, Helsinki",
+                                "link": "/dedicated-servers-no-install?country=fi"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Web Hosting",
+                        "link": "/web-hosting",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Start",
+                                "link": "/web-hosting"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Standard",
+                                "link": "/web-hosting"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Premium",
+                                "link": "/web-hosting"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Hosting",
+                        "link": "/game-hosting",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/all-countries.svg",
+                                "title": "Any",
+                                "link": "/game-hosting"
+                            },
+                            {
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Germany, Falkenstein",
+                                "link": "/game-hosting?country=de"
+                            },
+                            {
+                                "icon": "/images/icons/finland.svg",
+                                "title": "Finland, Helsinki",
+                                "link": "/game-hosting?country=fi"
+                            },
+                            {
+                                "icon": "/images/icons/france.svg",
+                                "title": "France, Gravelines",
+                                "link": "/game-hosting?country=fr"
+                            },
+                            {
+                                "icon": "/images/icons/russia.svg",
+                                "title": "Russia, Moscow",
+                                "link": "/game-hosting?country=ru"
+                            },
+                            {
+                                "icon": "/images/icons/russia.svg",
+                                "title": "Russia, Saint Petersburg",
+                                "link": "/game-hosting?country=ru"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Additional Services",
+                "isShort": false,
+                "leftMenu": [
+                    {
+                        "title": "Domain Names",
+                        "link": "/domains",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".com",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".net",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".org",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".pro",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".biz",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".info",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".space",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".su",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".me",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".ru",
+                                "link": "/domains"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "DNS Hosting",
+                        "link": "/dns-hosting",
+                        "additional": []
+                    },
+                    {
+                        "title": "Backup Storage",
+                        "link": "/backup-storage",
+                        "additional": []
+                    },
+                    {
+                        "title": "Colocation",
+                        "link": "/colocation",
+                        "additional": []
+                    },
+                    {
+                        "title": "DDoS Protection",
+                        "link": "/ddos-protection",
+                        "additional": []
+                    }
+                ]
+            },
+            {
+                "title": "Documentation",
+                "isShort": true,
+                "leftMenu": [
+                    {
+                        "title": "Registration",
+                        "link": ""
+                    },
+                    {
+                        "title": "How to Order a Service?",
+                        "link": ""
+                    },
+                    {
+                        "title": "Contact Support",
+                        "link": ""
+                    },
+                    {
+                        "title": "Working with Servers",
+                        "link": ""
+                    },
+                    {
+                        "title": "Control Panel",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "About Us",
+                "isShort": true,
+                "leftMenu": [
+                    {
+                        "title": "Documents",
+                        "link": "/documents"
+                    },
+                    {
+                        "title": "Service Status",
+                        "link": "/uptime"
+                    },
+                    {
+                        "title": "Looking Glass",
+                        "link": "/looking-house"
+                    },
+                    {
+                        "title": "Benchmarks",
+                        "link": "https://benchmark.spacecore.info/"
+                    },
+                    {
+                        "title": "Original Articles",
+                        "link": "/news"
+                    }
+                ]
+            },
+            {
+                "title": "Support",
+                "link": "/support",
+                "isShort": true,
+                "leftMenu": []
+            }
+        ],        
+        "navigationAdaptive": [
+            {
+                "title": "Products",
+                "additional": [
+                    {
+                        "title": "Virtual Servers (VDS/VPS)",
+                        "link": "/virtual-servers"
+                    },
+                    {
+                        "title": "Dedicated Servers",
+                        "link": "/dedicated-servers"
+                    },
+                    {
+                        "title": "Servers without Installation Fee",
+                        "link": "/dedicated-servers-no-install"
+                    },
+                    {
+                        "title": "Web Hosting",
+                        "link": "/web-hosting"
+                    },
+                    {
+                        "title": "Game Hosting",
+                        "link": "/game-hosting"
+                    }
+                ]
+            },
+            {
+                "title": "Additional Services",
+                "additional": [
+                    {
+                        "title": "Domain Names",
+                        "link": "/domains"
+                    },
+                    {
+                        "title": "DNS Hosting",
+                        "link": "/dns-hosting"
+                    },
+                    {
+                        "title": "Backup Storage",
+                        "link": "/backup-storage"
+                    },
+                    {
+                        "title": "Colocation",
+                        "link": "/colocation"
+                    },
+                    {
+                        "title": "DDoS Protection",
+                        "link": "/ddos-protection"
+                    }
+                ]
+            },
+            {
+                "title": "Documentation",
+                "additional": [
+                    {
+                        "title": "Registration",
+                        "link": ""
+                    },
+                    {
+                        "title": "How to Order a Service?",
+                        "link": ""
+                    },
+                    {
+                        "title": "Contact Support",
+                        "link": ""
+                    },
+                    {
+                        "title": "Working with Servers",
+                        "link": ""
+                    },
+                    {
+                        "title": "Control Panel",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "About Us",
+                "additional": [
+                    {
+                        "title": "Documents",
+                        "link": "/documents"
+                    },
+                    {
+                        "title": "Service Status",
+                        "link": "/uptime"
+                    },
+                    {
+                        "title": "Looking Glass",
+                        "link": "/looking-house"
+                    },
+                    {
+                        "title": "Benchmarks",
+                        "link": "https://benchmark.spacecore.info/"
+                    },
+                    {
+                        "title": "Original Articles",
+                        "link": "/news"
+                    }
+                ]
+            },
+            {
+                "title": "Support",
+                "link": "/our-services"
+            }
+        ]        
+    }
+}

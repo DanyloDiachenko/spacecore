@@ -1,0 +1,260 @@
+{
+    "main_block": {
+        "title": "VDS/VPS серверы",
+        "description": "Виртуальные машины для игровых серверов, бизнес-проектов и IT-разработок.",
+        "imgSrc": "/images/banners/vps-servers.png"
+    },
+    "tariffes_filters_block": {
+        "title": "Тарифные планы",
+        "countries": {
+            "title": "Локация",
+            "countries": [
+                {
+                    "imgSrc": "/images/icons/all-countries.svg",
+                    "title": "Любая",
+                    "key": "any"
+                },
+                {
+                    "imgSrc": "/images/icons/russia.svg",
+                    "title": "Россия, Москва",
+                    "key": "ru"
+                },
+                {
+                    "imgSrc": "/images/icons/france.svg",
+                    "title": "Франция",
+                    "key": "fr"
+                },
+                {
+                    "imgSrc": "/images/icons/germany.svg",
+                    "title": "Германия, Франкфурт",
+                    "key": "de"
+                },
+                {
+                    "imgSrc": "/images/icons/finland.svg",
+                    "title": "Финляндия",
+                    "key": "fi"
+                }
+            ]
+        },
+        "checkboxes": [
+            {
+                "title": "Процессор",
+                "filterTitles": [
+                    {
+                        "title": "AMD",
+                        "key": "amd"
+                    },
+                    {
+                        "title": "INTEL",
+                        "key": "intel"
+                    }
+                ]
+            },
+            {
+                "title": "Диск",
+                "filterTitles": [
+                    {
+                        "title": "NVME",
+                        "key": "nvme"
+                    },
+                    {
+                        "title": "SSD",
+                        "key": "ssd"
+                    },
+                    {
+                        "title": "HDD",
+                        "key": "hdd"
+                    }
+                ]
+            }
+        ],
+        "ranges": {
+            "priceTitle": "Стоимость",
+            "priceMin": 1,
+            "priceMax": 120,
+            "disksTitle": "Кол-во дисков",
+            "disksMin": 0,
+            "disksMax": 1,
+            "disksVolumeTitle": "Объем дисков",
+            "disksVolumeMin": 10,
+            "disksVolumeMax": 800,
+            "coresTitle": "Кол-во ядер",
+            "coresMin": 1,
+            "coresMax": 8,
+            "ramTitle": "ОЗУ",
+            "ramMin": 1,
+            "ramMax": 32
+        },
+        "periods": [
+            {
+                "title": "1",
+                "titleKey": "1"
+            },
+            {
+                "title": "3",
+                "titleKey": "3"
+            },
+            {
+                "title": "6",
+                "titleKey": "6"
+            },
+            {
+                "title": "12",
+                "titleKey": "12"
+            }
+        ]
+    },
+    "tariffes_block": {
+        "tariffTitles": {
+            "diskTitle": "Накопитель",
+            "coresTitle": "vCore",
+            "ramTitle": "ОЗУ",
+            "channelTitle": "Канал",
+            "locationTitle": "Локация",
+            "coreTitle": "Процессор",
+            "antiDdosTitle": "Защита",
+            "buttonText": "Заказать"
+        }
+    },
+    "operation_systems_block": {
+        "title": "Операционные системы на выбор",
+        "description": "Установите любую актуальную операционную систему, в том числе из своего образа ISO.",
+        "operationSystems": [
+            {
+                "imgSrc": "/images/icons/windows.svg",
+                "title": "Windows Server",
+                "description": "2019, 2016, 2012 R2, Windows 10, 11"
+            },
+            {
+                "imgSrc": "/images/icons/ubuntu.svg",
+                "title": "Ubuntu",
+                "description": "22.04, 20.04, 18.04, 16.04"
+            },
+            {
+                "imgSrc": "/images/icons/cent.svg",
+                "title": "CentOS",
+                "description": "9, 8, 7"
+            },
+            {
+                "imgSrc": "/images/icons/debian.svg",
+                "title": "Debian",
+                "description": "12, 11, 10, 9"
+            }
+        ]
+    },
+    "main_info_block": [
+        {
+            "id": 0,
+            "imgSrc": "/images/banners/control-panel.png",
+            "title": "Удобная панель управления сервером",
+            "description": "Интуитивно понятные инструменты для работы с серверами. Переустановка, настройка, мониторинг — все, что нужно!"
+        },
+        {
+            "id": 1,
+            "imgSrc": "/images/banners/rocket.png",
+            "title": "Моментальная установка тарифов",
+            "description": "Создание сервера начинается сразу же после оплаты и обычно занимает не более пары минут*.⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ *При условии нахождения тарифа в наличии."
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/banners/bank-coin.png",
+            "title": "Гарантия возврата средств",
+            "description": "Мы дорожим качеством и поэтому без лишних заявлений готовы вернуть Ваши денежные средства в случае возникновения технических проблем на стороне нашего оборудования!"
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/banners/shield.png",
+            "title": "Надежность",
+            "description": "Постоянные улучшения систем безопасности и круглосуточная техническая поддержка для оперативного решения любых внезапных неполадок."
+        }
+    ],
+    "not_finded_information_block": {
+        "title": "Не нашли то, что искали?",
+        "notFindedInformation": [
+            {
+                "imgSrc": "/images/icons/dedicated-servers.svg",
+                "title": "Выделенные серверы",
+                "price": "От 54.99 €",
+                "link": "/dedicated-servers",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Серверы без установки",
+                "price": "От 54.99 €",
+                "link": "/dedicated-servers-no-install",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Веб-хостинг",
+                "price": "От 1.20 €",
+                "link": "/web-hosting",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/game-hosting.svg",
+                "title": "Игровой хостинг",
+                "price": "От 6 €",
+                "link": "/game-hosting",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Бекап-хранилище",
+                "price": "От 0.20 €",
+                "link": "/backup-storage",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Доменные имена",
+                "price": "От 3 €",
+                "link": "/domains",
+                "term": "год"
+            }
+        ]
+    },
+    "faq_block": {
+        "title": "Ответы на вопросы",
+        "faqItems": [
+            {
+                "question": "Что такое Виртуальный сервер (VDS/VPS)?",
+                "answerTitle": "Что такое Виртуальный сервер (VDS/VPS)?",
+                "answerDescription": "<strong>Virtual Dedicated/Private Server</strong> — виртуальное оборудование, которое эмулирует работу реального физического сервера. Мы предоставляем полный root-доступ для каждого сервера, при этом каждый клиент имеет индивидуальное ограниченное пространство, которое никак не взаимодействует с «соседями по узлу», благодаря технологии KVM. Обратите внимание, что мы не классифицируем VDS и VPS как разные услуги."
+            },
+            {
+                "question": "Как выбрать подходящий тариф?",
+                "answerTitle": "Как выбрать подходящий тариф?",
+                "answerDescription": "Если Вы планируете размещение какого-либо конкретного сервиса, наверняка его разработчики предусмотрели рекомендуемые характеристики для сервера. Но если Вы не хотите тратить на это время, обратитесь в Службу поддержки. Наши коллеги всегда будут рады индивидуально ознакомиться с Вашими потребностями и подобрать лучший вариант «Бюджет = Стоимость»."
+            },
+            {
+                "question": "Есть ли оверселлинг на ваших серверах?",
+                "answerTitle": "Есть ли оверселлинг на ваших серверах?",
+                "answerDescription": "Ядра процессора являются виртуальными и разделяются между пользователями на одном узле в зависимости от потребления. При этом мы гарантируем 100% арендуемых ОЗУ и памяти накопителя."
+            },
+            {
+                "question": "Виртуальный сервер — что-то совсем неизвестное для меня!",
+                "answerTitle": "Виртуальный сервер — что-то совсем неизвестное для меня! Как быть?",
+                "answerDescription": "Каждый пользователь при заказе виртуального сервера может выбрать подходящую операционную систему, с которой будет удобнее всего работать, будь то дистрибутивы Linux или же семейство Windows. В сети есть огромное количество инструкций по установке и настройке различного программного обеспечения. Множество полезной информации для новичков (и не только) мы публикуем в нашей <a href='/knowledge-base'>Базе знаний</a>."
+            },
+            {
+                "question": "Какое количество IP-адресов я получаю при покупке?",
+                "answerTitle": "Какое количество IP-адресов я получаю при покупке? Можно ли получить доп. адреса?",
+                "answerDescription": "После покупки виртуального сервера пользователь бесплатно получает один индивидуальный IPv4-адрес. Стоимость одного IPv4-адреса зависит от конкретной локации и указана в личном кабинете. Максимальное количество IP-адресов для одной услуги — 255 шт. В индивидуальном порядке доступен заказ подсетей."
+            },
+            {
+                "question": "Как переустановить ОС после активации виртуального сервера?",
+                "answerTitle": "Как переустановить ОС после активации виртуального сервера?",
+                "answerDescription": "Мы предоставляем пользовательскую панель управления VmManager v6, в которой Вы сможете автоматически переустановить операционную систему или загрузить свой ISO-образ, если возникла подобная необходимость. В панели доступна онлайн-статистика нагрузки серверов, а также много других полезных функций. Инструкция по переустановке операционной системы доступна в нашей <a href='https://wiki.spacecore.pro/billing/how-to-use-vps-vds#os-reinstallation'>Базе знаний.</a>"
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Онлайн-чат поддержки",
+        "description": "Есть вопросы? Пишите нам в чат! Поддержка 24/7",
+        "buttonText": "Открыть чат"
+    }
+}

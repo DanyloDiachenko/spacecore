@@ -1,0 +1,260 @@
+{
+    "main_block": {
+        "title": "VDS/VPS Servers",
+        "description": "Virtual machines for game servers, business projects, and IT development.",
+        "imgSrc": "/images/banners/vps-servers.png"
+    },
+    "tariffes_filters_block": {
+        "title": "Tariff Plans",
+        "countries": {
+            "title": "Location",
+            "countries": [
+                {
+                    "imgSrc": "/images/icons/all-countries.svg",
+                    "title": "Any",
+                    "key": "any"
+                },
+                {
+                    "imgSrc": "/images/icons/russia.svg",
+                    "title": "Russia, Moscow",
+                    "key": "ru"
+                },
+                {
+                    "imgSrc": "/images/icons/france.svg",
+                    "title": "France",
+                    "key": "fr"
+                },
+                {
+                    "imgSrc": "/images/icons/germany.svg",
+                    "title": "Germany, Frankfurt",
+                    "key": "de"
+                },
+                {
+                    "imgSrc": "/images/icons/finland.svg",
+                    "title": "Finland",
+                    "key": "fi"
+                }
+            ]
+        },
+        "checkboxes": [
+            {
+                "title": "Processor",
+                "filterTitles": [
+                    {
+                        "title": "AMD",
+                        "key": "amd"
+                    },
+                    {
+                        "title": "INTEL",
+                        "key": "intel"
+                    }
+                ]
+            },
+            {
+                "title": "Disk",
+                "filterTitles": [
+                    {
+                        "title": "NVME",
+                        "key": "nvme"
+                    },
+                    {
+                        "title": "SSD",
+                        "key": "ssd"
+                    },
+                    {
+                        "title": "HDD",
+                        "key": "hdd"
+                    }
+                ]
+            }
+        ],
+        "ranges": {
+            "priceTitle": "Price",
+            "priceMin": 1,
+            "priceMax": 120,
+            "disksTitle": "Number of Disks",
+            "disksMin": 0,
+            "disksMax": 1,
+            "disksVolumeTitle": "Disk Volume",
+            "disksVolumeMin": 10,
+            "disksVolumeMax": 800,
+            "coresTitle": "Number of Cores",
+            "coresMin": 1,
+            "coresMax": 8,
+            "ramTitle": "RAM",
+            "ramMin": 1,
+            "ramMax": 32
+        },
+        "periods": [
+            {
+                "title": "1",
+                "titleKey": "1"
+            },
+            {
+                "title": "3",
+                "titleKey": "3"
+            },
+            {
+                "title": "6",
+                "titleKey": "6"
+            },
+            {
+                "title": "12",
+                "titleKey": "12"
+            }
+        ]
+    },
+    "tariffes_block": {
+        "tariffTitles": {
+            "diskTitle": "Storage",
+            "coresTitle": "vCore",
+            "ramTitle": "RAM",
+            "channelTitle": "Channel",
+            "locationTitle": "Location",
+            "coreTitle": "Processor",
+            "antiDdosTitle": "Protection",
+            "buttonText": "Order Now"
+        }
+    },
+    "operation_systems_block": {
+        "title": "Choice of Operating Systems",
+        "description": "Install any up-to-date operating system, including from your own ISO image.",
+        "operationSystems": [
+            {
+                "imgSrc": "/images/icons/windows.svg",
+                "title": "Windows Server",
+                "description": "2019, 2016, 2012 R2, Windows 10, 11"
+            },
+            {
+                "imgSrc": "/images/icons/ubuntu.svg",
+                "title": "Ubuntu",
+                "description": "22.04, 20.04, 18.04, 16.04"
+            },
+            {
+                "imgSrc": "/images/icons/cent.svg",
+                "title": "CentOS",
+                "description": "9, 8, 7"
+            },
+            {
+                "imgSrc": "/images/icons/debian.svg",
+                "title": "Debian",
+                "description": "12, 11, 10, 9"
+            }
+        ]
+    },
+    "main_info_block": [
+        {
+            "id": 0,
+            "imgSrc": "/images/banners/control-panel.png",
+            "title": "Convenient Server Control Panel",
+            "description": "Intuitive tools for working with servers. Reinstallation, configuration, monitoring. Everything you need!"
+        },
+        {
+            "id": 1,
+            "imgSrc": "/images/banners/rocket.png",
+            "title": "Instant Tariff Setup",
+            "description": "Server deployment starts immediately after payment and usually takes no more than a couple of minutes*. *Subject to tariff availability."
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/banners/bank-coin.png",
+            "title": "Money-Back Guarantee",
+            "description": "We value quality and are ready to refund your money without unnecessary claims in case of technical issues on our equipment!"
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/banners/shield.png",
+            "title": "Reliability",
+            "description": "Constant security system improvements and round-the-clock technical support to promptly address any unexpected issues."
+        }
+    ],
+    "not_finded_information_block": {
+        "title": "Didn't Find What You Were Looking For?",
+        "notFindedInformation": [
+            {
+                "imgSrc": "/images/icons/dedicated-servers.svg",
+                "title": "Dedicated Servers",
+                "price": "From €54.99",
+                "link": "/dedicated-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Servers without Installation",
+                "price": "From €54.99",
+                "link": "/dedicated-servers-no-install",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Web Hosting",
+                "price": "From €1.20",
+                "link": "/web-hosting",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/game-hosting.svg",
+                "title": "Game Hosting",
+                "price": "From €6",
+                "link": "/game-hosting",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Backup Storage",
+                "price": "From €0.20",
+                "link": "/backup-storage",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Domain Names",
+                "price": "From €3",
+                "link": "/domains",
+                "term": "yr."
+            }
+        ]
+    },
+    "faq_block": {
+        "title": "Answers to Your Questions",
+        "faqItems": [
+            {
+                "question": "What is a Virtual Dedicated/Private Server (VDS/VPS)?",
+                "answerTitle": "What is a Virtual Dedicated/Private Server (VDS/VPS)?",
+                "answerDescription": "<strong>Virtual Dedicated/Private Server</strong> is virtual hardware that emulates the operation of a real physical server. We provide full root access for each server, while each client has individual limited space that does not interact with 'neighbors on the node,' thanks to KVM technology. Please note that we do not differentiate between VDS and VPS as different services."
+            },
+            {
+                "question": "How to Choose the Right Plan?",
+                "answerTitle": "How to Choose the Right Plan?",
+                "answerDescription": "If you plan to host a specific service, its developers have likely provided recommended server specifications. But if you don't want to spend time on that, contact Customer Support. Our colleagues are always happy to understand your needs and find the best 'Budget = Cost' option."
+            },
+            {
+                "question": "Is There Overselling on Your Servers?",
+                "answerTitle": "Is There Overselling on Your Servers?",
+                "answerDescription": "Processor cores are virtual and shared among users on one node based on consumption. However, we guarantee 100% of the rented RAM and storage memory."
+            },
+            {
+                "question": "Virtual Server Is Completely Unknown to Me! What Should I Do?",
+                "answerTitle": "Virtual Server Is Completely Unknown to Me! What Should I Do?",
+                "answerDescription": "Each user when ordering a virtual server can choose a suitable operating system that they find most convenient to work with, whether it's Linux distributions or Windows family. There is a wealth of instructions for installing and configuring various software available online. We regularly publish useful information for beginners (and beyond) in our <a href='/knowledge-base'>Knowledge Base</a>."
+            },
+            {
+                "question": "How Many IP Addresses Do I Get When Purchasing?",
+                "answerTitle": "How Many IP Addresses Do I Get When Purchasing? Can I Get Additional Addresses?",
+                "answerDescription": "After purchasing a virtual server, the user receives one individual IPv4 address for free. The cost of one IPv4 address depends on the specific location and is indicated in the client area. The maximum number of IP addresses for one service is 255. Ordering subnets is available on an individual basis."
+            },
+            {
+                "question": "How to Reinstall the OS After Activating the Virtual Server?",
+                "answerTitle": "How to Reinstall the OS After Activating the Virtual Server?",
+                "answerDescription": "We provide the user control panel VmManager v6, where you can automatically reinstall the operating system or boot your own ISO image if necessary. The panel provides online server load statistics and many other useful functions. Instructions for OS reinstallation are available in our <a href='https://wiki.spacecore.pro/billing/how-to-use-vps-vds#os-reinstallation'>Knowledge Base.</a>"
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Online Support Chat",
+        "description": "Have questions? Write to us in the chat! Support available 24/7",
+        "buttonText": "Open Chat"
+    }
+}

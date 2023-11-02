@@ -1,0 +1,926 @@
+{
+    "header_block": {
+        "logoImgSrc": "/images/icons/logo.svg",
+        "logotitle": "открываем космос с 2018 года",
+        "servicesWorkTitle": "Все сервисы работают",
+        "servicesNotWorkTitle": "Часть сервисов не работают",
+        "email": "support@spacecore.pro",
+        "emailLink": "mailto:support@spacecore.pro",
+        "logintitle": "Войти",
+        "loginLink": "/login",
+        "registerTitle": "Регистрация",
+        "registerLink": "/register",
+        "navigation": [
+            {
+                "title": "Продукты",
+                "isShort": false,
+                "leftMenu": [
+                    {
+                        "title": "Серверы и вычисления",
+                        "link": "",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Серверы и вычисления",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Серверы и вычисления",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Серверы и вычисления",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Серверы и вычисления",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Серверы и вычисления",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Серверы и вычисления",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Хранение и восстановление данных",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Хранение и восстановление данных",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Хранение и восстановление данных",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Хранение и восстановление данных",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Хранение и восстановление данных",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Хранение и восстановление данных",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Хранение и восстановление данных",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Облако на базе VMware",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Облако на базе VMware",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Облако на базе VMware",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Облако на базе VMware",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Облако на базе VMware",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Облако на базе VMware",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Облако на базе VMware",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Размещение оборудования",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Размещение оборудования",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Размещение оборудования",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Размещение оборудования",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Размещение оборудования",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Размещение оборудования",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Размещение оборудования",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "ML и обработка данных",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "ML и обработка данных",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "ML и обработка данных",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "ML и обработка данных",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "ML и обработка данных",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "ML и обработка данных",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "ML и обработка данных",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Безопасность и 152-ФЗ",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Безопасность и 152-ФЗ",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Безопасность и 152-ФЗ",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Безопасность и 152-ФЗ",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Безопасность и 152-ФЗ",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Безопасность и 152-ФЗ",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Безопасность и 152-ФЗ",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Организация сети",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Организация сети",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Организация сети",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Организация сети",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Организация сети",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Организация сети",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Организация сети",
+                                "link": "#"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Доп. услуги",
+                "isShort": false,
+                "leftMenu": [
+                    {
+                        "title": "Доп.услуги",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Доп.услуги 2",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Доп.услуги 3",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Доп.услуги 4",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Доп.услуги 5",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Доп.услуги 6",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Доп.услуги 7",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Доп.услуги",
+                                "link": "#"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Ресурсы",
+                "isShort": true,
+                "leftMenu": [
+                    {
+                        "title": "Ресурсы 1",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Ресурсы 2",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Ресурсы 3",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Ресурсы 4",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Ресурсы 5",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Ресурсы 6",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Ресурсы 7",
+                        "link": "#"
+                    }
+                ]
+            },
+            {
+                "title": "О нас",
+                "isShort": true,
+                "leftMenu": [
+                    {
+                        "title": "О нас 1",
+                        "link": "#"
+                    },
+                    {
+                        "title": "О нас 2",
+                        "link": "#"
+                    },
+                    {
+                        "title": "О нас 3",
+                        "link": "#"
+                    },
+                    {
+                        "title": "О нас 4",
+                        "link": "#"
+                    },
+                    {
+                        "title": "О нас 5",
+                        "link": "#"
+                    },
+                    {
+                        "title": "О нас 6",
+                        "link": "#"
+                    },
+                    {
+                        "title": "О нас 7",
+                        "link": "#"
+                    }
+                ]
+            },
+            {
+                "title": "Партнёрам",
+                "isShort": false,
+                "leftMenu": [
+                    {
+                        "title": "Партнёрам 1",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Партнёрам 2",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Партнёрам 3",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Партнёрам 4",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Партнёрам 5",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Партнёрам 6",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Партнёрам 7",
+                        "link": "#",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Партнёрам",
+                                "link": "#"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Поддержка",
+                "link": "/support",
+                "isShort": true,
+                "leftMenu": []
+            }
+        ],
+        "navigationAdaptive": [
+            {
+                "title": "Продукты",
+                "additional": [
+                    {
+                        "title": "Виртуальные серверы (VDS/VPS)",
+                        "link": "/vps-servers"
+                    }
+                ]
+            },
+            {
+                "title": "Услуги",
+                "link": "/our-services"
+            },
+            {
+                "title": "Документация",
+                "link": "/documents"
+            },
+            {
+                "title": "О компании",
+                "additional": [
+                    {
+                        "title": "test 1",
+                        "link": "/test 1"
+                    },
+                    {
+                        "title": "test 2",
+                        "link": "/test 2"
+                    },
+                    {
+                        "title": "test 3",
+                        "link": "/test 3"
+                    },
+                    {
+                        "title": "test 4",
+                        "link": "/test 4"
+                    }
+                ]
+            },
+            {
+                "title": "Сотрудничество",
+                "additional": [
+                    {
+                        "title": "Реферальная программа",
+                        "link": "/referral-program"
+                    },
+                    {
+                        "title": "Реселлерская программа",
+                        "link": "/reseller-program"
+                    }
+                ]
+            },
+            {
+                "title": "Наши сервисы",
+                "additional": [
+                    {
+                        "title": "База знаний",
+                        "link": "/knowledge-base"
+                    }
+                ]
+            }
+        ]
+    }
+}

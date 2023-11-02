@@ -1,0 +1,18 @@
+.for-investors {
+    text-align: center;
+    max-width: 900px;
+
+    .top-text {
+        margin-top: 30px;
+
+        @media (max-width: 991px) {
+            margin-top: 20px;
+        }
+    }
+}
+
+.for-investors-text {
+    text-align: center;
+    max-width: 900px;
+	
+}

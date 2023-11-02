@@ -1,0 +1,198 @@
+{
+    "main_block": {
+        "title": "Contabo VPS",
+        "description": "We are a reliable provider of official Contabo servers. However, we don't require documentation and accept payments in cryptocurrency and rubles.",
+        "imgSrc": "/images/banners/cloud-servers.png"
+    },
+    "tariffes_cpu_block": {
+        "title": "Tariff Plans",
+        "standardVcpuText": "Standard vCPU",
+        "dedicatedVcpuText": "Dedicated vCPU",
+        "ipVersion4Text": "IPv4",
+        "ipVersion6Text": "IPv6",
+        "tariffTitles": {
+            "diskTitle": "Disk",
+            "coresTitle": "Cores",
+            "ramTitle": "RAM",
+            "channelTitle": "Channel",
+            "locationTitle": "Location",
+            "coreTitle": "Processor",
+            "antiDdosTitle": "Anti-DDoS",
+            "buttonText": "Order"
+        }
+    },
+    "tariffes_filters_block": {
+        "title": "Tariff Plans",
+        "countries": {
+            "title": "Location",
+            "countries": [
+                {
+                    "imgSrc": "/images/icons/all-countries.svg",
+                    "title": "Any",
+                    "key": "any"
+                },
+                {
+                    "imgSrc": "/images/icons/russia.svg",
+                    "title": "Russia",
+                    "key": "ru"
+                },
+                {
+                    "imgSrc": "/images/icons/france.svg",
+                    "title": "France",
+                    "key": "fr"
+                },
+                {
+                    "imgSrc": "/images/icons/germany.svg",
+                    "title": "Germany",
+                    "key": "de"
+                },
+                {
+                    "imgSrc": "/images/icons/finland.svg",
+                    "title": "Finland",
+                    "key": "fi"
+                }
+            ]
+        }
+    },
+    "operation_systems_block": {
+        "title": "Selectable Operating Systems",
+        "description": "Choose any current operating system. Note that loading custom ISO images on Contabo incurs a fee. The storage for images costs €2.5/month.",
+        "operationSystems": [
+            {
+                "imgSrc": "/images/icons/ubuntu.svg",
+                "title": "Ubuntu",
+                "description": "22.04, 20.04"
+            },
+            {
+                "imgSrc": "/images/icons/debian.svg",
+                "title": "Debian",
+                "description": "12, 11"
+            },
+            {
+                "imgSrc": "/images/icons/cent.svg",
+                "title": "CentOS",
+                "description": "7"
+            },
+            {
+                "imgSrc": "/images/icons/cent.svg",
+                "title": "AlmaLinux",
+                "description": "9, 8"
+            }
+        ]
+    },
+    "main_info_block": [
+        {
+            "id": 0,
+            "imgSrc": "/images/banners/control-panel.png",
+            "title": "Original Contabo Servers",
+            "description": "The equipment is no different from what you could purchase from the main Contabo site. Ordering through us is 100% safe!"
+        },
+        {
+            "id": 1,
+            "imgSrc": "/images/banners/rocket.png",
+            "title": "Cryptocurrency Payments",
+            "description": "You can make payments in cryptocurrency on a regular basis. We accept payments from any country!"
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/banners/shield.png",
+            "title": "No Documentation Required",
+            "description": "Ordering servers is fully anonymous. Unlike Contabo, we do not require any personal documents."
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/banners/bank-coin.png",
+            "title": "Market's Lowest Prices",
+            "description": "Our prices for services are nearly identical to those of Contabo. Without overpaying, you get additional benefits."
+        }
+    ],
+    "not_finded_information_block": {
+        "title": "Didn't Find What You Were Looking For?",
+        "notFindedInformation": [
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Virtual Servers",
+                "price": "From €1.39",
+                "link": "/dedicated-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/dedicated-servers.svg",
+                "title": "Dedicated Servers",
+                "price": "From €54.99",
+                "link": "/dedicated-servers-no-install",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Servers without Installation",
+                "price": "From €54.99",
+                "link": "/dedicated-servers-no-install",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/game-hosting.svg",
+                "title": "Game Hosting",
+                "price": "From €6",
+                "link": "/game-hosting",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Backup Storage",
+                "price": "From €0.20",
+                "link": "/backup-storage",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Domain Names",
+                "price": "From €3",
+                "link": "/domains",
+                "term": "yr."
+            }
+        ]
+    },
+    "faq_block": {
+        "title": "Answers to Your Questions",
+        "faqItems": [
+            {
+                "question": "What is this service? What's its purpose?",
+                "answerTitle": "What is this service? What's its purpose?",
+                "answerDescription": "We offer the purchase of virtual servers (VPS) from the provider Contabo. Our goal is to provide the opportunity to acquire servers from this company to individuals affected by Contabo's general sanctions. Recently, payments from Russia to Contabo are unavailable, and verification with Russian passports is blocked."
+            },
+            {
+                "question": "How secure is this? What guarantees do you provide?",
+                "answerTitle": "How secure is this? What guarantees do you provide?",
+                "answerDescription": "We guarantee that purchasing servers through SpaceCore is 100% safe, just like buying directly from Contabo. We are a legal entity and purchase all servers officially. Thus, any service blocks due to sanctions are completely excluded."
+            },
+            {
+                "question": "Why are these servers significantly cheaper than others?",
+                "answerTitle": "Why are these servers significantly cheaper than others?",
+                "answerDescription": "Contabo develops all software for server interaction and data center management in-house. This allows them to maintain low prices in the market. There are no hidden pitfalls; try it out and see for yourself!"
+            },
+            {
+                "question": "How will I manage the server after purchase?",
+                "answerTitle": "How will I manage the server after purchase?",
+                "answerDescription": "Through SSH/sFTP, similar to any other Linux virtual server. <br>The only difference with these servers is the absence of a control panel. It's not as daunting as it might seem at first. You can perform any technical actions by requesting support; our staff is available 24/7 and will promptly reboot your server or reinstall the OS as needed."
+            },
+            {
+                "question": "What payment methods do you accept?",
+                "answerTitle": "What payment methods do you accept?",
+                "answerDescription": "You can pay for these plans just like our other servers. We accept cryptocurrency, various Russian and international bank cards. If you don't find a suitable payment method, our staff can suggest alternative options specifically for you."
+            },
+            {
+                "question": "If the prices are the same as Contabo's, what's the benefit for you?",
+                "answerTitle": "If the prices are the same as Contabo's, what's the benefit for you?",
+                "answerDescription": "A very valid question! We are Contabo partners and collaborate under special terms that allow us to offer users servers at such a cosmic cost."
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Online Support Chat",
+        "description": "Have questions? Contact us via chat! 24/7 support available.",
+        "buttonText": "Open Chat"
+    }    
+}

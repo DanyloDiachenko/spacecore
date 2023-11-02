@@ -1,0 +1,123 @@
+{
+    "main_block": {
+        "title": "Доменное имя",
+        "description": "Щепотка красоты для Вашего веб-сайта. Домен — это то, что нужно!",
+        "imgSrc": "/images/banners/domain-name.png"
+    },
+    "main_info_block": [
+        {
+            "id": 0,
+            "imgSrc": "",
+            "title": "Оптимальная стоимость доменных зон",
+            "description": "Окунитесь в разнообразие доменных зон и стоимостей. От стандартных доменов до наиболее премиальных!"
+        },
+        {
+            "id": 1,
+            "imgSrc": "/images/banners/transfer_domain.png",
+            "title": "Вы можете перенести домен к нам!",
+            "description": "Уже приобрели домен? Ничего страшного, для удобной оплаты и взаимодействия Вы можете перенести его к нам в несколько кликов!"
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/banners/comfort_usage.png",
+            "title": "Удобное управление в совмещенной панели",
+            "description": "Используйте удобную панель управления, совмещенную с интерфейсом настройки DNS. Направить домен не составит никакого труда!"
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/banners/transfer_domain.png",
+            "title": "Собственные серверы DNS",
+            "description": "Надежные DNS прямиком от SpaceCore. С ними процесс направления доменного имени до наших серверов происходит значительно быстрее."
+        }
+    ],
+    "not_finded_information_block": {
+        "title": "Не нашли то, что искали?",
+        "notFindedInformation": [
+            {
+                "imgSrc": "/images/icons/dedicated-servers.svg",
+                "title": "Выделенные серверы",
+                "price": "45,00₽",
+                "link": "/dedicated-servers"
+            },
+            {
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Хостинг для сайтов",
+                "price": "399,00₽",
+                "link": "/hosting-site"
+            },
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Cloud-серверы",
+                "price": "259,00₽",
+                "link": "/cloud-servers"
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Бекап-хранилище",
+                "price": "115,00₽",
+                "link": "/backup-storage"
+            },
+            {
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Доменные имена",
+                "price": "55,00₽",
+                "link": "/domain-name"
+            },
+            {
+                "imgSrc": "/images/icons/game-hosting.svg",
+                "title": "Игровой хостинг",
+                "price": "65,00₽",
+                "link": "/game-hosting"
+            }
+        ]
+    },
+    "faq_block": {
+        "title": "Ответы на вопросы",
+        "faqItems": [
+            {
+                "question": "Что такое Виртуальный сервер (VDS/VPS)?",
+                "answerTitle": "Что такое Виртуальный сервер?",
+                "answerDescription": "Virtual Dedicated (Private) Server — виртуальная услуга, которая эмулирует работу реального физического сервера. Мы предоставляем полный root-доступ для каждого сервера, при этом каждый клиент имеет индивидуальное ограниченное пространство, которое никак не взаимодействует с «соседями по серверу», благодаря технологии KVM. Обратите внимание, что мы не классифицируем VDS и VPS как разные услуги. Все наши виртуальные серверы относятся к обеим категориям."
+            },
+            {
+                "question": "Это что-то неизвестное для меня! Как быть?",
+                "answerTitle": "Это что-то неизвестное для меня! Как быть?",
+                "answerDescription": "Это что-то неизвестное для меня! Как быть?"
+            },
+            {
+                "question": "Какие программы доступны на серверах?",
+                "answerTitle": "Какие программы доступны на серверах?",
+                "answerDescription": "Какие программы доступны на серверах?"
+            },
+            {
+                "question": "Сколько IP-адресов я получаю при покупке?",
+                "answerTitle": "Сколько IP-адресов я получаю при покупке?",
+                "answerDescription": "Сколько IP-адресов я получаю при покупке?"
+            },
+            {
+                "question": "Как переустановить ОС?",
+                "answerTitle": "Как переустановить ОС?",
+                "answerDescription": "Как переустановить ОС?"
+            },
+            {
+                "question": "Как увеличить мощность сервера после покупки?",
+                "answerTitle": "Как увеличить мощность сервера после покупки?",
+                "answerDescription": "Как увеличить мощность сервера после покупки?"
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Онлайн-чат поддержки",
+        "description": "Есть вопросы? Пишите нам в чат! Поддержка 24/7",
+        "buttonText": "Открыть чат"
+    },
+    "domain_block": {
+        "title": "Уникальное доменное имя для вашего сайта?",
+        "componentTitle": "Легко!",
+        "placeholder": "Название домена",
+        "buttonText": "Проверить",
+        "imgSrc": "/images/banners/austronaut-ball.png"
+    }
+}

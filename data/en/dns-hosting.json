@@ -1,0 +1,86 @@
+{
+    "main_block": {
+        "title": "DNS Hosting",
+        "description": "Ensure the availability of your website or web application on SpaceCore. Host domains and records on our DNS servers for free!",
+        "imgSrc": "/images/banners/dns-hosting.png"
+    },
+    "main_info_block": [
+        {
+            "id": 0,
+            "imgSrc": "/images/banners/control-panel.png",
+            "title": "100% Free",
+            "description": "A completely free service. Use our DNS servers without restrictions and in any quantity for your websites!"
+        },
+        {
+            "id": 1,
+            "imgSrc": "/images/banners/rocket.png",
+            "title": "Resilience",
+            "description": "We use only reliable equipment to ensure round-the-clock operation for both your sites and company websites."
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/banners/bank-coin.png",
+            "title": "Easy Setup",
+            "description": "An intuitively understandable interface allows you to make the necessary settings even without prior experience with this technology."
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/banners/shield.png",
+            "title": "No Limits",
+            "description": "Create an unlimited number of DNS records! Free. Reliable. Forever."
+        }
+    ],
+    "faq_block": {
+        "title": "Frequently Asked Questions",
+        "faqItems": [
+            {
+                "question": "What's the difference between DNS hosting and web hosting?",
+                "answerTitle": "What's the difference between DNS hosting and web hosting?",
+                "answerDescription": "Web hosting provides physical storage space for your site's data, while DNS hosting is responsible for translating domain names into IP addresses."
+            },
+            {
+                "question": "Does DNS hosting affect my website's speed?",
+                "answerTitle": "Does DNS hosting affect my website's speed?",
+                "answerDescription": "Yes, fast and reliable DNS hosting speeds up domain resolution time, reducing the initial delay when loading a site."
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "24/7 Support Chat",
+        "description": "Have questions? Write to us in the chat! Support available 24/7",
+        "buttonText": "Open Chat"
+    },
+    "what_is_dns_block": {
+        "title": "What is DNS?",
+        "descriptionMain": "DNS helps users reach the desired website by using a search query in the browser.",
+        "descriptionAdditional": "It's like a real contact book, but on the internet! For example, to visit our website, you simply enter the domain name \"SpaceCore.pro\" in your browser. The user experiences a nearly invisible redirection, while the DNS servers process the IP address of the site hidden behind those elegant letters!",
+        "imgSrcLight": "/images/banners/dns-hosting-light.png",
+        "imgSrcDark": "/images/banners/dns-hosting-dark.png",
+        "buttonText": "Try It",
+        "buttonLink": "https://billing.spacecore.pro/billmgr#/?func=dnshost.order.pricelist&plid="
+    },
+    "what_need_to_use_dns_block": {
+        "title": "What You Need to Use Our DNS Servers",
+        "buttonLink": "#",
+        "buttonText": "Learn more in our knowledge base",
+        "steps": [
+            {
+                "number": 1,
+                "title": "Choose a Domain",
+                "description": "Select the domain name you're interested in and check its availability on our WHOIS page."
+            },
+            {
+                "number": 2,
+                "title": "Register It",
+                "description": "This is the next step toward creating your website. Register the available domain in your account and be ready to move forward!"
+            },
+            {
+                "number": 3,
+                "title": "Add to SpaceCore",
+                "description": "Order the free DNS hosting service in your account. After instant activation, you can add your purchased domain to the control panel."
+            }
+        ]
+    }    
+}

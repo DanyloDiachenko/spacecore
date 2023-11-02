@@ -1,0 +1,114 @@
+{
+    "main_block": {
+        "title": "Domain Name",
+        "description": "A touch of beauty for your website. A domain is what you need!",
+        "imgSrc": "/images/banners/domain-name.png"
+    },
+    "main_info_block": [
+        {
+            "id": 0,
+            "imgSrc": "",
+            "title": "Optimal Cost of Domain Zones",
+            "description": "Dive into the variety of domain zones and costs. From standard domains to the most premium ones!"
+        },
+        {
+            "id": 1,
+            "imgSrc": "/images/banners/transfer_domain.png",
+            "title": "You Can Transfer Your Domain to Us!",
+            "description": "Already have a domain? No worries, for convenient payment and interaction, you can transfer it to us in just a few clicks!"
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/banners/comfort_usage.png",
+            "title": "Convenient Management in a Unified Panel",
+            "description": "Use the user-friendly control panel combined with the DNS configuration interface. Directing a domain will be a breeze!"
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/banners/transfer_domain.png",
+            "title": "Own DNS Servers",
+            "description": "Reliable DNS directly from SpaceCore. With them, the process of directing the domain name to our servers happens much faster."
+        }
+    ],
+    "not_finded_information_block": {
+        "title": "Didn't Find What You Were Looking For?",
+        "notFindedInformation": [
+            {
+                "imgSrc": "/images/icons/dedicated-servers.svg",
+                "title": "Virtual Servers",
+                "price": "From €1.39",
+                "link": "/virtual-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Dedicated Servers",
+                "price": "From €54.99",
+                "link": "/dedicated-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Contabo Servers",
+                "price": "From €8",
+                "link": "/cloud-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Web Hosting",
+                "price": "From €1.20",
+                "link": "/web-hosting",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Backup Storage",
+                "price": "From €0.20",
+                "link": "/backup-storage",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/game-hosting.svg",
+                "title": "Game Hosting",
+                "price": "From €6",
+                "link": "/game-hosting",
+                "term": "mo."
+            }
+        ]
+    },
+    "faq_block": {
+        "title": "Frequently Asked Questions",
+        "faqItems": [
+            {
+                "question": "What is a Domain?",
+                "answerTitle": "What is a Domain?",
+                "answerDescription": "A domain is a unique name on the Internet used to identify websites or email addresses. It's essentially your website's address in the global network, allowing users to easily find and access your resource. For example, on our website, 'spacecore.pro' is a domain name. Domain names simplify internet navigation, as it's easier to remember 'spacecore.pro' than an IP address, which might look like a string of numbers (e.g., 192.168.1.1)."
+            },
+            {
+                "question": "How Long is a Domain Registered For?",
+                "answerTitle": "How Long is a Domain Registered For?",
+                "answerDescription": "Domain registration is typically done for a term of 1 year or more. If you don't renew the registration, the domain may become available for others to register. To avoid this, we offer auto-renewal services."
+            },
+            {
+                "question": "Is It Possible to Transfer My Domain to You?",
+                "answerTitle": "Is It Possible to Transfer My Domain to You?",
+                "answerDescription": "Yes, we provide the option to transfer domain names from other registrars. This requires an Auth code and a bit of patience, as the transfer process can take up to 1 week."
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Online Support Chat",
+        "description": "Have questions? Write to us in the chat! Support available 24/7",
+        "buttonText": "Open Chat"
+    },
+    "domain_block": {
+        "title": "Need a Unique Domain Name for Your Site?",
+        "componentTitle": "Easy!",
+        "placeholder": "Domain Name",
+        "buttonText": "Check",
+        "imgSrc": "/images/banners/austronaut-ball.png"
+    }    
+}

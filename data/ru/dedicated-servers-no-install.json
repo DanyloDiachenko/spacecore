@@ -1,0 +1,262 @@
+{
+    "main_block": {
+        "title": "Выделенные сервера без установки",
+        "description": "Полное соответствие обычным выделенным серверам, но теперь без платы за установку!",
+        "imgSrc": "/images/banners/dedicated-servers-no-install.png"
+    },
+    "tariffes_filters_block": {
+        "title": "Тарифные планы",
+        "countries": {
+            "title": "Локация",
+            "countries": [
+                {
+                    "imgSrc": "/images/icons/all-countries.svg",
+                    "title": "Любая",
+                    "key": "any"
+                },
+                {
+                    "imgSrc": "/images/icons/russia.svg",
+                    "title": "Россия",
+                    "key": "ru"
+                },
+                {
+                    "imgSrc": "/images/icons/france.svg",
+                    "title": "Франция",
+                    "key": "fr"
+                },
+                {
+                    "imgSrc": "/images/icons/germany.svg",
+                    "title": "Германия",
+                    "key": "de"
+                },
+                {
+                    "imgSrc": "/images/icons/finland.svg",
+                    "title": "Финляндия",
+                    "key": "fi"
+                }
+            ]
+        },
+        "checkboxes": [
+            {
+                "title": "Процессор",
+                "filterTitles": [
+                    {
+                        "title": "AMD",
+                        "key": "amd"
+                    },
+                    {
+                        "title": "INTEL",
+                        "key": "intel"
+                    }
+                ]
+            },
+            {
+                "title": "Диск",
+                "filterTitles": [
+                    {
+                        "title": "NVME",
+                        "key": "nvme"
+                    },
+                    {
+                        "title": "SSD",
+                        "key": "ssd"
+                    },
+                    {
+                        "title": "HDD",
+                        "key": "hdd"
+                    }                 
+                ]
+            }
+        ],
+        "ranges": {
+            "priceTitle": "Стоимость",
+            "priceMin": 50,
+            "priceMax": 350,
+            "disksTitle": "Кол-во дисков",
+            "disksMin": 1,
+            "disksMax": 10,
+            "disksVolumeTitle": "Объем дисков",
+            "disksVolumeMin": 512,
+            "disksVolumeMax": 10000,
+            "coresTitle": "Кол-во ядер",
+            "coresMin": 4,
+            "coresMax": 32,
+            "ramTitle": "ОЗУ",
+            "ramMin": 32,
+            "ramMax": 256
+        },
+        "periods": [
+            {
+                "title": "1",
+                "titleKey": "1"
+            },
+            {
+                "title": "3",
+                "titleKey": "3"
+            },
+            {
+                "title": "6",
+                "titleKey": "6"
+            },
+            {
+                "title": "12",
+                "titleKey": "12"
+            }
+        ]
+    },
+    "tariffes_block": {
+        "tariffTitles": {
+            "diskTitle": "Диск",
+            "coresTitle": "Ядер",
+            "ramTitle": "ОЗУ",
+            "channelTitle": "Канал",
+            "locationTitle": "Локация",
+            "coreTitle": "Процессор",
+            "antiDdosTitle": "Anti-DDoS",
+            "buttonText": "Заказать"
+        }
+    },
+    "operation_systems_block": {
+        "title": "Операционные системы на выбор",
+        "description": "Установите любую актуальную операционную систему, в том числе из своего образа ISO.",
+        "operationSystems": [
+            {
+                "imgSrc": "/images/icons/windows.svg",
+                "title": "Windows Server",
+                "description": "2019, 2016, 2012 R2, Win 10"
+            },
+            {
+                "imgSrc": "/images/icons/ubuntu.svg",
+                "title": "Ubuntu",
+                "description": "22.04, 20.04, 18.04, 16.04"
+            },
+            {
+                "imgSrc": "/images/icons/cent.svg",
+                "title": "CentOS",
+                "description": "9, 8, 7, 6"
+            },
+            {
+                "imgSrc": "/images/icons/debian.svg",
+                "title": "Debian",
+                "description": "11, 10, 9, 8"
+            }
+        ]
+    },
+    "main_info_block": [
+        {
+            "id": 0,
+            "imgSrc": "/images/banners/control-panel.png",
+            "title": "Панель управления серверами",
+            "description": "Множество функций для комфортной работы с сервером. От переустановки, до настройки сетевого Firewall. *Доступна на части тарифов"
+        },
+        {
+            "id": 1,
+            "imgSrc": "/images/banners/rocket.png",
+            "title": "Множество доступных локаций",
+            "description": "Выберите наиболее подходящее местоположение для своего сервера среди десятка популярных локаций. Минимальный пинг позволяет работать комфортнее."
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/banners/bank-coin.png",
+            "title": "Нет необходимости платить за установку!",
+            "description": "Приобретайте уже установленные тарифы. Это позволяет Вам значительно сэкономить и начать пользоваться сервером быстрее."
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/banners/shield.png",
+            "title": "Защита от DDoS",
+            "description": "Во всех наших локациях предусмотрена возможность подключения защиты от DDoS-атак. Не позвольте злоумышленникам навредить."
+        }
+    ],
+    "not_finded_information_block": {
+        "title": "Не нашли то, что искали?",
+        "notFindedInformation": [
+            {
+                "imgSrc": "/images/icons/dedicated-servers.svg",
+                "title": "Виртуальные серверы",
+                "price": "От 1.39 €",
+                "link": "/virtual-servers",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Выделенные серверы",
+                "price": "От 54.99 €",
+                "link": "/dedicated-servers",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Серверы Contabo",
+                "price": "От 8 €",
+                "link": "/cloud-servers",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/game-hosting.svg",
+                "title": "Игровой хостинг",
+                "price": "От 6 €",
+                "link": "/game-hosting",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Бекап-хранилище",
+                "price": "От 0.20 €",
+                "link": "/backup-storage",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Доменные имена",
+                "price": "От 3 €",
+                "link": "/domains",
+                "term": "год"
+            }
+        ]
+    },
+    "faq_block": {
+        "title": "Ответы на вопросы",
+        "faqItems": [
+            {
+                "question": "Что такое «сервер без установки»?",
+                "answerTitle": "Что такое «сервер без установки»?",
+                "answerDescription": "Для заказа любых выделенных серверов в Германии и Финляндии требуется оплата установки. Как известно, рано или поздно пользователям приходится отказываться от своих серверов по различным причинам. Мы предлагаем Вам приобрести серверы, установка которых была оплачена другими клиентами. Таким образом Вы получаете возможность сэкономить до 50% на стоимости заказа."
+            },
+            {
+                "question": "Чем выделенный сервер отличается от VDS/VPS?",
+                "answerTitle": "Чем выделенный сервер отличается от VDS/VPS?",
+                "answerDescription": "Прежде всего, следует отметить отличие услуг в том, что выделенный сервер является физическим оборудованием. Это устройство, ресурсы которого целиком и полностью в Вашем распоряжении, не делясь с кем-то еще. Вы получаете полные мощности и распоряжаетесь ими как угодно в рамках действующих правил. Выделенные серверы значительно превосходят в мощности и условиях обычные VDS, поэтому для масштабных проектов выбор в пользу такого оборудования становится наиболее логичным и оправданным."
+            },
+            {
+                "question": "Как управлять выделенным сервером?",
+                "answerTitle": "Как управлять выделенным сервером?",
+                "answerDescription": "После активации услуги пользователь, аналогично виртуальному серверу, получает все необходимые данные для работы с сервером. В некоторых локациях предоставляется доступ к облачной панели управления, где можно воспользоваться функциями автоматической переустановки операционной системы, активировать SystemRescue и множество других возможностей."
+            },
+            {
+                "question": "Сколько времени занимает установка выделенного сервера?",
+                "answerTitle": "Сколько времени занимает установка выделенного сервера?",
+                "answerDescription": "На разных локациях выделяется разный промежуток времени на установку сервера. При возникновении потенциальных задержек сотрудники заранее Вас оповестят о сроках установки и активации оборудования. <br>Согласно нашему регламенту, время обработки услуги – до 48 часов."
+            },
+            {
+                "question": "Какая защита от DDoS предоставляется на серверах?",
+                "answerTitle": "Какая защита от DDoS предоставляется на серверах?",
+                "answerDescription": "По умолчанию все наши выделенные серверы оснащены стандартной защитой от DDoS, которой будет достаточно для отражения небольших атак или в том случае, когда Вы знаете, что серьезных атак на Ваш сервер не ожидается. <br>Но если у Вас есть недобросовестные конкуренты или работа сервера является критичной, в части локаций мы предлагаем дополнительное подключение серверов к <strong>продвинутой защите от DDoS</strong>, которая отразит даже самые большие атак с объемом трафика до 3.5Тбит/с. <a href ='/ddos-protection'>Подробнее</a>."
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Онлайн-чат поддержки",
+        "description": "Есть вопросы? Пишите нам в чат! Поддержка 24/7",
+        "buttonText": "Открыть чат"
+    },
+    "subscribe_telegram_block": {
+        "title": "Подписывайся на канал в Telegram",
+        "description": "Чтобы не упустить выделенные серверы без установки!",
+        "buttonLink": "#",
+        "buttonText": "Подписаться",
+        "imgSrc": "/images/banners/austronaut-rocket.png"
+    }
+}

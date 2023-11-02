@@ -1,0 +1,255 @@
+{
+    "main_block": {
+        "title": "Dedicated Servers",
+        "description": "The most reliable and powerful equipment for any demanding business tasks and more.",
+        "imgSrc": "/images/banners/dedicated-servers.png"
+    },
+    "tariffes_filters_block": {
+        "title": "Tariff Plans",
+        "countries": {
+            "title": "Location",
+            "countries": [
+                {
+                    "imgSrc": "/images/icons/all-countries.svg",
+                    "title": "Any",
+                    "key": "any"
+                },
+                {
+                    "imgSrc": "/images/icons/russia.svg",
+                    "title": "Russia",
+                    "key": "ru"
+                },
+                {
+                    "imgSrc": "/images/icons/france.svg",
+                    "title": "France",
+                    "key": "fr"
+                },
+                {
+                    "imgSrc": "/images/icons/germany.svg",
+                    "title": "Germany",
+                    "key": "de"
+                },
+                {
+                    "imgSrc": "/images/icons/finland.svg",
+                    "title": "Finland",
+                    "key": "fi"
+                }
+            ]
+        },
+        "checkboxes": [
+            {
+                "title": "Processor",
+                "filterTitles": [
+                    {
+                        "title": "AMD",
+                        "key": "amd"
+                    },
+                    {
+                        "title": "INTEL",
+                        "key": "intel"
+                    }
+                ]
+            },
+            {
+                "title": "Disk",
+                "filterTitles": [
+                    {
+                        "title": "NVME",
+                        "key": "nvme"
+                    },
+                    {
+                        "title": "SSD",
+                        "key": "ssd"
+                    },
+                    {
+                        "title": "HDD",
+                        "key": "hdd"
+                    }
+                ]
+            }
+        ],
+        "ranges": {
+            "priceTitle": "Price",
+            "priceMin": 50,
+            "priceMax": 350,
+            "disksTitle": "Number of Disks",
+            "disksMin": 1,
+            "disksMax": 10,
+            "disksVolumeTitle": "Disk Volume",
+            "disksVolumeMin": 480,
+            "disksVolumeMax": 16000,
+            "coresTitle": "Number of Cores",
+            "coresMin": 4,
+            "coresMax": 32,
+            "ramTitle": "RAM",
+            "ramMin": 32,
+            "ramMax": 256
+        },
+        "periods": [
+            {
+                "title": "1",
+                "titleKey": "1"
+            },
+            {
+                "title": "3",
+                "titleKey": "3"
+            },
+            {
+                "title": "6",
+                "titleKey": "6"
+            },
+            {
+                "title": "12",
+                "titleKey": "12"
+            }
+        ]
+    },
+    "tariffes_block": {
+        "tariffTitles": {
+            "diskTitle": "Disk",
+            "coresTitle": "Cores",
+            "ramTitle": "RAM",
+            "channelTitle": "Channel",
+            "locationTitle": "Location",
+            "coreTitle": "Processor",
+            "antiDdosTitle": "Protection",
+            "buttonText": "Order"
+        }
+    },
+    "operation_systems_block": {
+        "title": "Choice of Operating Systems",
+        "description": "Install any up-to-date operating system, including from your ISO image.",
+        "operationSystems": [
+            {
+                "imgSrc": "/images/icons/windows.svg",
+                "title": "Windows Server",
+                "description": "2019, 2016, 2012 R2, Windows 10, 11"
+            },
+            {
+                "imgSrc": "/images/icons/ubuntu.svg",
+                "title": "Ubuntu",
+                "description": "22.04, 20.04, 18.04, 16.04"
+            },
+            {
+                "imgSrc": "/images/icons/cent.svg",
+                "title": "CentOS",
+                "description": "9, 8, 7"
+            },
+            {
+                "imgSrc": "/images/icons/debian.svg",
+                "title": "Debian",
+                "description": "12, 11, 10, 9"
+            }
+        ]
+    },
+    "main_info_block": [
+        {
+            "id": 0,
+            "imgSrc": "/images/banners/control-panel.png",
+            "title": "Server Control Panel",
+            "description": "Numerous functions for comfortable server management. From reinstallation to configuring network firewalls. *Available on select plans"
+        },
+        {
+            "id": 1,
+            "imgSrc": "/images/banners/rocket.png",
+            "title": "Multiple Available Locations",
+            "description": "Choose the most suitable location for your server among a dozen popular locations. Minimal ping ensures smoother operation."
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/banners/bank-coin.png",
+            "title": "Option for Windows Installation",
+            "description": "Our staff can install any up-to-date version of Windows on your server. We use standard official systems that you can activate yourself."
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/banners/shield.png",
+            "title": "DDoS Protection",
+            "description": "All our locations offer the option to connect DDoS attack protection. Prevent malicious actors from causing harm."
+        }
+    ],
+    "not_finded_information_block": {
+        "title": "Didn't Find What You Were Looking For?",
+        "notFindedInformation": [
+            {
+                "imgSrc": "/images/icons/dedicated-servers.svg",
+                "title": "Virtual Servers",
+                "price": "From 1.39 €",
+                "link": "/virtual-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Servers without Installation",
+                "price": "From 54.99 €",
+                "link": "/dedicated-servers-no-install",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Contabo Servers",
+                "price": "From 8 €",
+                "link": "/cloud-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/game-hosting.svg",
+                "title": "Game Hosting",
+                "price": "From 6 €",
+                "link": "/game-hosting",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Backup Storage",
+                "price": "From 0.20 €",
+                "link": "/backup-storage",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Domain Names",
+                "price": "From 3 €",
+                "link": "/domains",
+                "term": "yr."
+            }
+        ]
+    },
+    "faq_block": {
+        "title": "Frequently Asked Questions",
+        "faqItems": [
+            {
+                "question": "How does a dedicated server differ from VDS/VPS?",
+                "answerTitle": "How does a dedicated server differ from VDS/VPS?",
+                "answerDescription": "The main difference lies in the fact that a dedicated server is a physical piece of equipment. This hardware is entirely at your disposal, with its resources not shared with anyone else. You have complete control and can use the resources as needed within the established rules. Dedicated servers significantly outperform regular VDS in terms of power and capabilities, making them the logical and justified choice for large-scale projects."
+            },
+            {
+                "question": "How do I manage a dedicated server?",
+                "answerTitle": "How do I manage a dedicated server?",
+                "answerDescription": "After the service is activated, you receive all the necessary details for working with the server, similar to a virtual server. In some locations, access to a cloud control panel is provided, where you can use functions like automatic OS reinstallation, SystemRescue activation, and many other features."
+            },
+            {
+                "question": "How long does the installation of a dedicated server take?",
+                "answerTitle": "How long does the installation of a dedicated server take?",
+                "answerDescription": "Different locations have varying timeframes for server installation. If potential delays arise, our staff will inform you in advance about installation and activation schedules. According to our regulations, the service processing time is up to 48 hours."
+            },
+            {
+                "question": "What DDoS protection is provided for servers?",
+                "answerTitle": "What DDoS protection is provided for servers?",
+                "answerDescription": "By default, all our dedicated servers are equipped with standard DDoS protection, which is sufficient for deflecting small attacks or cases where you're not expecting serious attacks on your server. However, if you have unscrupulous competitors or the server's operation is critical, in some locations we offer the option to connect servers to <strong>advanced DDoS protection</strong>, capable of mitigating even the largest attacks with traffic volumes of up to 3.5 Tbps. <a href ='/ddos-protection'>Learn More</a>."
+            },
+            {
+                "question": "Is it possible to purchase a server with a custom configuration?",
+                "answerTitle": "Is it possible to purchase a server with a custom configuration?",
+                "answerDescription": "Our engineers are ready to assemble any dedicated server according to your needs. <br>Contact us through a request in your personal account or via email at <a href='mailto:support@spacecore.pro'> support@spacecore.pro</a>"
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "24/7 Support Chat",
+        "description": "Have questions? Write to us in the chat! Support available 24/7",
+        "buttonText": "Open Chat"
+    }    
+}

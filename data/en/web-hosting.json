@@ -1,0 +1,185 @@
+{
+    "main_block": {
+        "title": "Website Hosting",
+        "description": "The optimal solution for blogs, portfolio websites, or startups.",
+        "imgSrc": "/images/banners/website-hosting.png"
+    },
+    "main_info_block": [
+        {
+            "id": 0,
+            "imgSrc": "/images/banners/control-panel.png",
+            "title": "ISPmanager Control Panel",
+            "description": "Access all features for convenient website management! Useful statistics and a variety of CMS options."
+        },
+        {
+            "id": 1,
+            "imgSrc": "/images/banners/rocket.png",
+            "title": "Activate in 10 Seconds!",
+            "description": "Web hosting activation is almost instant. You can start working on and configuring your website right away!"
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/banners/bank-coin.png",
+            "title": "Expandable SSD Storage",
+            "description": "Need more storage? No problem, we can upgrade your plan and expand your disk space to the required amount."
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/banners/shield.png",
+            "title": "DDoS Protection",
+            "description": "Reliable protection against DDoS attacks on your website. You can rest easy while your site runs 24/7!"
+        }
+    ],
+    "not_finded_information_block": {
+        "title": "Didn't Find What You Were Looking For?",
+        "notFindedInformation": [
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Virtual Servers",
+                "price": "From €1.39",
+                "link": "/virtual-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/dedicated-servers.svg",
+                "title": "Dedicated Servers",
+                "price": "From €54.99",
+                "link": "/dedicated-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Contabo Servers",
+                "price": "From €8",
+                "link": "/cloud-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/game-hosting.svg",
+                "title": "Game Hosting",
+                "price": "From €6",
+                "link": "/game-hosting",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Backup Storage",
+                "price": "From €0.20",
+                "link": "/backup-storage",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Domain Names",
+                "price": "From €3",
+                "link": "/domains",
+                "term": "yr."
+            }
+        ]
+    },
+    "faq_block": {
+        "title": "Answers to Your Questions",
+        "faqItems": [
+            {
+                "question": "What is web hosting?",
+                "answerTitle": "What is web hosting?",
+                "answerDescription": "This service allows you to host your website on a reliable platform. The main goal of web hosting is to support your website's operation with sufficient resources at an affordable cost."
+            },
+            {
+                "question": "How can I interact with the purchased service?",
+                "answerTitle": "How can I interact with the purchased service?",
+                "answerDescription": "After activation, you'll receive login details for your account. From there, you can configure built-in software, add SSL certificates, set up email domains, and more. You'll also receive full FTP access to upload files to the remote server."
+            },
+            {
+                "question": "Can I use a domain name for my website?",
+                "answerTitle": "Can I use a domain name for my website?",
+                "answerDescription": "Absolutely! Along with the service, you'll receive a free subdomain from our company to link to your website. You can also link your own domain name if desired."
+            },
+            {
+                "question": "What software is supported on web hosting?",
+                "answerTitle": "What software is supported on web hosting?",
+                "answerDescription": "Interaction takes place through the ISPmanager Lite control panel. Supported software includes: <br>* Web Server: Apache ITK/Prefork, Nginx, PHP-FPM, PHP for Apache, Awstats, Webalizer, Logrotate <br>* Mail Server: Exim, Dovecot, Greylisting, OpenDKIM, SpamAssassin, ClamAv, Sieve, AfterLogic, RoundCube <br>* DNS Server: Bind/PowerDNS <br>* FTP Server: ProFTPD/PureFTP <br>* Databases: MySQL, PostgreSQL"
+            },
+            {
+                "question": "Is there a trial period?",
+                "answerTitle": "Is there a trial period?",
+                "answerDescription": "Our company offers a trial period for both regular and corporate customers."
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Online Support Chat",
+        "description": "Have questions? Write to us in the chat! Support available 24/7",
+        "buttonText": "Open Chat"
+    },
+    "tariffes_block": {
+        "title": "Tariffs",
+        "tariffes": [
+            {
+                "imgSrc": "/images/medium/tariff-start.png",
+                "title": "Start",
+                "priceSsd": "1.2 €",
+                "priceNvme": "4.5 €",
+                "ssdButtonTitle": "SSD",
+                "nvmeButtonTitle": "NVMe",
+                "diskTitle": "Disk",
+                "disk": "5 GB",
+                "domens": 2,
+                "domensTitle": "Domains",
+                "mySql": "4 DB",
+                "mySqlTitle": "MySQL",
+                "protection": "L3-L4",
+                "protectionTitle": "Protection",
+                "controlPanel": "ISPManager",
+                "controlPanelTitle": "Control Panel",
+                "logotypes": ["drupal", "wordpress", "joomla", "circus"],
+                "buttonText": "Order Now",
+                "buttonLink": "https://billing.spacecore.pro/billmgr?func=register&redirect=startpage%3Dvhost%26startform%3Dvhost%252Eorder%26pricelist%3D12070%26project%3D2"
+            },
+            {
+                "imgSrc": "/images/medium/tariff-standard.png",
+                "title": "Standard",
+                "priceSsd": "2.2 €",
+                "priceNvme": "4.5 €",
+                "ssdButtonTitle": "SSD",
+                "nvmeButtonTitle": "NVMe",
+                "diskTitle": "Disk",
+                "disk": "12 GB",
+                "domens": 5,
+                "domensTitle": "Domains",
+                "mySql": "8 DB",
+                "mySqlTitle": "MySQL",
+                "protection": "L3-L4",
+                "protectionTitle": "Protection",
+                "controlPanel": "ISPManager",
+                "controlPanelTitle": "Control Panel",
+                "logotypes": ["drupal", "wordpress", "joomla", "circus"],
+                "buttonText": "Order Now",
+                "buttonLink": "https://billing.spacecore.pro/billmgr?func=register&redirect=startpage%3Dvhost%26startform%3Dvhost%252Eorder%26pricelist%3D12070%26project%3D2"
+            },
+            {
+                "imgSrc": "/images/medium/tariff-premium.png",
+                "title": "Premium",
+                "priceSsd": "3.6 €",
+                "priceNvme": "4.5 €",
+                "ssdButtonTitle": "SSD",
+                "nvmeButtonTitle": "NVMe",
+                "diskTitle": "Disk",
+                "disk": "25 GB",
+                "domens": 15,
+                "domensTitle": "Domains",
+                "mySql": "20 DB",
+                "mySqlTitle": "MySQL",
+                "protection": "L3-L4",
+                "protectionTitle": "Protection",
+                "controlPanel": "ISPManager",
+                "controlPanelTitle": "Control Panel",
+                "logotypes": ["drupal", "wordpress", "joomla", "circus"],
+                "buttonText": "Order Now",
+                "buttonLink": "https://billing.spacecore.pro/billmgr?func=register&redirect=startpage%3Dvhost%26startform%3Dvhost%252Eorder%26pricelist%3D12070%26project%3D2"
+            }
+        ]
+    }
+}

@@ -1,0 +1,308 @@
+{
+    "main_block": {
+        "imgSrc": "/images/banners/reseller-program.png",
+        "title": "Реселлерская программа",
+        "description": "Обеспечьте доступность своего сайта или веб-приложения с помощью SpaceCore. Бесплатно размещайте домены и записи на наших DNS-серверах"
+    },
+    "support_block": {
+        "type": "email",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Ждем вашего обращения",
+        "description": "mail@mail.com",
+        "buttonText": "",
+        "emailLink": "mailto:mail@mail.com"
+    },
+    "services_description_block": [
+        {
+            "imgSrc": "/images/icons/ddos-filters.svg",
+            "title": "Фильтрация всех видов DDoS-атак",
+            "description": "Наши сервисы обеспечивают защиту от всех существующих видов DDoS-атак. Фильтрация на уровне L7 подключается индивидуально"
+        },
+        {
+            "imgSrc": "/images/icons/custom-protection.svg",
+            "title": "Создание индивидуальных правил защиты",
+            "description": "Наши сервисы обеспечивают защиту от всех существующих видов DDoS-атак. Фильтрация на уровне L7 подключается индивидуально"
+        },
+        {
+            "imgSrc": "/images/icons/option-connect.svg",
+            "title": "Опциональное подключение для услуг",
+            "description": "Наши сервисы обеспечивают защиту от всех существующих видов DDoS-атак. Фильтрация на уровне L7 подключается индивидуально"
+        },
+        {
+            "imgSrc": "/images/icons/high-filter-power.svg",
+            "title": "Мощность фильтрации до 2500 Гбит/с",
+            "description": "Наши сервисы обеспечивают защиту от всех существующих видов DDoS-атак. Фильтрация на уровне L7 подключается индивидуально"
+        }
+    ],
+    "resellers_text_block": {
+        "title": "Мы рады приветствовать реселлеры",
+        "description": "Что такое текст «рыба» знают все, кто работает с версткой журналов, дизайном и разработкой сайтов. Этот текст служит для демонстрации того, как контент впоследствии будет выглядеть на готовой странице, чтобы увидеть, правильно ли размещаются абзацы, отступы, хорошо ли смотрятся шрифты. Такие рыбные тексты, как правило, не несут никакой смысловой нагрузки"
+    },
+    "faq_block": {
+        "title": "Ответы на вопросы",
+        "faqItems": [
+            {
+                "question": "Что такое Виртуальный сервер (VDS/VPS)?",
+                "answerTitle": "Что такое Виртуальный сервер?",
+                "answerDescription": "Virtual Dedicated (Private) Server — виртуальная услуга, которая эмулирует работу реального физического сервера. Мы предоставляем полный root-доступ для каждого сервера, при этом каждый клиент имеет индивидуальное ограниченное пространство, которое никак не взаимодействует с «соседями по серверу», благодаря технологии KVM. Обратите внимание, что мы не классифицируем VDS и VPS как разные услуги. Все наши виртуальные серверы относятся к обеим категориям."
+            },
+            {
+                "question": "Это что-то неизвестное для меня! Как быть?",
+                "answerTitle": "Это что-то неизвестное для меня! Как быть?",
+                "answerDescription": "Это что-то неизвестное для меня! Как быть?"
+            },
+            {
+                "question": "Какие программы доступны на серверах?",
+                "answerTitle": "Какие программы доступны на серверах?",
+                "answerDescription": "Какие программы доступны на серверах?"
+            },
+            {
+                "question": "Сколько IP-адресов я получаю при покупке?",
+                "answerTitle": "Сколько IP-адресов я получаю при покупке?",
+                "answerDescription": "Сколько IP-адресов я получаю при покупке?"
+            },
+            {
+                "question": "Как переустановить ОС?",
+                "answerTitle": "Как переустановить ОС?",
+                "answerDescription": "Как переустановить ОС?"
+            },
+            {
+                "question": "Как увеличить мощность сервера после покупки?",
+                "answerTitle": "Как увеличить мощность сервера после покупки?",
+                "answerDescription": "Как увеличить мощность сервера после покупки?"
+            }
+        ]
+    },
+    "resellers_description_block": {
+        "description": "Что такое текст «рыба» знают все, кто работает с версткой журналов, дизайном и разработкой сайтов. Этот текст служит для демонстрации того, как контент впоследствии будет выглядеть на готовой странице, чтобы увидеть, правильно ли размещаются абзацы, отступы, хорошо ли смотрятся шрифты. Такие рыбные тексты, как правило, не несут никакой смысловой нагрузки"
+    },
+    "reseller_program_table_block": {
+        "tableContent": [
+            {
+                "titleKey": "vds",
+                "title": "VDS",
+                "content": [
+                    {
+                        "id": 0,
+                        "level": 1,
+                        "length": 5,
+                        "circulation": {
+                            "from": 5000,
+                            "to": 50
+                        },
+                        "update": 2,
+                        "discount": 10
+                    },
+                    {
+                        "id": 1,
+                        "level": 2,
+                        "length": 15,
+                        "circulation": {
+                            "from": 20000,
+                            "to": 200
+                        },
+                        "update": 1,
+                        "discount": 15
+                    },
+                    {
+                        "id": 2,
+                        "level": 3,
+                        "length": 30,
+                        "circulation": {
+                            "from": 50000,
+                            "to": 500
+                        },
+                        "update": 2,
+                        "discount": 20
+                    },
+                    {
+                        "id": 3,
+                        "level": "Особые условия",
+                        "length": 0,
+                        "circulation": {
+                            "from": 100000,
+                            "to": 1000
+                        },
+                        "update": 0,
+                        "discount": 0
+                    }
+                ]
+            },
+            {
+                "titleKey": "web-hosting",
+                "title": "Веб-хостинг",
+                "content": [
+                    {
+                        "id": 0,
+                        "level": 1,
+                        "length": 51,
+                        "circulation": {
+                            "from": 32,
+                            "to": 123
+                        },
+                        "update": 2,
+                        "discount": 435
+                    },
+                    {
+                        "id": 1,
+                        "level": 2,
+                        "length": 32432,
+                        "circulation": {
+                            "from": 12,
+                            "to": 321
+                        },
+                        "update": 2,
+                        "discount": 543
+                    },
+                    {
+                        "id": 2,
+                        "level": 3,
+                        "length": 432,
+                        "circulation": {
+                            "from": 312,
+                            "to": 321
+                        },
+                        "update": 1,
+                        "discount": 11
+                    },
+                    {
+                        "id": 3,
+                        "level": "Особые условия",
+                        "length": 0,
+                        "circulation": {
+                            "from": 3123,
+                            "to": 5435
+                        },
+                        "update": 0,
+                        "discount": 0
+                    }
+                ]
+            },
+            {
+                "titleKey": "domains",
+                "title": "Домены",
+                "content": [
+                    {
+                        "id": 0,
+                        "level": 1,
+                        "length": 32,
+                        "circulation": {
+                            "from": 321,
+                            "to": 3213
+                        },
+                        "update": 1,
+                        "discount": 43
+                    },
+                    {
+                        "id": 1,
+                        "level": 2,
+                        "length": 12,
+                        "circulation": {
+                            "from": 656,
+                            "to": 654
+                        },
+                        "update": 2,
+                        "discount": 1234
+                    },
+                    {
+                        "id": 2,
+                        "level": 3,
+                        "length": 565,
+                        "circulation": {
+                            "from": 621,
+                            "to": 2
+                        },
+                        "update": 1,
+                        "discount": 65
+                    },
+                    {
+                        "id": 3,
+                        "level": "Особые условия",
+                        "length": 0,
+                        "circulation": {
+                            "from": 121,
+                            "to": 1123
+                        },
+                        "update": 0,
+                        "discount": 0
+                    }
+                ]
+            },
+            {
+                "titleKey": "ftp-store",
+                "title": "FTP-хранилище",
+                "content": [
+                    {
+                        "id": 0,
+                        "level": 1,
+                        "length": 432,
+                        "circulation": {
+                            "from": 987,
+                            "to": 566
+                        },
+                        "update": 2,
+                        "discount": 32
+                    },
+                    {
+                        "id": 1,
+                        "level": 2,
+                        "length": 231,
+                        "circulation": {
+                            "from": 54,
+                            "to": 543
+                        },
+                        "update": 2,
+                        "discount": 12
+                    },
+                    {
+                        "id": 2,
+                        "level": 3,
+                        "length": 87,
+                        "circulation": {
+                            "from": 423,
+                            "to": 987
+                        },
+                        "update": 1,
+                        "discount": 123
+                    },
+                    {
+                        "id": 3,
+                        "level": "Особые условия",
+                        "length": 0,
+                        "circulation": {
+                            "from": 654,
+                            "to": 876
+                        },
+                        "update": 0,
+                        "discount": 0
+                    }
+                ]
+            }
+        ],
+        "buttons": [
+            {
+                "title": "VDS",
+                "titleKey": "vds"
+            },
+            {
+                "title": "Веб-хостинг",
+                "titleKey": "web-hosting"
+            },
+            {
+                "title": "Домены",
+                "titleKey": "domains"
+            },
+            {
+                "title": "FTP-хранилище",
+                "titleKey": "ftp-store"
+            }
+        ],
+        "tableTopTitles": [
+            "Уровень",
+            "Кол-во",
+            "Оборот",
+            "Обновление",
+            "Скидка"
+        ]
+    }
+}

@@ -1,0 +1,260 @@
+{
+    "main_block": {
+        "title": "Game Hosting",
+        "description": "Now hosting your gaming server is easier than ever. Get your convenient game hosting now!",
+        "imgSrc": "/images/banners/game-hosting.png"
+    },
+    "tariffes_filters_block": {
+        "title": "Tariff Plans",
+        "countries": {
+            "title": "Location",
+            "countries": [
+                {
+                    "imgSrc": "/images/icons/all-countries.svg",
+                    "title": "Any",
+                    "key": "any"
+                },
+                {
+                    "imgSrc": "/images/icons/russia.svg",
+                    "title": "Russia",
+                    "key": "ru"
+                },
+                {
+                    "imgSrc": "/images/icons/france.svg",
+                    "title": "France",
+                    "key": "fr"
+                },
+                {
+                    "imgSrc": "/images/icons/germany.svg",
+                    "title": "Germany",
+                    "key": "de"
+                },
+                {
+                    "imgSrc": "/images/icons/finland.svg",
+                    "title": "Finland",
+                    "key": "fi"
+                }
+            ]
+        },
+        "checkboxes": [
+            {
+                "title": "Processor",
+                "filterTitles": [
+                    {
+                        "title": "AMD",
+                        "key": "amd"
+                    },
+                    {
+                        "title": "INTEL",
+                        "key": "intel"
+                    }
+                ]
+            },
+            {
+                "title": "Disk",
+                "filterTitles": [
+                    {
+                        "title": "HDD",
+                        "key": "hdd"
+                    },
+                    {
+                        "title": "SSD",
+                        "key": "ssd"
+                    },
+                    {
+                        "title": "NVME",
+                        "key": "nvme"
+                    }
+                ]
+            }
+        ],
+        "ranges": {
+            "priceTitle": "Price",
+            "priceMin": 1,
+            "priceMax": 120,
+            "disksTitle": "Number of Disks",
+            "disksMin": 0,
+            "disksMax": 1,
+            "disksVolumeTitle": "Disk Volume",
+            "disksVolumeMin": 10,
+            "disksVolumeMax": 800,
+            "coresTitle": "Number of Cores",
+            "coresMin": 1,
+            "coresMax": 8,
+            "ramTitle": "RAM",
+            "ramMin": 1,
+            "ramMax": 32
+        },
+        "periods": [
+            {
+                "title": "1",
+                "titleKey": "1"
+            },
+            {
+                "title": "3",
+                "titleKey": "3"
+            },
+            {
+                "title": "6",
+                "titleKey": "6"
+            },
+            {
+                "title": "12",
+                "titleKey": "12"
+            }
+        ]
+    },
+    "tariffes_block": {
+        "tariffTitles": {
+            "diskTitle": "Disk",
+            "coresTitle": "Cores",
+            "ramTitle": "RAM",
+            "channelTitle": "Channel",
+            "locationTitle": "Location",
+            "coreTitle": "Processor",
+            "antiDdosTitle": "Anti-DDoS",
+            "buttonText": "Order Now"
+        }
+    },
+    "operation_systems_block": {
+        "title": "Ready-to-Use Game Templates for Installation",
+        "description": "Choose a suitable game server from 40+ ready-made images. If your desired game or service isn't listed, our staff will add it for you!",
+        "operationSystems": [
+            {
+                "imgSrc": "/images/icons/garrys-mod.svg",
+                "title": "Garry’s Mod",
+                "description": "Steam Edition"
+            },
+            {
+                "imgSrc": "/images/icons/minecraft.svg",
+                "title": "Minecraft",
+                "description": "Pocket Edition, Java"
+            },
+            {
+                "imgSrc": "/images/icons/counter-strike.svg",
+                "title": "Counter-Strike",
+                "description": "1.6, Source, GO"
+            },
+            {
+                "imgSrc": "/images/icons/gta.svg",
+                "title": "Grand Theft Auto",
+                "description": "SAMP, RageMP, FiveM"
+            }
+        ]
+    },
+    "main_info_block": [
+        {
+            "id": 0,
+            "imgSrc": "/images/banners/control-panel.png",
+            "title": "Game Server Control Panel",
+            "description": "Incredibly practical Pterodactyl panel with all the necessary features for full administration of any game server."
+        },
+        {
+            "id": 1,
+            "imgSrc": "/images/banners/rocket.png",
+            "title": "File Upload via Panel and sFTP",
+            "description": "Upload your server files at maximum speed. This can be done through the web panel or via sFTP."
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/banners/bank-coin.png",
+            "title": "MySQL Databases",
+            "description": "Store your service data in an organized and reliable manner. We provide each client with access to a database."
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/banners/shield.png",
+            "title": "DDoS Protection",
+            "description": "Standard DDoS protection is included on all tariffs by default. Carry out events on your servers with comfort!"
+        }
+    ],
+    "not_finded_information_block": {
+        "title": "Didn't Find What You Were Looking For?",
+        "notFindedInformation": [
+            {
+                "imgSrc": "/images/icons/dedicated-servers.svg",
+                "title": "Virtual Servers",
+                "price": "From €1.39",
+                "link": "/virtual-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Dedicated Servers",
+                "price": "From €54.99",
+                "link": "/dedicated-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Contabo Servers",
+                "price": "From €8",
+                "link": "/cloud-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Web Hosting",
+                "price": "From €1.20",
+                "link": "/web-hosting",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Backup Storage",
+                "price": "From €0.20",
+                "link": "/backup-storage",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Domain Names",
+                "price": "From €3",
+                "link": "/domains",
+                "term": "yr."
+            }
+        ]
+    },
+    "faq_block": {
+        "title": "Frequently Asked Questions",
+        "faqItems": [
+            {
+                "question": "What is game hosting?",
+                "answerTitle": "What is game hosting?",
+                "answerDescription": "Game hosting is a service specifically designed for hosting gaming servers to ensure their round-the-clock operation. We offer over 40 different types of games. From a technical standpoint, our game hosting is not different from regular virtual servers (VDS), but the key difference lies in the access and management method. While VDS is managed through SSH or RDP protocols, our game hosting provides a convenient control panel optimized specifically for gaming needs."
+            },
+            {
+                "question": "Which games are supported by your hosting?",
+                "answerTitle": "Which games are supported by your hosting?",
+                "answerDescription": "We support a wide range of popular games including hits like Minecraft, Garry’s Mod, and GTA. Our game catalog is regularly expanded to meet player requests. If your game is not listed, please let us know. We will make every effort to add it specifically for you."
+            },
+            {
+                "question": "Can I install my own mods or plugins on the server?",
+                "answerTitle": "Can I install my own mods or plugins on the server?",
+                "answerDescription": "You can install any plugins and mods on your game server; we do not restrict this. Loading and configuring any additions is available in your server's files."
+            },
+            {
+                "question": "Is there a player limit on my server?",
+                "answerTitle": "Is there a player limit on my server?",
+                "answerDescription": "No limitations! All our tariffs offer completely unlimited slots for your servers."
+            },
+            {
+                "question": "Can I install multiple servers on one tariff?",
+                "answerTitle": "Can I install multiple servers on one tariff?",
+                "answerDescription": "Certainly! You can install any number of servers on any ports within a single tariff. Everything is limited only by the resources you acquire."
+            },
+            {
+                "question": "How can I transfer data to my server?",
+                "answerTitle": "How can I transfer data to my server?",
+                "answerDescription": "You can do this by transferring data to your new server. If you need assistance, please create a support request. Our staff will transfer all required data to your new server completely free of charge."
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Online Support Chat",
+        "description": "Have questions? Write to us in the chat! Support available 24/7",
+        "buttonText": "Open Chat"
+    }    
+}

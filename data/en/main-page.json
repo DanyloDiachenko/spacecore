@@ -1,0 +1,197 @@
+{
+    "slider": [
+        {
+            "title": "Unique Offer!",
+            "description": "Up to 50% off on selected servers from SpaceCore!",
+            "buttonText": "Buy Server",
+            "buttonLink": "#",
+            "imageSrc": "/images/banners/servers.png",
+            "discount": "-50%"
+        },
+        {
+            "title": "Unique Offer!",
+            "description": "Up to 50% off on selected servers from SpaceCore!",
+            "buttonText": "Buy Server",
+            "buttonLink": "#",
+            "imageSrc": "/images/banners/servers.png",
+            "discount": "-50%"
+        },
+        {
+            "title": "Unique Offer!",
+            "description": "Up to 50% off on selected servers from SpaceCore!",
+            "buttonText": "Buy Server",
+            "buttonLink": "#",
+            "imageSrc": "/images/banners/servers.png",
+            "discount": "-50%"
+        },
+        {
+            "title": "Unique Offer!",
+            "description": "Up to 50% off on selected servers from SpaceCore!",
+            "buttonText": "Buy Server",
+            "buttonLink": "#",
+            "imageSrc": "/images/banners/servers.png",
+            "discount": "-50%"
+        },
+        {
+            "title": "Unique Offer!",
+            "description": "Up to 50% off on selected servers from SpaceCore!",
+            "buttonText": "Buy Server",
+            "buttonLink": "#",
+            "imageSrc": "/images/banners/servers.png",
+            "discount": "-50%"
+        }
+    ],
+    "about_block": {
+        "title": "All About SpaceCore in ~1 Minute",
+        "description": "We value your time!",
+        "videoLink": "https://www.youtube.com/embed/iMEI230JqdA",
+        "videoDuration": ""
+    },
+    "services_block": {
+        "services": [
+            {
+                "title": "Virtual Servers (VDS/VPS)",
+                "imgSrc": "/images/medium/virtual-servers.png",
+                "link": "/virtual-servers"
+            },
+            {
+                "title": "Contabo Servers",
+                "imgSrc": "/images/medium/cloud-servers.png",
+                "link": "/cloud-servers"
+            },
+            {
+                "title": "Dedicated Servers",
+                "imgSrc": "/images/medium/emitted-servers.png",
+                "link": "/dedicated-servers"
+            },
+            {
+                "title": "Servers without Installation",
+                "imgSrc": "/images/medium/no-installed-servers.png",
+                "link": "/dedicated-no-install-servers"
+            },
+            {
+                "title": "Game Hosting",
+                "imgSrc": "/images/medium/game-hosting.png",
+                "link": "/game-hosting"
+            },
+            {
+                "title": "Website Hosting",
+                "imgSrc": "/images/medium/site-hosting.png",
+                "link": "/web-hosting"
+            },
+            {
+                "title": "Domain Names",
+                "imgSrc": "/images/medium/domain-names.png",
+                "link": "/domains"
+            },
+            {
+                "title": "Backup Storage",
+                "imgSrc": "/images/medium/backup-store.png",
+                "link": "/backup-storage"
+            }
+        ],
+        "title": "Our Services",
+        "buttonText": "",
+        "buttonLink": ""
+    },
+    "services_additional_block": [
+        {
+            "imgSrc": "/images/icons/transfer-project.svg",
+            "title": "We'll Migrate Your Project!",
+            "description": "Our team is ready to migrate your data from your old hosting provider, anytime and free of charge."
+        },
+        {
+            "imgSrc": "/images/icons/speed-equipment.svg",
+            "title": "High-Speed Equipment",
+            "description": "Premium servers with performance suitable for projects of any consumer scale."
+        },
+        {
+            "imgSrc": "/images/icons/uptime.svg",
+            "title": "99.9% Uptime",
+            "description": "We use the most reliable equipment to ensure uninterrupted operation of your product."
+        },
+        {
+            "imgSrc": "/images/icons/available-prices.svg",
+            "title": "Affordable Prices",
+            "description": "We value your choice and offer the best collaboration terms - competitive rates and bonuses for all!"
+        }
+    ],
+    "domain_block": {
+        "title": "Let's Find a Domain",
+        "placeholder": "Domain Name",
+        "buttonInputText": "Check",
+        "buttons": [
+            {
+                "title": ".su",
+                "price": "7.00€"
+            },
+            {
+                "title": ".com",
+                "price": "24.00€"
+            },
+            {
+                "title": ".net",
+                "price": "29.00€"
+            }
+        ],
+        "buttonMore": "More",
+        "priceDescription": "*For a duration of 1 year.",
+        "mainDescription": "Get a free domain with web hosting* purchase!",
+        "imgSrc": "/images/banners/astronaut.png"
+    },
+    "advantages_block": {
+        "title": "Advantages of SpaceCore",
+        "advantages": [
+            {
+                "title": "Company Reputation",
+                "imgSrc": "/images/icons/reputation.svg",
+                "description": "Since 2018, we've been serving thousands of clients, earning numerous positive reviews and gratitude!"
+            },
+            {
+                "title": "Reliable Data Centers",
+                "imgSrc": "/images/icons/reliability.svg",
+                "description": "Our equipment is hosted in the best high-reliability data centers across the galaxy!"
+            },
+            {
+                "title": "Modern Interface",
+                "imgSrc": "/images/icons/modern.svg",
+                "description": "Popular and user-friendly control panels for all services. Intuitive interaction."
+            },
+            {
+                "title": "Professional Support",
+                "imgSrc": "/images/icons/professionals.svg",
+                "description": "Quick and friendly responses from our staff at all times, 24/7!"
+            },
+            {
+                "title": "Stable Storage",
+                "imgSrc": "/images/icons/reservs.svg",
+                "description": "Super-reliable RAID storage. Rest assured, your data is safe and sound!"
+            },
+            {
+                "title": "DDoS Protection",
+                "imgSrc": "/images/icons/ddos-defense.svg",
+                "description": "Quality 24/7 protection for your project. Automatic mitigation of attacks up to 2 Tbit/s."
+            }
+        ]
+    },
+    "clients_block": {
+        "title": "Satisfied Clients",
+        "clientsNumber": 200,
+        "clientsDescription": "reviews from SpaceCore clients. This helps us analyze user experience and improve our services.",
+        "imgSrc": "/images/banners/austronaut-run.png",
+        "buttonText": "Read All Reviews",
+        "buttonLink": "/reviews"
+    },
+    "actual_news_block": {
+        "title": "Latest News",
+        "buttonText": "All News",
+        "buttonLink": "/news"
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Online Support Chat",
+        "description": "Have questions? Write to us in the chat! 24/7 Support",
+        "buttonText": "Open Chat"
+    }
+}

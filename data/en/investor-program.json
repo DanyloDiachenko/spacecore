@@ -1,0 +1,67 @@
+{
+    "main_block": {
+        "imgSrc": "/images/banners/for-investors.png",
+        "title": "Invest in SpaceCore",
+        "description": "Learn more about how we operate to see the potential of your investment. Your success is our priority."
+    },
+    "faq_block": {
+        "title": "Answers to Questions",
+        "faqItems": [
+            {
+                "question": "How does SpaceCore differ from competitors?",
+                "answerTitle": "How does SpaceCore differ from competitors?",
+                "answerDescription": "Our hosting stands out among competitors with a range of advantages. Firstly, we pay great attention to providing individualized solutions for each client, adapting to their needs. Through advanced technology and state-of-the-art equipment, our servers ensure the highest level of performance. Additionally, our support team is available 24/7, addressing any questions promptly. We offer real quality and reliability."
+            },
+            {
+                "question": "What is the process of contracting with the company?",
+                "answerTitle": "What is the process of contracting with the company?",
+                "answerDescription": "We engage in detailed negotiations, considering the budget, investor's interests, and our company's conditions. Based on this data and analysis of potential risks with expected returns, we create and sign an individual contract for a specific period. For further discussion, contact us at <a href='mailto:partner@spacecore.pro'>partner@spacecore.pro</a>."
+            },
+            {
+                "question": "How do you respond to market and technology changes?",
+                "answerTitle": "How do you respond to market and technology changes?",
+                "answerDescription": "We actively monitor current market changes and technological innovations. This enables us to quickly adapt to changes by implementing new solutions that align with market demands and client needs. Our main goal is to stay at the forefront of technological progress, providing clients with the best and most current solutions."
+            },
+            {
+                "question": "What is the impact of sanctions against Russia on SpaceCore?",
+                "answerTitle": "What is the impact of sanctions against Russia on SpaceCore?",
+                "answerDescription": "Officially, our company <strong>SPACECORE SOLUTION LTD</strong> is based in the United Kingdom and has no direct legal relationship with the Russian Federation. In the event of any type of restrictive measures or sanctions, this will not directly affect the operations of our company and will have no impact on our services in regions other than Russia."
+            }
+        ]
+    },
+    "support_block": {
+        "type": "email",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "We Await Your Inquiry!",
+        "description": "partner@spacecore.pro",
+        "buttonText": "",
+        "emailLink": "mailto:partner@spacecore.pro"
+    },
+    "for_investors_block": {
+        "title": "We Welcome Investors",
+        "description": "Welcome to the heart of our cosmic world! Investments are the key to the development of Hosting providers. Immerse yourself in the details of SpaceCore's infrastructure and stay updated with the innovations in our services. We are building bridges to the future of hosting. Join us, and together we can explore new horizons in business!",
+        "descriptionAdditional": "Each investment proposal in our company is handled with unique attention, considering the interests, ambitions, and financial capabilities of the investor. As a result, we establish a mutually beneficial agreement between the investor and the company.",
+        "servicesDescription": [
+            {
+                "imgSrc": "/images/icons/ddos-filters.svg",
+                "title": "Low Entry Threshold",
+                "description": "We accept investments starting from €10,000 and increase the potential return percentage proportionally to your investment amount!"
+            },
+            {
+                "imgSrc": "/images/icons/custom-protection.svg",
+                "title": "Technological Leadership",
+                "description": "We continually enhance our services and implement advanced technologies to align with modern standards."
+            },
+            {
+                "imgSrc": "/images/icons/option-connect.svg",
+                "title": "Financial Stability",
+                "description": "Our company can provide you with regular and predictable income, thanks to our ongoing efforts to maintain financial stability."
+            },
+            {
+                "imgSrc": "/images/icons/high-filter-power.svg",
+                "title": "Strong Client Base",
+                "description": "Currently, over 2000 client servers are operating reliably under our services, confirming client trust in the company."
+            }
+        ]
+    }    
+}

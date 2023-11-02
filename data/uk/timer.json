@@ -1,0 +1,14 @@
+{
+    "data": {
+        "title": "Запуск сайта через: en",
+        "buttonTitle": "Перейти в биллинг",
+        "buttonLink": "#",
+        "stayWithNewsTitle": "Будьте в курсе всех новостей",
+        "vkLink": "#",
+        "telegramLink": "#",
+        "twitterLink": "#",
+        "habrLink": "#",
+        "austronautBannerSrc": "/images/banners/austronaut-timer.png",
+        "videoPreviewUrl": "https://i.imgur.com/3kLPgQ4.mp4"	
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "main_block": {
+        "imgSrc": "/images/banners/about-company.png",
+        "title": "О компании",
+        "description": "Вы можете доверить нам свой проект, а мы приложим все усилия, чтобы он процветал. Наша задача — не просто выполнить задание, но и превзойти Ваши ожидания."
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Онлайн-чат поддержки",
+        "description": "Есть вопросы? Пишите нам в чат! Поддержка 24/7",
+        "buttonText": "Открыть чат"
+    },
+    "services_description_block": [
+        {
+            "imgSrc": "/images/icons/ddos-filters.svg",
+            "title": "Британское качество",
+            "description": "Наша компания зарегистрирована в Великобритании. Мы гарантируем отсутствие внешних санкций для Ваших сервисов!"
+        },
+        {
+            "imgSrc": "/images/icons/unlimited-growth.svg",
+            "title": "Оплата в криптовалюте",
+            "description": "Мы являемся одной из немногих компаний, которые на постоянной основе поддерживают оплату в криптовалюте."
+        },
+        {
+            "imgSrc": "/images/icons/option-connect.svg",
+            "title": "Премиальная поддержка",
+            "description": "Вас обслуживают только обученные специалисты, способные чувствовать Ваши потребности и видеть ситуацию Вашими глазами."
+        },
+        {
+            "imgSrc": "/images/icons/available-prices.svg",
+            "title": "Космически низкие цены",
+            "description": "SpaceCore — один из лидеров по стоимости среди хостингов. Это просто и дешево!"
+        }
+    ],
+    "services_block": {
+        "title": "Наши услуги",
+        "services": [
+            {
+                "title": "Виртуальные серверы (VDS/VPS)",
+                "imgSrc": "/images/medium/virtual-servers.png",
+                "link": "/virtual-servers"
+            },
+            {
+                "title": "Серверы Contabo",
+                "imgSrc": "/images/medium/cloud-servers.png",
+                "link": "/cloud-servers"
+            },
+            {
+                "title": "Выделенные серверы",
+                "imgSrc": "/images/medium/emitted-servers.png",
+                "link": "/dedicated-servers"
+            },
+            {
+                "title": "Серверы без установки",
+                "imgSrc": "/images/medium/no-installed-servers.png",
+                "link": "/dedicated-servers-no-install"
+            },
+            {
+                "title": "Игровой хостинг",
+                "imgSrc": "/images/medium/game-hosting.png",
+                "link": "/game-hosting"
+            },
+            {
+                "title": "Хостинг для сайтов",
+                "imgSrc": "/images/medium/site-hosting.png",
+                "link": "/hosting-site"
+            },
+            {
+                "title": "Доменные имена",
+                "imgSrc": "/images/medium/domain-names.png",
+                "link": "/domain-name"
+            },
+            {
+                "title": "Бекап-хранилище",
+                "imgSrc": "/images/medium/backup-store.png",
+                "link": "/backup-storage"
+            }
+        ],
+        "buttonText": "",
+        "buttonLink": ""
+    },
+    "interesting_facts_block": {
+        "title": "SpaceCore — это космос",
+        "description": "Компания была основана в 2018 году и до сих пор нашей целью является предоставление действительно качественных услуг по доступным ценам. Мы уважаем мнение каждого клиента и постоянно взираем на будущее с энтузиазмом, чтобы сделать наши сервисы настолько простыми и эффективными, насколько это возможно!"
+    }
+}

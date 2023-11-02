@@ -1,0 +1,87 @@
+{
+    "main_block": {
+        "imgSrc": "/images/banners/about-company.png",
+        "title": "About Us",
+        "description": "You can entrust your project to us, and we will put in every effort to ensure its prosperity. Our goal is not just to complete tasks but to exceed your expectations."
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Online Support Chat",
+        "description": "Have questions? Reach out to us via chat! 24/7 support available.",
+        "buttonText": "Open Chat"
+    },
+    "services_description_block": [
+        {
+            "imgSrc": "/images/icons/ddos-filters.svg",
+            "title": "British Quality",
+            "description": "Our company is registered in the United Kingdom. We guarantee absence of external sanctions for your services!"
+        },
+        {
+            "imgSrc": "/images/icons/unlimited-growth.svg",
+            "title": "Cryptocurrency Payments",
+            "description": "We are one of the few companies that consistently support cryptocurrency payment."
+        },
+        {
+            "imgSrc": "/images/icons/option-connect.svg",
+            "title": "Premium Support",
+            "description": "You are assisted by highly trained specialists who can understand your needs and see situations from your perspective."
+        },
+        {
+            "imgSrc": "/images/icons/available-prices.svg",
+            "title": "Incredibly Low Prices",
+            "description": "SpaceCore is one of the cost leaders among hosting providers. It's simple and affordable!"
+        }
+    ],    
+    "services_block": {
+        "title": "Our Services",
+        "services": [
+            {
+                "title": "Virtual Servers (VDS/VPS)",
+                "imgSrc": "/images/medium/virtual-servers.png",
+                "link": "/virtual-servers"
+            },
+            {
+                "title": "Contabo Servers",
+                "imgSrc": "/images/medium/cloud-servers.png",
+                "link": "/cloud-servers"
+            },
+            {
+                "title": "Dedicated Servers",
+                "imgSrc": "/images/medium/emitted-servers.png",
+                "link": "/dedicated-servers"
+            },
+            {
+                "title": "Servers without Installation",
+                "imgSrc": "/images/medium/no-installed-servers.png",
+                "link": "/dedicated-servers-no-install"
+            },
+            {
+                "title": "Game Hosting",
+                "imgSrc": "/images/medium/game-hosting.png",
+                "link": "/game-hosting"
+            },
+            {
+                "title": "Website Hosting",
+                "imgSrc": "/images/medium/site-hosting.png",
+                "link": "/hosting-site"
+            },
+            {
+                "title": "Domain Names",
+                "imgSrc": "/images/medium/domain-names.png",
+                "link": "/domain-name"
+            },
+            {
+                "title": "Backup Storage",
+                "imgSrc": "/images/medium/backup-store.png",
+                "link": "/backup-storage"
+            }
+        ],
+        "buttonText": "",
+        "buttonLink": ""
+    },
+    "interesting_facts_block": {
+        "title": "SpaceCore: Beyond the Horizon",
+        "description": "Founded in 2018, SpaceCore is committed to providing truly high-quality services at affordable prices. We value the opinion of every client and look towards the future with enthusiasm to make our services as simple and efficient as possible!"
+    } 
+}

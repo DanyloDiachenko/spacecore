@@ -1,0 +1,269 @@
+{
+    "main_block": {
+        "title": "Выделенные сервера без установки",
+        "description": "Полное соответствие обычным выделенным серверам, но теперь без платы за установку!",
+        "imgSrc": "/images/banners/dedicated-servers-no-install.png"
+    },
+    "tariffes_filters_block": {
+        "title": "Тарифные планы",
+        "countries": {
+            "title": "Локация",
+            "countries": [
+                {
+                    "imgSrc": "/images/icons/all-countries.svg",
+                    "title": "Любая",
+                    "key": "any"
+                },
+                {
+                    "imgSrc": "/images/icons/russia.svg",
+                    "title": "Россия",
+                    "key": "ru"
+                },
+                {
+                    "imgSrc": "/images/icons/france.svg",
+                    "title": "Франция",
+                    "key": "fr"
+                },
+                {
+                    "imgSrc": "/images/icons/germany.svg",
+                    "title": "Германия",
+                    "key": "de"
+                },
+                {
+                    "imgSrc": "/images/icons/finland.svg",
+                    "title": "Финляндия",
+                    "key": "fi"
+                }
+            ]
+        },
+        "checkboxes": [
+            {
+                "title": "Процессор",
+                "filterTitles": [
+                    {
+                        "title": "AMD",
+                        "key": "amd"
+                    },
+                    {
+                        "title": "INTEL",
+                        "key": "intel"
+                    }
+                ]
+            },
+            {
+                "title": "Диск",
+                "filterTitles": [
+                    {
+                        "title": "NVME",
+                        "key": "nvme"
+                    },
+                    {
+                        "title": "SSD",
+                        "key": "ssd"
+                    },
+                    {
+                        "title": "HDD",
+                        "key": "hdd"
+                    }                 
+                ]
+            }
+        ],
+        "ranges": {
+            "priceTitle": "Стоимость",
+            "priceMin": 20,
+            "priceMax": 100,
+            "disksTitle": "Кол-во дисков",
+            "disksMin": 1,
+            "disksMax": 4,
+            "disksVolumeTitle": "Объем дисков",
+            "disksVolumeMin": 512,
+            "disksVolumeMax": 10000,
+            "coresTitle": "Кол-во ядер",
+            "coresMin": 4,
+            "coresMax": 64,
+            "ramTitle": "ОЗУ",
+            "ramMin": 8,
+            "ramMax": 128
+        },
+        "periods": [
+            {
+                "title": "1",
+                "titleKey": "1"
+            },
+            {
+                "title": "2",
+                "titleKey": "2"
+            },
+            {
+                "title": "3",
+                "titleKey": "3"
+            },
+            {
+                "title": "4",
+                "titleKey": "4"
+            },
+            {
+                "title": "5",
+                "titleKey": "5"
+            },
+            {
+                "title": "6",
+                "titleKey": "6"
+            }
+        ]
+    },
+    "tariffes_block": {
+        "tariffTitles": {
+            "diskTitle": "Диск",
+            "coresTitle": "Ядер",
+            "ramTitle": "ОЗУ",
+            "channelTitle": "Канал",
+            "locationTitle": "Локация",
+            "coreTitle": "Процессор",
+            "antiDdosTitle": "Anti-DDoS",
+            "buttonText": "Заказать"
+        }
+    },
+    "operation_systems_block": {
+        "title": "Операционные системы на выбор",
+        "description": "Установите любую актуальную операционную систему, в том числе из своего образа ISO.",
+        "operationSystems": [
+            {
+                "imgSrc": "/images/icons/windows.svg",
+                "title": "Windows Server",
+                "description": "2019, 2016, 2012 R2, Win 10"
+            },
+            {
+                "imgSrc": "/images/icons/ubuntu.svg",
+                "title": "Ubuntu",
+                "description": "22.04, 20.04, 18.04, 16.04"
+            },
+            {
+                "imgSrc": "/images/icons/cent.svg",
+                "title": "CentOS",
+                "description": "9, 8, 7, 6"
+            },
+            {
+                "imgSrc": "/images/icons/debian.svg",
+                "title": "Debian",
+                "description": "11, 10, 9, 8"
+            }
+        ]
+    },
+    "main_info_block": [
+        {
+            "id": 0,
+            "imgSrc": "/images/banners/control-panel.png",
+            "title": "Удобная панель управления",
+            "description": "Интуитивно понятные каждому пользователю инструменты для работы с серверами. Переустановка настройка, мониторинг – все, что нужно!"
+        },
+        {
+            "id": 1,
+            "imgSrc": "/images/banners/rocket.png",
+            "title": "Установка тарифов за 90 секунд",
+            "description": "Создание сервера начинается сразу же после оплаты и обычно занимает не более пары минут*. * При условии нахождения тарифа в наличии."
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/banners/bank-coin.png",
+            "title": "Гарантия возврата средств",
+            "description": "Мы дорожим качеством и поэтому без лишних заявлений готовы вернуть Ваши денежные средства в случае возникновения технических проблем на стороне нашего оборудования!"
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/banners/shield.png",
+            "title": "Надежность",
+            "description": "Постоянные улучшения систем безопасности и круглосуточная техническая поддержка для оперативного решения любых внезапных неполадок."
+        }
+    ],
+    "not_finded_information_block": {
+        "title": "Не нашли то, что искали?",
+        "notFindedInformation": [
+            {
+                "imgSrc": "/images/icons/dedicated-servers.svg",
+                "title": "Выделенные серверы",
+                "price": "45,00₽",
+                "link": "/dedicated-servers"
+            },
+            {
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Хостинг для сайтов",
+                "price": "399,00₽",
+                "link": "/hosting-site"
+            },
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Cloud-серверы",
+                "price": "259,00₽",
+                "link": "/cloud-servers"
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Бекап-хранилище",
+                "price": "115,00₽",
+                "link": "/backup-storage"
+            },
+            {
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Доменные имена",
+                "price": "55,00₽",
+                "link": "/domain-name"
+            },
+            {
+                "imgSrc": "/images/icons/game-hosting.svg",
+                "title": "Игровой хостинг",
+                "price": "65,00₽",
+                "link": "/game-hosting"
+            }
+        ]
+    },
+    "faq_block": {
+        "title": "Ответы на вопросы",
+        "faqItems": [
+            {
+                "question": "Что такое Виртуальный сервер (VDS/VPS)?",
+                "answerTitle": "Что такое Виртуальный сервер?",
+                "answerDescription": "Virtual Dedicated (Private) Server — виртуальная услуга, которая эмулирует работу реального физического сервера. Мы предоставляем полный root-доступ для каждого сервера, при этом каждый клиент имеет индивидуальное ограниченное пространство, которое никак не взаимодействует с «соседями по серверу», благодаря технологии KVM. Обратите внимание, что мы не классифицируем VDS и VPS как разные услуги. Все наши виртуальные серверы относятся к обеим категориям."
+            },
+            {
+                "question": "Это что-то неизвестное для меня! Как быть?",
+                "answerTitle": "Это что-то неизвестное для меня! Как быть?",
+                "answerDescription": "Это что-то неизвестное для меня! Как быть?"
+            },
+            {
+                "question": "Какие программы доступны на серверах?",
+                "answerTitle": "Какие программы доступны на серверах?",
+                "answerDescription": "Какие программы доступны на серверах?"
+            },
+            {
+                "question": "Сколько IP-адресов я получаю при покупке?",
+                "answerTitle": "Сколько IP-адресов я получаю при покупке?",
+                "answerDescription": "Сколько IP-адресов я получаю при покупке?"
+            },
+            {
+                "question": "Как переустановить ОС?",
+                "answerTitle": "Как переустановить ОС?",
+                "answerDescription": "Как переустановить ОС?"
+            },
+            {
+                "question": "Как увеличить мощность сервера после покупки?",
+                "answerTitle": "Как увеличить мощность сервера после покупки?",
+                "answerDescription": "Как увеличить мощность сервера после покупки?"
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Онлайн-чат поддержки",
+        "description": "Есть вопросы? Пишите нам в чат! Поддержка 24/7",
+        "buttonText": "Открыть чат"
+    },
+    "subscribe_telegram_block": {
+        "title": "Подписывайся на канал в Telegram",
+        "description": "Чтобы не упустить выделенные серверы без установки!",
+        "buttonLink": "#",
+        "buttonText": "Подписаться",
+        "imgSrc": "/images/banners/austronaut-rocket.png"
+    }
+}

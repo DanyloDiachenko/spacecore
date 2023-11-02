@@ -1,0 +1,121 @@
+{
+    "main_block": {
+        "imgSrc": "/images/banners/backup-store.png",
+        "title": "Backup Storage",
+        "description": "Reliable and quality data storage is a crucial step for any business. Entrust this task to us!"
+    },
+    "main_info_block": [
+        {
+            "id": 0,
+            "imgSrc": "/images/banners/control-panel.png",
+            "title": "Highly Cost-Effective!",
+            "description": "Pay only for the space you need for your files. No extras, just advantageous rates!"
+        },
+        {
+            "id": 1,
+            "imgSrc": "/images/banners/rocket.png",
+            "title": "Equally Secure",
+            "description": "All data is stored securely on RAID10 drives. We guarantee 100% safety of your files."
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/banners/bank-coin.png",
+            "title": "Easily Scalable",
+            "description": "Pay for the resources you need. Running low on storage? You can expand your space with additional payment without any migrations!"
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/banners/shield.png",
+            "title": "And Most Importantly - Simple",
+            "description": "Standard sFTP access. Use any of the most convenient and accessible programs. Our team is always ready to assist you!"
+        }
+    ],    
+    "not_finded_information_block": {
+        "title": "Didn't Find What You Were Looking For?",
+        "notFindedInformation": [
+            {
+                "imgSrc": "/images/icons/dedicated-servers.svg",
+                "title": "Virtual Servers",
+                "price": "From €1.39",
+                "link": "/virtual-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Dedicated Servers",
+                "price": "From €54.99",
+                "link": "/dedicated-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Contabo Servers",
+                "price": "From €8",
+                "link": "/cloud-servers",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/game-hosting.svg",
+                "title": "Game Hosting",
+                "price": "From €6",
+                "link": "/game-hosting",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Backup Storage",
+                "price": "From €0.20",
+                "link": "/backup-storage",
+                "term": "mo."
+            },
+            {
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Domain Names",
+                "price": "From €3",
+                "link": "/domains",
+                "term": "yr."
+            }
+        ]
+    },    
+    "faq_block": {
+        "title": "Frequently Asked Questions",
+        "faqItems": [
+            {
+                "question": "What is Backup Storage?",
+                "answerTitle": "What is Backup Storage?",
+                "answerDescription": "Backup storage is a dedicated space for storing backup copies of various data. Its primary purpose is to provide the ability to recover your data in case of loss, damage, or other unforeseen circumstances. Our backup storage is located on separate servers unrelated to the rest of our infrastructure, ensuring the security of your data."
+            },
+            {
+                "question": "Is it possible to set up automatic backups?",
+                "answerTitle": "Is it possible to set up automatic backups?",
+                "answerDescription": "Yes, we have instructions for configuring automatic data uploads to the backup storage."
+            },
+            {
+                "question": "What types of data can be stored in backup storage?",
+                "answerTitle": "What types of data can be stored in backup storage?",
+                "answerDescription": "Backup storage supports uploading data in various formats, from photos to large archives."
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Online Support Chat",
+        "description": "Have questions? Reach out to us via chat! 24/7 support available.",
+        "buttonText": "Open Chat"
+    },
+    "configurator_block": {
+        "title": "Configurator",
+        "imgSrc": "/images/icons/backup-storage.svg",
+        "description": "Starting at €0.20 /gb",
+        "volumeTitle": "Storage Volume",
+        "choosedTitle": "Storage",
+        "choosedAdditionalTitle": "Selected",
+        "volumeAdditionaltitle": ", storage volume",
+        "buttonLink": "https://billing.spacecore.pro/billmgr#/?func=storage.order.pricelist&plid=",
+        "buttonText": "Order Now",
+        "minVolume": 10,
+        "maxVolume": 1000,
+        "pricePerGB": 0.02
+    }    
+}

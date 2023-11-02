@@ -1,0 +1,429 @@
+{
+    "header_block": {
+        "logoImgSrc": "/images/icons/logo.svg",
+        "logotitle": "открываем космос с 2018 года",
+        "servicesWorkTitle": "Все сервисы работают",
+        "servicesNotWorkTitle": "Часть сервисов не работают",
+        "email": "support@spacecore.pro",
+        "emailLink": "mailto:support@spacecore.pro",
+        "logintitle": "Войти",
+        "loginLink": "/login",
+        "registerTitle": "Регистрация",
+        "registerLink": "/register",
+        "servicesLink":"/uptime",
+        "navigation": [
+            {
+                "title": "Продукты",
+                "isShort": false,
+                "leftMenu": [
+                    {
+                        "title": "Виртуальные серверы (VDS/VPS)",
+                        "link": "/virtual-servers",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/all-countries.svg",
+                                "title": "Любая",
+                                "link": "/virtual-servers"
+                            },
+                            {
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Германия, Фалькенштайн",
+                                "link": "/virtual-servers?country=de"
+                            },
+                            {
+                                "icon": "/images/icons/finland.svg",
+                                "title": "Финляндия, Хельсинки",
+                                "link": "/virtual-servers?country=fi"
+                            },
+                            {
+                                "icon": "/images/icons/france.svg",
+                                "title": "Франция, Гравлин",
+                                "link": "/virtual-servers?country=fr"
+                            },
+                            {
+                                "icon": "/images/icons/russia.svg",
+                                "title": "Россия, Москва",
+                                "link": "/virtual-servers?country=ru"
+                            },
+                            {
+                                "icon": "/images/icons/russia.svg",
+                                "title": "Россия, Санкт-Петербург",
+                                "link": "/virtual-servers?country=ru"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Серверы Contabo",
+                        "link": "/cloud-servers",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Германия",
+                                "link": "/cloud-servers"
+                            },
+                            {
+                                "icon": "/images/icons/finland.svg",
+                                "title": "Финляндия",
+                                "link": "/cloud-servers"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Выделенные серверы",
+                        "link": "/dedicated-servers",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/all-countries.svg",
+                                "title": "Любая",
+                                "link": "/dedicated-servers"
+                            },
+                            {
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Германия, Фалькенштайн",
+                                "link": "/dedicated-servers?country=de"
+                            },
+                            {
+                                "icon": "/images/icons/finland.svg",
+                                "title": "Финляндия, Хельсинки",
+                                "link": "/dedicated-servers?country=fi"
+                            },
+                            {
+                                "icon": "/images/icons/russia.svg",
+                                "title": "Россия, Москва",
+                                "link": "/dedicated-servers?country=ru"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Серверы без платы за установку",
+                        "link": "/dedicated-servers-no-install",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/all-countries.svg",
+                                "title": "Любая",
+                                "link": "/dedicated-servers-no-install"
+                            },
+                            {
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Германия, Фалькенштайн",
+                                "link": "/dedicated-servers-no-install?country=de"
+                            },
+                            {
+                                "icon": "/images/icons/finland.svg",
+                                "title": "Финляндия, Хельсинки",
+                                "link": "/dedicated-servers-no-install?country=fi"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Веб-хостинг",
+                        "link": "/web-hosting",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Старт",
+                                "link": "/web-hosting"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Стандарт",
+                                "link": "/web-hosting"
+                            },
+                            {
+                                "icon": "/images/icons/cloud-icon.svg",
+                                "title": "Премиум",
+                                "link": "/web-hosting"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Игровой хостинг",
+                        "link": "/game-hosting",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/all-countries.svg",
+                                "title": "Любая",
+                                "link": "/game-hosting"
+                            },
+                            {
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Германия, Фалькенштайн",
+                                "link": "/game-hosting?country=de"
+                            },
+                            {
+                                "icon": "/images/icons/finland.svg",
+                                "title": "Финляндия, Хельсинки",
+                                "link": "/game-hosting?country=fi"
+                            },
+                            {
+                                "icon": "/images/icons/france.svg",
+                                "title": "Франция, Гравлин",
+                                "link": "/game-hosting?country=fr"
+                            },
+                            {
+                                "icon": "/images/icons/russia.svg",
+                                "title": "Россия, Москва",
+                                "link": "/game-hosting?country=ru"
+                            },
+                            {
+                                "icon": "/images/icons/russia.svg",
+                                "title": "Россия, Санкт-Петербург",
+                                "link": "/game-hosting?country=ru"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Доп. услуги",
+                "isShort": false,
+                "leftMenu": [
+                    {
+                        "title": "Доменные имена",
+                        "link": "/domains",
+                        "additional": [
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".com",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".net",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".org",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".pro",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".biz",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".info",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".space",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".su",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".me",
+                                "link": "/domains"
+                            },
+                            {
+                                "icon": "/images/icons/world.svg",
+                                "title": ".ru",
+                                "link": "/domains"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "DNS-хостинг",
+                        "link": "/dns-hosting",
+                        "additional": [
+                        ]
+                    },
+                    {
+                        "title": "Backup-хранилище",
+                        "link": "/backup-storage",
+                        "additional": [
+                        ]
+                    },
+                    {
+                        "title": "Colocation",
+                        "link": "/colocation",
+                        "additional": [
+                        ]
+                    },
+                    {
+                        "title": "Защита от DDoS",
+                        "link": "/ddos-protection",
+                        "additional": [
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Документация",
+                "isShort": true,
+                "leftMenu": [
+                    {
+                        "title": "Регистрация",
+                        "link": ""
+                    },
+                    {
+                        "title": "Как заказать услугу?",
+                        "link": ""
+                    },
+                    {
+                        "title": "Обращение в поддержку",
+                        "link": ""
+                    },
+                    {
+                        "title": "Работа с серверами",
+                        "link": ""
+                    },
+                    {
+                        "title": "Панель управления",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "О нас",
+                "isShort": true,
+                "leftMenu": [
+                    {
+                        "title": "Документы",
+                        "link": "/documents"
+                    },
+                    {
+                        "title": "Статус сервисов",
+                        "link": "/uptime"
+                    },
+                    {
+                        "title": "Looking Glass",
+                        "link": "/looking-house"
+                    },
+                    {
+                        "title": "Бенчмарки",
+                        "link": "https://benchmark.spacecore.info/"
+                    },
+                    {
+                        "title": "Авторские статьи",
+                        "link": "/news"
+                    }
+                ]
+            },
+            {
+                "title": "Поддержка",
+                "link": "/support",
+                "isShort": true,
+                "leftMenu": []
+            }
+        ],
+        "navigationAdaptive": [
+            {
+                "title": "Продукты",
+                "additional": [
+                    {
+                        "title": "Виртуальные серверы (VDS/VPS)",
+                        "link": "/virtual-servers"
+                    },
+                    {
+                        "title": "Выделенные серверы",
+                        "link": "/dedicated-servers"
+                    },
+                    {
+                        "title": "Серверы без платы за установку",
+                        "link": "/dedicated-servers-no-install"
+                    },
+                    {
+                        "title": "Веб-хостинг",
+                        "link": "/web-hosting"
+                    },
+                    {
+                        "title": "Игровой хостинг",
+                        "link": "/game-hosting"
+                    }
+                ]
+            },
+            {
+                "title": "Доп. услуги",
+                "additional": [
+                    {
+                        "title": "Доменные имена",
+                        "link": "/domains"
+                    },
+                    {
+                        "title": "DNS-хостинг",
+                        "link": "/dns-hosting"
+                    },
+                    {
+                        "title": "Backup-хранилище",
+                        "link": "/backup-storage"
+                    },
+                    {
+                        "title": "Colocation",
+                        "link": "/colocation"
+                    },
+                    {
+                        "title": "Защита от DDoS",
+                        "link": "/ddos-protection"
+                    }
+                ]
+            },
+            {
+                "title": "Документация",
+                "additional": [
+                    {
+                        "title": "Регистрация",
+                        "link": ""
+                    },
+                    {
+                        "title": "Как заказать услугу?",
+                        "link": ""
+                    },
+                    {
+                        "title": "Обращение в поддержку",
+                        "link": ""
+                    },
+                    {
+                        "title": "Работа с серверами",
+                        "link": ""
+                    },
+                    {
+                        "title": "Панель управления",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "О нас",
+                "additional": [
+                    {
+                        "title": "Документы",
+                        "link": "/documents"
+                    },
+                    {
+                        "title": "Статус сервисов",
+                        "link": "/uptime"
+                    },
+                    {
+                        "title": "Looking Glass",
+                        "link": "/looking-house"
+                    },
+                    {
+                        "title": "Бенчмарки",
+                        "link": "https://benchmark.spacecore.info/"
+                    },
+                    {
+                        "title": "Авторские статьи",
+                        "link": "/news"
+                    }
+                ]
+            },
+            {
+                "title": "Поддержка",
+                "link": "/our-services"
+            }
+        ]
+    }
+}

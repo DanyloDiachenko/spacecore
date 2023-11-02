@@ -1,0 +1,62 @@
+@import "./bootstrap.scss";
+@import "./typography.scss";
+@import "./ui.scss";
+@import "./variables.scss";
+@import "./react-slick.scss";
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+
+    @media (max-width: 991px) {
+        font-size: 17px;
+        line-height: 29px;
+    }
+    @media (max-width: 600px) {
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.red-color{
+    color: #fd7081;
+}
+
+
+blockquote{
+    background-color: rgba(160, 160, 160, 0.1);
+    padding:20px 20px 20px 40px;
+    margin:10px 0;
+    border-left: 5px solid rgb(52, 109, 219);
+    position: relative;
+}
+
+blockquote::before{
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url(/images/icons/info.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom:0;
+    margin: auto 0;
+}

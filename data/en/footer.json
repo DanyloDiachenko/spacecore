@@ -1,0 +1,181 @@
+{
+    "footer_block": {
+        "logoImgSrc": "/images/icons/logo.svg",
+        "logotitle": "exploring space since 2018",
+        "footerNavigation": [
+            {
+                "title": "Products",
+                "additional": [
+                    {
+                        "title": "Virtual Servers (VDS/VPS)",
+                        "link": "/virtual-servers"
+                    },
+                    {
+                        "title": "Contabo Servers",
+                        "link": "/cloud-servers"
+                    },
+                    {
+                        "title": "Dedicated Servers",
+                        "link": "/dedicated-servers"
+                    },
+                    {
+                        "title": "Dedicated Servers (No Installation)",
+                        "link": "/dedicated-servers-no-install/"
+                    },
+                    {
+                        "title": "Web Hosting",
+                        "link": "/web-hosting"
+                    },
+                    {
+                        "title": "Game Hosting",
+                        "link": "/game-hosting"
+                    }
+                ]
+            },
+            {
+                "title": "Services",
+                "additional": [
+                    {
+                        "title": "Domain Names",
+                        "link": "/domains"
+                    },
+                    {
+                        "title": "DNS Hosting",
+                        "link": "/dns-hosting"
+                    },
+                    {
+                        "title": "Backup Storage",
+                        "link": "/backup-storage"
+                    },
+                    {
+                        "title": "Colocation",
+                        "link": "/colocation"
+                    },
+                    {
+                        "title": "DDoS Protection",
+                        "link": "/ddos-protection"
+                    }
+                ]
+            },
+            {
+                "title": "Documentation",
+                "additional": [
+                    {
+                        "title": "Registration",
+                        "link": "/knowledge-base/billing/how-to-register"
+                    },
+                    {
+                        "title": "How to Order a Service?",
+                        "link": "/knowledge-base/billing/how-to-order-a-vps-vds"
+                    },
+                    {
+                        "title": "Contacting Support",
+                        "link": "/knowledge-base/billing/how-to-contact-support"
+                    },
+                    {
+                        "title": "Working with Servers",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Control Panel Overview",
+                        "link": "#"
+                    }
+                ]
+            },
+            {
+                "title": "About Us",
+                "additional": [
+                    {
+                        "title": "About the Company",
+                        "link": "/about-company"
+                    },
+                    {
+                        "title": "Support Service",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Contact Information",
+                        "link": "#"
+                    }
+                ]
+            },
+            {
+                "title": "Partnership",
+                "additional": [
+                    {
+                        "title": "Reselling (White Label)",
+                        "link": "/reseller-program"
+                    },
+                    {
+                        "title": "Referral Program",
+                        "link": "/referral-program"
+                    },
+                    {
+                        "title": "For Investors",
+                        "link": "/investor-program"
+                    }
+                ]
+            },
+            {
+                "title": "Our Services",
+                "additional": [
+                    {
+                        "title": "Knowledge Base",
+                        "link": "/knowledge-base"
+                    },
+                    {
+                        "title": "UpTime",
+                        "link": "/uptime"
+                    },
+                    {
+                        "title": "Benchmarks",
+                        "link": "https://benchmark.spacecore.info/"
+                    },
+                    {
+                        "title": "Author Articles",
+                        "link": "/news"
+                    }
+                ]
+            }
+        ],
+        "stayWithNewsTitle": "Stay Informed with the Latest News",
+        "vkLink": "#",
+        "telegramLink": "#",
+        "twitterLink": "#",
+        "habrLink": "#",
+        "IPTitle": "",
+        "INNTitle": "",
+        "OGRNIPTitle": "",
+        "allRightsReserverdTitle": "©2023, SpaceCore.pro. All Rights Reserved.",
+        "pays": [
+            {
+                "imgSrc": "/images/icons/visa.svg",
+                "alt": "visa"
+            },
+            {
+                "imgSrc": "/images/icons/mastercard.svg",
+                "alt": "mastercard"
+            },
+            {
+                "imgSrc": "/images/icons/mir.svg",
+                "alt": "mir"
+            },
+            {
+                "imgSrc": "/images/icons/umoney.svg",
+                "alt": "umoney"
+            },
+            {
+                "imgSrc": "/images/icons/google-pay.svg",
+                "alt": "google-pay"
+            },
+            {
+                "imgSrc": "/images/icons/apple-pay.svg",
+                "alt": "apple-pay"
+            },
+            {
+                "imgSrc": "/images/icons/samsung-pay.svg",
+                "alt": "samsung-pay"
+            }
+        ]
+    }    
+}

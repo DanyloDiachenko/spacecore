@@ -1,0 +1,76 @@
+{
+    "main_block": {
+        "imgSrc": "/images/banners/referral-program.png",
+        "title": "Earn with Us!",
+        "description": "Are you satisfied with our service and want to recommend us to your friends or colleagues? Make use of our referral program and enjoy mutual benefits!"
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Online Support Chat",
+        "description": "Have questions? Reach out to us via chat! 24/7 support available.",
+        "buttonText": "Open Chat"
+    },
+    "services_description_block": [
+        {
+            "imgSrc": "/images/icons/passive-income.svg",
+            "title": "Passive Income",
+            "description": "Spread the word about us to your friends; their first orders will be enough for you to earn money. Get real income, quite literally from the comfort of your couch."
+        },
+        {
+            "imgSrc": "/images/icons/unlimited-growth.svg",
+            "title": "Unlimited Growth Potential",
+            "description": "No limitations! Receive 7% from the orders of your referrals – forever. You can bring in dozens or hundreds of clients to earn from each!"
+        }
+    ],
+    "referral_block": {
+        "title": "Your Journey through the Galaxy Begins with Your Referral!",
+        "description": "We're delighted to offer you the best service and have prepared the most cosmic referral terms for you. Invite your friends and earn real money. Your recommendation is the greatest compliment to our company."
+    },
+    "referral_invite_friends_block": {
+        "title": "What Happens if You Invite 10 Friends to Join Us?",
+        "referrals": [
+            {
+                "number": "10",
+                "description": "You recommend the service to 10 clients"
+            },
+            {
+                "number": "800 €",
+                "description": "80€ * 10 = 800 € – Turnover from your referrals"
+            },
+            {
+                "number": "56 €",
+                "description": "7% of turnover – 56 € – Your monthly income"
+            },
+            {
+                "number": "336 €",
+                "description": "After six months"
+            },
+            {
+                "number": "672 €",
+                "description": "Net income after a year"
+            }
+        ]
+    },
+    "where_referral_link_block": {
+        "title": "Useful Information",
+        "questions": [
+            {
+                "question": "How to Obtain a Partner Link?",
+                "answer": "You can do this in your personal account. Detailed instructions are available at this link (link)."
+            },
+            {
+                "question": "How Long Does the Referral Program Last?",
+                "answer": "Indefinitely. The referral simply needs to register through the provided link for you to start receiving passive income from each of their orders."
+            },
+            {
+                "question": "Withdrawal of Funds",
+                "answer": "By default, all referral earnings are credited to your account on the 1st of each month. Upon request to support, you can withdraw referral funds to your bank card or crypto wallet (minimum – 10 €)."
+            }
+        ],
+        "imgSrc": "/images/banners/control-panel.png",
+        "description": "Detailed Collaboration Terms",
+        "documentLink": "#",
+        "documentTitle": "document.pdf"
+    }
+}

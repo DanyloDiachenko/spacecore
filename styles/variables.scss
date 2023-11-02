@@ -1,0 +1,46 @@
+:root {
+    --black: #292b37;
+    --gray: #ffffff4d;
+    --gray-light: #c5c5c5;
+    --gray-lightest: #f1f1f1;
+
+    --white: #ffffff;
+
+    --violet: #8a39f8;
+    --violet-dark: #3f2962;
+    --violet-darkest: #2a1a44;
+    --violet-black: #1d132e;
+    --violet-light: #f3ebfe;
+
+    --violet-gradient: linear-gradient(101.09deg, #8938f7 49.48%, #6c2fee 100%);
+
+    --rose: #fd7081;
+    --rose-light: #fe94a1;
+    --rose-dark: #fc4359;
+
+    --transition: 0.3s;
+}
+
+body[data-theme="light"] {
+    --colors-text: var(--black);
+    --colors-bg: var(--white);
+}
+body[data-theme="dark"] {
+    --colors-text: var(--white);
+    --colors-bg: var(--violet-black);
+}
+body {
+    color: var(--colors-text);
+    background-color: var(--colors-bg);
+}
+
+#header[data-theme="light"] {
+    --colors-bg: var(--white);
+}
+#header[data-theme="dark"] {
+    --colors-bg: var(--violet-dark);
+}
+#header {
+    color: var(--colors-text);
+    background-color: var(--colors-bg);
+}

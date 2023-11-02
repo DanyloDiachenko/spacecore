@@ -1,0 +1,70 @@
+{
+    "main_block": {
+        "imgSrc": "/images/banners/placing-equipment.png",
+        "title": "Equipment Placement",
+        "description": "The most reliable way to host your equipment. Your servers are under our protection."
+    },
+    "faq_block": {
+        "title": "Answers to Your Questions",
+        "faqItems": [
+            {
+                "question": "What is Colocation?",
+                "answerTitle": "What is Colocation?",
+                "answerDescription": "Colocation is a service that allows users to host their own server equipment in specialized data center facilities. By using this service, clients gain access to a reliable infrastructure, including high-speed internet connection, backup power supply, cooling systems, and a high level of security."
+            },
+            {
+                "question": "How is the cost of Colocation determined?",
+                "answerTitle": "How is the cost of Colocation determined?",
+                "answerDescription": "The final cost of equipment placement depends on a combination of factors, such as occupied space in Units, power consumption, network channel, and potential additional services. Please note that each case of customer equipment placement is considered individually based on the user's needs. Feel free to contact us at <a href='support@spacecore.pro'>support@spacecore.pro</a>."
+            },
+            {
+                "question": "What happens if my equipment breaks down?",
+                "answerTitle": "What happens if my equipment breaks down?",
+                "answerDescription": "We understand how critical your work can be and how unforeseen circumstances can lead to component failures. In such a case, we can promptly replace the necessary part with an identical or similar one (if available)."
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Online Support Chat",
+        "description": "Have questions? Contact us via chat! 24/7 support available.",
+        "buttonText": "Open Chat"
+    },
+    "placing_text_block": {
+        "title": "Colocation",
+        "description": "Colocation is a service where your server is placed not at your home or office, but in a specialized area provided by a provider, known as a data center. This data center has ample space for servers from different clients, each provided with necessary conditions: stability, server access, and a high level of security.",
+        "descriptionAdditional": "By choosing to rent space in a data center, clients have the opportunity to utilize professional equipment and infrastructure without the need to create such an environment on their own. This is particularly relevant for those without their own space or resources to install and maintain complex server equipment."
+    },
+    "placing_prices_block": {
+        "title": "Placement Prices",
+        "placingPrices": [
+            {
+                "title": "1U Equipment Placement in Rack",
+                "price": "€30"
+            },
+            {
+                "title": "2U Equipment Placement in Rack",
+                "price": "€40"
+            },
+            {
+                "title": "3U Equipment Placement in Rack",
+                "price": "€50"
+            },
+            {
+                "title": "Additional IPv4 Address",
+                "price": "€3"
+            },
+            {
+                "title": "Delivery and Installation",
+                "price": "€0"
+            },
+            {
+                "title": "Switch Placement",
+                "price": "€15"
+            }
+        ],
+        "description": "When calculating, we consider the power indicated on your equipment's power supply unit. If your device has two power supply units, only one of them is taken into account.",
+        "descriptionPrice": ""
+    }        
+}

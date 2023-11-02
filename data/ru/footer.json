@@ -1,0 +1,181 @@
+{
+    "footer_block": {
+        "logoImgSrc": "/images/icons/logo.svg",
+        "logotitle": "открываем космос с 2018 года",
+        "footerNavigation": [
+            {
+                "title": "Продукты",
+                "additional": [
+                    {
+                        "title": "Виртуальные серверы (VDS/VPS)",
+                        "link": "/virtual-servers"
+                    },
+                    {
+                        "title": "Серверы Contabo",
+                        "link": "/cloud-servers"
+                    },
+                    {
+                        "title": "Выделенные серверы",
+                        "link": "/dedicated-servers"
+                    },
+                    {
+                        "title": "Выделенный серверы (без установки)",
+                        "link": "/dedicated-servers-no-install/"
+                    },
+                    {
+                        "title": "Веб-хостинг",
+                        "link": "/web-hosting"
+                    },
+                    {
+                        "title": "Игровой хостинг",
+                        "link": "/game-hosting"
+                    }
+                ]
+            },
+            {
+                "title": "Услуги",
+                "additional": [
+                    {
+                        "title": "Доменные имена",
+                        "link": "/domains"
+                    },
+                    {
+                        "title": "DNS-хостинг",
+                        "link": "/dns-hosting"
+                    },
+                    {
+                        "title": "Backup-хранилище",
+                        "link": "/backup-storage"
+                    },
+                    {
+                        "title": "Colocation",
+                        "link": "/colocation"
+                    },
+                    {
+                        "title": "Защита от DDoS",
+                        "link": "/ddos-protection"
+                    }
+                ]
+            },
+            {
+                "title": "Документация",
+                "additional": [
+                    {
+                        "title": "Регистрация",
+                        "link": "/knowledge-base/billing/how-to-register"
+                    },
+                    {
+                        "title": "Как заказать услугу?",
+                        "link": "/knowledge-base/billing/how-to-order-a-vps-vds"
+                    },
+                    {
+                        "title": "Обращение в поддержку",
+                        "link": "/knowledge-base/billing/how-to-contact-support"
+                    },
+                    {
+                        "title": "Работа с сервером",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Обзор панели управления",
+                        "link": "#"
+                    }
+                ]
+            },
+            {
+                "title": "О компании",
+                "additional": [
+                    {
+                        "title": "О компании",
+                        "link": "/about-company"
+                    },
+                    {
+                        "title": "Служба поддержки",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Контакты",
+                        "link": "#"
+                    }
+                ]
+            },
+            {
+                "title": "Сотрудничество",
+                "additional": [
+                    {
+                        "title": "Реселлинг (White Label)",
+                        "link": "/reseller-program"
+                    },
+                    {
+                        "title": "Реферальная программа",
+                        "link": "/referral-program"
+                    },
+                    {
+                        "title": "Инвесторам",
+                        "link": "/investor-program"
+                    }
+                ]
+            },
+            {
+                "title": "Наши сервисы",
+                "additional": [
+                    {
+                        "title": "База знаний",
+                        "link": "/knowledge-base"
+                    },
+                    {
+                        "title": "UpTime",
+                        "link": "/uptime"
+                    },
+                    {
+                        "title": "Бенчмарки",
+                        "link": "https://benchmark.spacecore.info/"
+                    },
+                    {
+                        "title": "Авторские статьи",
+                        "link": "/news"
+                    }
+                ]
+            }
+        ],
+        "stayWithNewsTitle": "Будьте в курсе всех новостей",
+        "vkLink": "#",
+        "telegramLink": "#",
+        "twitterLink": "#",
+        "habrLink": "#",
+        "IPTitle": "",
+        "INNTitle": "",
+        "OGRNIPTitle": "",
+        "allRightsReserverdTitle": "©2023, SpaceCore.pro. Все права защищены.",
+        "pays": [
+            {
+                "imgSrc": "/images/icons/visa.svg",
+                "alt": "visa"
+            },
+            {
+                "imgSrc": "/images/icons/mastercard.svg",
+                "alt": "mastercard"
+            },
+            {
+                "imgSrc": "/images/icons/mir.svg",
+                "alt": "mir"
+            },
+            {
+                "imgSrc": "/images/icons/umoney.svg",
+                "alt": "umoney"
+            },
+            {
+                "imgSrc": "/images/icons/google-pay.svg",
+                "alt": "google-pay"
+            },
+            {
+                "imgSrc": "/images/icons/apple-pay.svg",
+                "alt": "apple-pay"
+            },
+            {
+                "imgSrc": "/images/icons/samsung-pay.svg",
+                "alt": "samsung-pay"
+            }
+        ]
+    }
+}

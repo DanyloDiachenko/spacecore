@@ -1,0 +1,197 @@
+{
+    "slider": [
+        {
+            "title": "Уникальное предложение!",
+            "description": "Скидки до 50% на выделенные серверы от SpaceCore!",
+            "buttonText": "Купить сервер",
+            "buttonLink": "#",
+            "imageSrc": "/images/banners/servers.png",
+            "discount": "-50%"
+        },
+        {
+            "title": "Уникальное предложение!",
+            "description": "Скидки до 50% на выделенные серверы от SpaceCore!",
+            "buttonText": "Купить сервер",
+            "buttonLink": "#",
+            "imageSrc": "/images/banners/servers.png",
+            "discount": "-50%"
+        },
+        {
+            "title": "Уникальное предложение!",
+            "description": "Скидки до 50% на выделенные серверы от SpaceCore!",
+            "buttonText": "Купить сервер",
+            "buttonLink": "#",
+            "imageSrc": "/images/banners/servers.png",
+            "discount": "-50%"
+        },
+        {
+            "title": "Уникальное предложение!",
+            "description": "Скидки до 50% на выделенные серверы от SpaceCore!",
+            "buttonText": "Купить сервер",
+            "buttonLink": "#",
+            "imageSrc": "/images/banners/servers.png",
+            "discount": "-50%"
+        },
+        {
+            "title": "Уникальное предложение!",
+            "description": "Скидки до 50% на выделенные серверы от SpaceCore!",
+            "buttonText": "Купить сервер",
+            "buttonLink": "#",
+            "imageSrc": "/images/banners/servers.png",
+            "discount": "-50%"
+        }
+    ],
+    "about_block": {
+        "title": "Все о SpaceCore за ~1 минуту",
+        "description": "Мы ценим Ваше время!",
+        "videoLink": "https://www.youtube.com/embed/TXVp-o4bA0A",
+        "videoDuration": ""
+    },
+    "services_block": {
+        "services": [
+            {
+                "title": "Виртуальные серверы (VDS/VPS)",
+                "imgSrc": "/images/medium/virtual-servers.png",
+                "link": "/virtual-servers"
+            },
+            {
+                "title": "Облачные серверы (CLOUD)",
+                "imgSrc": "/images/medium/cloud-servers.png",
+                "link": "/cloud-servers"
+            },
+            {
+                "title": "Выделенные серверы",
+                "imgSrc": "/images/medium/emitted-servers.png",
+                "link": "/dedicated-servers"
+            },
+            {
+                "title": "Серверы без установки",
+                "imgSrc": "/images/medium/no-installed-servers.png",
+                "link": "/dedicated-no-install-servers"
+            },
+            {
+                "title": "Игровой хостинг",
+                "imgSrc": "/images/medium/game-hosting.png",
+                "link": "/game-hosting"
+            },
+            {
+                "title": "Хостинг для сайтов",
+                "imgSrc": "/images/medium/site-hosting.png",
+                "link": "/web-hosting"
+            },
+            {
+                "title": "Доменные имена",
+                "imgSrc": "/images/medium/domain-names.png",
+                "link": "/domains"
+            },
+            {
+                "title": "Бекап-хранилище",
+                "imgSrc": "/images/medium/backup-store.png",
+                "link": "/backup-storage"
+            }
+        ],
+        "title": "Наши услуги",
+        "buttonText": "",
+        "buttonLink": ""
+    },
+    "services_additional_block": [
+        {
+            "imgSrc": "/images/icons/transfer-project.svg",
+            "title": "Перенесем Ваш проект!",
+            "description": "Наши сотрудники готовы в любое время бесплатно перенести Ваши данные со старого хостинг-провайдера."
+        },
+        {
+            "imgSrc": "/images/icons/speed-equipment.svg",
+            "title": "Скоростное оборудование",
+            "description": "Премиальные серверы с производительностью для проектов любых потребительских масштабов."
+        },
+        {
+            "imgSrc": "/images/icons/uptime.svg",
+            "title": "Аптайм 99.9%",
+            "description": "Мы используем самое надежное оборудование, чтобы гарантировать бесперебойную работу Вашего бизнеса."
+        },
+        {
+            "imgSrc": "/images/icons/available-prices.svg",
+            "title": "Доступные цены",
+            "description": "Мы ценим Ваш выбор и предлагаем лучшие условия сотрудничества — выгодные тарифы и бонусы для всех!"
+        }
+    ],
+    "domain_block": {
+        "title": "Давай подберем домен",
+        "placeholder": "Название домена",
+        "buttonInputText": "Проверить",
+        "buttons": [
+            {
+                "title": ".su",
+                "price": "7.00€"
+            },
+            {
+                "title": ".com",
+                "price": "24.00€"
+            },
+            {
+                "title": ".net",
+                "price": "29.00€"
+            }
+        ],
+        "buttonMore": "Еще",
+        "priceDescription": "*На срок от 1 года",
+        "mainDescription": "При покупке веб-хостинга* домен в подарок!",
+        "imgSrc": "/images/banners/astronaut.png"
+    },
+    "advantages_block": {
+        "title": "Преимущества SpaceCore",
+        "advantages": [
+            {
+                "title": "Репутация компании",
+                "imgSrc": "/images/icons/reputation.svg",
+                "description": "С 2018 года мы обслуживаем сотни клиентов и получаем множество положительных отзывов и благодарностей!"
+            },
+            {
+                "title": "Надежные дата-центры",
+                "imgSrc": "/images/icons/reliability.svg",
+                "description": "Оборудование размещается в лучших дата-центрах высокого уровня надёжности по всей галактике!"
+            },
+            {
+                "title": "Современный интерфейс",
+                "imgSrc": "/images/icons/modern.svg",
+                "description": "Популярные и удобные панели управления для всех услуг. Интуитивно понятное взаимодействие."
+            },
+            {
+                "title": "Профессиональная поддержка",
+                "imgSrc": "/images/icons/professionals.svg",
+                "description": "Скоростные и теплые ответы от наших сотрудников в любое время суток без выходных!"
+            },
+            {
+                "title": "Устойвчивые накопители",
+                "imgSrc": "/images/icons/reservs.svg",
+                "description": "Сверхнадежные хранилища с RAID 0. Спите спокойно, Ваши данные в целости и сохранности!"
+            },
+            {
+                "title": "Защита от DDoS",
+                "imgSrc": "/images/icons/ddos-defense.svg",
+                "description": "Качественная круглосуточная защита Вашего бизнеса. Автоматическое отражение всех видов атак мощностью до 2Тбит/с."
+            }
+        ]
+    },
+    "clients_block": {
+        "title": "Довольные клиенты",
+        "clientsNumber": 300,
+        "clientsDescription": "оставили свои отзывы о хостинге SpaceCore. Они помогают нам расти и повышать уровень предоставления услуг.",
+        "imgSrc": "/images/banners/austronaut-run.png",
+        "buttonText": "Читать все отзывы",
+        "buttonLink": "/reviews"
+    },
+    "actual_news_block": {
+        "title": "Актуальные новости",
+        "buttonText": "Все новости",
+        "buttonLink": "/news"
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Онлайн-чат поддержки",
+        "description": "Есть вопросы? Пишите нам в чат! Поддержка 24/7",
+        "buttonText": "Открыть чат"
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "main_block": {
+        "imgSrc": "/images/banners/ddos-protection.png",
+        "title": "DDoS Protection",
+        "description": "Reliable optional DDoS attack protection for your project. Professional solution against malicious activities."
+    },
+    "faq_block": {
+        "title": "Frequently Asked Questions",
+        "faqItems": [
+            {
+                "question": "How does DDoS attack protection work?",
+                "answerTitle": "How does DDoS attack protection work?",
+                "answerDescription": "All incoming traffic passes through StormWall equipment, which performs complete packet filtering and then forwards it to your server. This may increase latency to some services, but in some cases, it might even decrease it, as the network has direct peering with providers like Google, Microsoft, Akamai."
+            },
+            {
+                "question": "What is the cost of DDoS attack protection?",
+                "answerTitle": "What is the cost of DDoS attack protection?",
+                "answerDescription": "The cost is calculated individually for all plans. To get the details, you should create a request in your personal account support."
+            },
+            {
+                "question": "Are there any traffic limitations with active protection?",
+                "answerTitle": "Are there any traffic limitations with active protection?",
+                "answerDescription": "By default, active protection provides a bandwidth of 100 Mbps. We offer the option to purchase a dedicated channel with the required speed."
+            },
+            {
+                "question": "How quickly is protection activated during an attack?",
+                "answerTitle": "How quickly is protection activated during an attack?",
+                "answerDescription": "Protection is active 24/7 and filters all incoming traffic. This reduces the chances of malicious actors causing harm to your project."
+            },
+            {
+                "question": "How to protect my website?",
+                "answerTitle": "How to protect my website?",
+                "answerDescription": "For web services, a separate type of StormWall protection is available, which is customized based on the expected website traffic. For clarification, you should contact our support."
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Under Attack?",
+        "description": "Contact us anytime. Our specialists will provide you with consultation.",
+        "buttonText": "Open Chat"
+    },
+    "services_description": [
+        {
+            "imgSrc": "/images/icons/ddos-filters.svg",
+            "title": "Filtering all types of DDoS attacks",
+            "description": "By default, filtering is performed at L3-L4 OSI levels. Upon request, we provide protection for web services (L7)."
+        },
+        {
+            "imgSrc": "/images/icons/custom-protection.svg",
+            "title": "Creating custom protection rules",
+            "description": "Default protection rules are active for popular services. Custom rule development is available upon request at no extra cost."
+        },
+        {
+            "imgSrc": "/images/icons/option-connect.svg",
+            "title": "Optional connection for services",
+            "description": "This type of protection is optional and intended for large projects. You can inquire about the possibility of connection through our support."
+        },
+        {
+            "imgSrc": "/images/icons/high-filter-power.svg",
+            "title": "Filtering power up to 3500 Gbps",
+            "description": "The total attack reflection power reaches 3.5 Tbps, allowing us to counter almost any threat."
+        }
+    ],
+    "ddos_protection_banner_block": {
+        "imgSrcLight": "/images/banners/ddos-protection-light.png",
+        "imgSrcDark": "/images/banners/ddos-protection-dark.png"
+    },
+    "providing_services_block": {
+        "title": "Terms of Service Provision",
+        "providingServices": [
+            "Optional connection upon request.",
+            "Available only for SpaceCore or Colocation servers.",
+            "Nothing else is required. Your server will be fully protected against DDoS attacks.",
+            "In some cases, IP address changes may be necessary.",
+            "Continuous monitoring allows round-the-clock protection for your server.",
+            "Expert support from specialists to address any questions."
+        ],
+        "imgSrc": "/images/banners/astronaut.png"
+    }    
+}

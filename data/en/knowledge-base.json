@@ -1,0 +1,8 @@
+{
+    "knowledge_base_block": {
+        "title": "Knowledge Base",
+        "placeholder": "Search the knowledge base",
+        "buttonText": "Find",
+        "nothingFound": "Nothing found"
+    }
+}

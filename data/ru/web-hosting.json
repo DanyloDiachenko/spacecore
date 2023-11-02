@@ -1,0 +1,185 @@
+{
+    "main_block": {
+        "title": "Хостинг для сайта",
+        "description": "Оптимальное решение для блога, сайта-визитки или стартапа.",
+        "imgSrc": "/images/banners/website-hosting.png"
+    },
+    "main_info_block": [
+        {
+            "id": 0,
+            "imgSrc": "/images/banners/control-panel.png",
+            "title": "Панель управления ISPmanager",
+            "description": "Доступны все функции для удобного управления веб-сайтами! Полезная статистика и разнообразие CMS."
+        },
+        {
+            "id": 1,
+            "imgSrc": "/images/banners/rocket.png",
+            "title": "Засекайте 10 секунд!",
+            "description": "Активация веб-хостинга происходит почти моментально. Вы сразу же сможете приступить к работе и начать настройку своего сайта!"
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/banners/bank-coin.png",
+            "title": "Доступно расширение накопителя SSD",
+            "description": "Недостаточно памяти? Не беда, мы поможем улучшить Ваш тариф и расширить доступное место на диске до необходимых значений."
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/banners/shield.png",
+            "title": "Защита от DDoS",
+            "description": "Надежная защита Вашего веб-сайта от DDoS-атак злоумышленников. Можете вздремнуть, а сайт будет работать круглосуточно!"
+        }
+    ],
+    "not_finded_information_block": {
+        "title": "Не нашли то, что искали?",
+        "notFindedInformation": [
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Виртуальные серверы",
+                "price": "От 1.39 €",
+                "link": "/virtual-servers",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/dedicated-servers.svg",
+                "title": "Выделенные серверы",
+                "price": "От 54.99 €",
+                "link": "/dedicated-servers",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Серверы Contabo",
+                "price": "От 8 €",
+                "link": "/cloud-servers",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/game-hosting.svg",
+                "title": "Игровой хостинг",
+                "price": "От 6 €",
+                "link": "/game-hosting",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Бекап-хранилище",
+                "price": "От 0.20 €",
+                "link": "/backup-storage",
+                "term": "мес."
+            },
+            {
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Доменные имена",
+                "price": "От 3 €",
+                "link": "/domains",
+                "term": "год"
+            }
+        ]
+    },
+    "faq_block": {
+        "title": "Ответы на вопросы",
+        "faqItems": [
+            {
+                "question": "Что такое веб-хостинг?",
+                "answerTitle": "Что такое веб-хостинг?",
+                "answerDescription": "Данная услуга позволяет Вам разместить свой веб-сайт на надежной платформе. Главная задача веб-хостинга — поддержка работы веб-сайта на достаточных для этого характеристиках по бюджетной цене."
+            },
+            {
+                "question": "Как я смогу взаимодействовать с приобретенной услугой?",
+                "answerTitle": "Как я смогу взаимодействовать с приобретенной услугой?",
+                "answerDescription": "После активации Вы получите данные от личного кабинета, в котором сможете настроить встроенное программное обеспечение, подключить SSL-сертификаты, почтовые домены и остальное. Также предоставляются данные для полного FTP-доступа, что позволяет загружать файлы на удаленный сервер."
+            },
+            {
+                "question": "Можно ли использовать доменное имя для моего сайта?",
+                "answerTitle": "Можно ли использовать доменное имя для моего сайта?",
+                "answerDescription": "Конечно, вместе с услугой Вы получаете полностью бесплатный поддомен от нашей компании для привязки к сайту. По желанию всегда можно привязать собственное доменное имя."
+            },
+            {
+                "question": "Какое ПО поддерживается на веб-хостинге?",
+                "answerTitle": "Какое ПО поддерживается на веб-хостинге?",
+                "answerDescription": "Взаимодействие происходит через панель управления ISPmanager Lite. <br>Поддерживается Программное обеспечение: <br>* Веб-сервер: Apache ITK/Prefork. Nginx, PHP-FPM, PHP для Apache, Awstats, Webalizer, Logrotate <br>* Почтовый сервер: Exim, Dovecot, Greylisting, OpenDKIM, SpamAssassin, ClamAv, Sieve, AfterLogic, RoundCube <br>* DNS-сервер: Bind/PowerDNS <br>* FTP-сервер: ProFTPD/PureFTP <br>* Базы данных: MySQL, PostgreSQL"
+            },
+            {
+                "question": "Есть ли тестовый период?",
+                "answerTitle": "Есть ли тестовый период?",
+                "answerDescription": "Наша компания предоставляет тестовый период для постоянных, а также корпоративных клиентов."
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/austronaut-lie.png",
+        "title": "Онлайн-чат поддержки",
+        "description": "Есть вопросы? Пишите нам в чат! Поддержка 24/7",
+        "buttonText": "Открыть чат"
+    },
+    "tariffes_block": {
+        "title": "Тарифы",
+        "tariffes": [
+            {
+                "imgSrc": "/images/medium/tariff-start.png",
+                "title": "Старт",
+                "priceSsd": "1.2 €",
+                "priceNvme": "4.5 €",
+                "ssdButtonTitle": "SSD",
+                "nvmeButtonTitle": "NVMe",
+                "diskTitle": "Диск",
+                "disk": "5 GB",
+                "domens": 2,
+                "domensTitle": "Доменов",
+                "mySql": "4 БД",
+                "mySqlTitle": "MySQL",
+                "protection": "L3-L4",
+                "protectionTitle": "Защита",
+                "controlPanel": "ISPManager",
+                "controlPanelTitle": "Панель управления",
+                "logotypes": ["drupal", "wordpress", "joomla", "circus"],
+                "buttonText": "Заказать",
+                "buttonLink": "https://billing.spacecore.pro/billmgr?func=register&redirect=startpage%3Dvhost%26startform%3Dvhost%252Eorder%26pricelist%3D12070%26project%3D2"
+            },
+            {
+                "imgSrc": "/images/medium/tariff-standard.png",
+                "title": "Стандарт",
+                "priceSsd": "2.2 €",
+                "priceNvme": "4.5 €",
+                "ssdButtonTitle": "SSD",
+                "nvmeButtonTitle": "NVMe",
+                "diskTitle": "Диск",
+                "disk": "12 GB",
+                "domens": 5,
+                "domensTitle": "Доменов",
+                "mySql": "8 БД",
+                "mySqlTitle": "MySQL",
+                "protection": "L3-L4",
+                "protectionTitle": "Защита",
+                "controlPanel": "ISPManager",
+                "controlPanelTitle": "Панель управления",
+                "logotypes": ["drupal", "wordpress", "joomla", "circus"],
+                "buttonText": "Заказать",
+                "buttonLink": "https://billing.spacecore.pro/billmgr?func=register&redirect=startpage%3Dvhost%26startform%3Dvhost%252Eorder%26pricelist%3D12070%26project%3D2"
+            },
+            {
+                "imgSrc": "/images/medium/tariff-premium.png",
+                "title": "Премиум",
+                "priceSsd": "3.6 €",
+                "priceNvme": "4.5 €",
+                "ssdButtonTitle": "SSD",
+                "nvmeButtonTitle": "NVMe",
+                "diskTitle": "Диск",
+                "disk": "25 GB",
+                "domens": 15,
+                "domensTitle": "Доменов",
+                "mySql": "20 БД",
+                "mySqlTitle": "MySQL",
+                "protection": "L3-L4",
+                "protectionTitle": "Защита",
+                "controlPanel": "ISPManager",
+                "controlPanelTitle": "Панель управления",
+                "logotypes": ["drupal", "wordpress", "joomla", "circus"],
+                "buttonText": "Заказать",
+                "buttonLink": "https://billing.spacecore.pro/billmgr?func=register&redirect=startpage%3Dvhost%26startform%3Dvhost%252Eorder%26pricelist%3D12070%26project%3D2"
+            }
+        ]
+    }
+}

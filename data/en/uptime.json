@@ -1,0 +1,38 @@
+{
+    "main_block": {
+        "imgSrc": "/images/banners/uptime-robot.png",
+        "title": "Service Status",
+        "description": "Unique monitoring that allows you to check the availability of any SpaceCore services and nodes."
+    },
+    "systems_time_work_block": {
+        "title": "All Services Operational",
+        "titleNotWorks": "Some Services Unavailable",
+        "statusTitle": "Current Status",
+        "lastUpdate": "Last Update",
+        "nextUpdate": "Next Update in",
+        "workTimeTitle": "Uptime",
+        "workTimeTitleAdditional": "last 90 days",
+        "toTopTitle": "Back to Top",
+        "worksTitle": "Operational",
+        "notWorksTitle": "Not Operational",
+        "groups": [
+            {
+                "title": "Our Services",
+                "ids": [788263674, 788263676, 788263678, 787698359, 787615884, 787615904, 787615915, 787615755]
+            },
+            {
+                "title": "NS Servers",
+                "ids": [795057495, 795057497]
+            },
+            {
+                "title": "Nodes",
+                "ids": [788431420, 788431420, 788431420, 793304781, 787615683, 791803674, 787615684, 789338763, 789512142, 791267757, 791267759, 787615692, 787615688, 792529817, 792684315, 792544354, 793304795, 792586439, 792586443, 794537557, 794537557, 794537546, 794537546, 794537553, 787615694, 791803693, 792567376, 794537536, 794862729, 795146126]
+            }
+        ]
+    },
+    "status_update_block": {
+        "title": "Update Status",
+        "titleAdditional": "last 30 days",
+        "updateHistoryTitle": "Status Update History"
+    }
+}
