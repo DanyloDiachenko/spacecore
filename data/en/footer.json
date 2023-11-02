@@ -12,7 +12,7 @@
                     },
                     {
                         "title": "Contabo Servers",
-                        "link": "/cloud-servers"
+                        "link": "/contabo"
                     },
                     {
                         "title": "Dedicated Servers",
@@ -48,10 +48,6 @@
                         "link": "/backup-storage"
                     },
                     {
-                        "title": "Colocation",
-                        "link": "/colocation"
-                    },
-                    {
                         "title": "DDoS Protection",
                         "link": "/ddos-protection"
                     }
@@ -66,19 +62,11 @@
                     },
                     {
                         "title": "How to Order a Service?",
-                        "link": "/knowledge-base/billing/how-to-order-a-vps-vds"
+                        "link": "/knowledge-base/introduction/how-to-order-a-vps-vds/"
                     },
                     {
                         "title": "Contacting Support",
-                        "link": "/knowledge-base/billing/how-to-contact-support"
-                    },
-                    {
-                        "title": "Working with Servers",
-                        "link": "#"
-                    },
-                    {
-                        "title": "Control Panel Overview",
-                        "link": "#"
+                        "link": "/knowledge-base/introduction/how-to-contact-support/"
                     }
                 ]
             },
@@ -90,12 +78,12 @@
                         "link": "/about-company"
                     },
                     {
-                        "title": "Support Service",
-                        "link": "#"
+                        "title": "Documents",
+                        "link": "/documents"
                     },
                     {
-                        "title": "Contact Information",
-                        "link": "#"
+                        "title": "Support Service",
+                        "link": "/knowledge-base/introduction/how-to-contact-support/"
                     }
                 ]
             },
@@ -139,13 +127,11 @@
             }
         ],
         "stayWithNewsTitle": "Stay Informed with the Latest News",
-        "vkLink": "#",
-        "telegramLink": "#",
-        "twitterLink": "#",
-        "habrLink": "#",
-        "IPTitle": "",
-        "INNTitle": "",
-        "OGRNIPTitle": "",
+        "telegramLink": "https://t.me/spacecore_pro",
+        "newsLink": "/news/",
+        "IPTitle": "SPACECORE SOLUTION LTD.",
+        "INNTitle": "71-75 Shelton Street, Covent Garden",
+        "OGRNIPTitle": "London, United Kingdom, WC2H 9JQ",
         "allRightsReserverdTitle": "©2023, SpaceCore.pro. All Rights Reserved.",
         "pays": [
             {
@@ -155,14 +141,6 @@
             {
                 "imgSrc": "/images/icons/mastercard.svg",
                 "alt": "mastercard"
-            },
-            {
-                "imgSrc": "/images/icons/mir.svg",
-                "alt": "mir"
-            },
-            {
-                "imgSrc": "/images/icons/umoney.svg",
-                "alt": "umoney"
             },
             {
                 "imgSrc": "/images/icons/google-pay.svg",
@@ -177,5 +155,5 @@
                 "alt": "samsung-pay"
             }
         ]
-    }    
+    }
 }

@@ -62,8 +62,7 @@ const Footer = (): JSX.Element => {
                             <LinksIcons
                                 vkLink={footer_block.vkLink}
                                 telegramLink={footer_block.telegramLink}
-                                twitterLink={footer_block.twitterLink}
-                                habrLink={footer_block.habrLink}
+                                newsLink={footer_block.newsLink}
                             />
                         </div>
                         <div className="bottom">

@@ -9,7 +9,7 @@ const Language = (): JSX.Element => {
 
     const generateLanguageSelect = (): JSX.Element => {
         useEffect(() => {
-            setLanguages(["ru", "en", "uk"]);
+            setLanguages(["ru", "en", "ua"]);
             router.locale && setActiveLanguage(router.locale);
         }, []);
 

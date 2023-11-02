@@ -7,10 +7,10 @@
         "email": "support@spacecore.pro",
         "emailLink": "mailto:support@spacecore.pro",
         "logintitle": "Войти",
-        "loginLink": "/login",
+        "loginLink": "https://billing.spacecore.pro/",
         "registerTitle": "Регистрация",
-        "registerLink": "/register",
-        "servicesLink":"/uptime",
+        "registerLink": "https://billing.spacecore.pro/billmgr?func=register",
+        "servicesLink": "/uptime",
         "navigation": [
             {
                 "title": "Продукты",
@@ -27,27 +27,22 @@
                             },
                             {
                                 "icon": "/images/icons/germany.svg",
-                                "title": "Германия, Фалькенштайн",
+                                "title": "Германия",
                                 "link": "/virtual-servers?country=de"
                             },
                             {
                                 "icon": "/images/icons/finland.svg",
-                                "title": "Финляндия, Хельсинки",
+                                "title": "Финляндия",
                                 "link": "/virtual-servers?country=fi"
                             },
                             {
                                 "icon": "/images/icons/france.svg",
-                                "title": "Франция, Гравлин",
+                                "title": "Франция",
                                 "link": "/virtual-servers?country=fr"
                             },
                             {
-                                "icon": "/images/icons/russia.svg",
-                                "title": "Россия, Москва",
-                                "link": "/virtual-servers?country=ru"
-                            },
-                            {
-                                "icon": "/images/icons/russia.svg",
-                                "title": "Россия, Санкт-Петербург",
+                                "icon": "/images/icons/pirate.svg",
+                                "title": "Военный корабль...",
                                 "link": "/virtual-servers?country=ru"
                             }
                         ]
@@ -59,12 +54,32 @@
                             {
                                 "icon": "/images/icons/germany.svg",
                                 "title": "Германия",
-                                "link": "/cloud-servers"
+                                "link": "/contabo/?country=de"
                             },
                             {
-                                "icon": "/images/icons/finland.svg",
-                                "title": "Финляндия",
-                                "link": "/cloud-servers"
+                                "icon": "/images/icons/united-kingdom.svg",
+                                "title": "Великобритания",
+                                "link": "/contabo/?country=uk"
+                            },
+                            {
+                                "icon": "/images/icons/usa.svg",
+                                "title": "США",
+                                "link": "/contabo/?country=us"
+                            },
+                            {
+                                "icon": "/images/icons/australia.svg",
+                                "title": "Австралия",
+                                "link": "/contabo/?country=au"
+                            },
+                            {
+                                "icon": "/images/icons/singapur.svg",
+                                "title": "Сингапур",
+                                "link": "/contabo/?country=sg"
+                            },
+                            {
+                                "icon": "/images/icons/japan.svg",
+                                "title": "Япония",
+                                "link": "/contabo/?country=jp"
                             }
                         ]
                     },
@@ -79,17 +94,17 @@
                             },
                             {
                                 "icon": "/images/icons/germany.svg",
-                                "title": "Германия, Фалькенштайн",
+                                "title": "Германия",
                                 "link": "/dedicated-servers?country=de"
                             },
                             {
                                 "icon": "/images/icons/finland.svg",
-                                "title": "Финляндия, Хельсинки",
+                                "title": "Финляндия",
                                 "link": "/dedicated-servers?country=fi"
                             },
                             {
-                                "icon": "/images/icons/russia.svg",
-                                "title": "Россия, Москва",
+                                "icon": "/images/icons/pirate.svg",
+                                "title": "Военный корабль...",
                                 "link": "/dedicated-servers?country=ru"
                             }
                         ]
@@ -105,12 +120,12 @@
                             },
                             {
                                 "icon": "/images/icons/germany.svg",
-                                "title": "Германия, Фалькенштайн",
+                                "title": "Германия",
                                 "link": "/dedicated-servers-no-install?country=de"
                             },
                             {
                                 "icon": "/images/icons/finland.svg",
-                                "title": "Финляндия, Хельсинки",
+                                "title": "Финляндия",
                                 "link": "/dedicated-servers-no-install?country=fi"
                             }
                         ]
@@ -147,27 +162,22 @@
                             },
                             {
                                 "icon": "/images/icons/germany.svg",
-                                "title": "Германия, Фалькенштайн",
+                                "title": "Германия",
                                 "link": "/game-hosting?country=de"
                             },
                             {
                                 "icon": "/images/icons/finland.svg",
-                                "title": "Финляндия, Хельсинки",
+                                "title": "Финляндия",
                                 "link": "/game-hosting?country=fi"
                             },
                             {
                                 "icon": "/images/icons/france.svg",
-                                "title": "Франция, Гравлин",
+                                "title": "Франция",
                                 "link": "/game-hosting?country=fr"
                             },
                             {
-                                "icon": "/images/icons/russia.svg",
-                                "title": "Россия, Москва",
-                                "link": "/game-hosting?country=ru"
-                            },
-                            {
-                                "icon": "/images/icons/russia.svg",
-                                "title": "Россия, Санкт-Петербург",
+                                "icon": "/images/icons/pirate.svg",
+                                "title": "Военный корабль...",
                                 "link": "/game-hosting?country=ru"
                             }
                         ]
@@ -176,87 +186,23 @@
             },
             {
                 "title": "Доп. услуги",
-                "isShort": false,
+                "isShort": true,
                 "leftMenu": [
                     {
-                        "title": "Доменные имена",
-                        "link": "/domains",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".com",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".net",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".org",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".pro",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".biz",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".info",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".space",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".su",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".me",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".ru",
-                                "link": "/domains"
-                            }
-                        ]
+                        "title": "Домены",
+                        "link": "/domains/"
                     },
                     {
                         "title": "DNS-хостинг",
-                        "link": "/dns-hosting",
-                        "additional": [
-                        ]
+                        "link": "/dns-hosting/"
                     },
                     {
-                        "title": "Backup-хранилище",
-                        "link": "/backup-storage",
-                        "additional": [
-                        ]
-                    },
-                    {
-                        "title": "Colocation",
-                        "link": "/colocation",
-                        "additional": [
-                        ]
+                        "title": "Бэкап-хранилище",
+                        "link": "/backup-storage/"
                     },
                     {
                         "title": "Защита от DDoS",
-                        "link": "/ddos-protection",
-                        "additional": [
-                        ]
+                        "link": "/ddos-protection/"
                     }
                 ]
             },
@@ -265,24 +211,24 @@
                 "isShort": true,
                 "leftMenu": [
                     {
-                        "title": "Регистрация",
-                        "link": ""
+                        "title": "База знаний",
+                        "link": "/knowledge-base/"
                     },
                     {
                         "title": "Как заказать услугу?",
-                        "link": ""
+                        "link": "/knowledge-base/introduction/how-to-order-a-vps-vds/"
                     },
                     {
-                        "title": "Обращение в поддержку",
-                        "link": ""
+                        "title": "Ресселеринг",
+                        "link": "/reseller-program/"
                     },
                     {
-                        "title": "Работа с серверами",
-                        "link": ""
+                        "title": "Реферальная программа",
+                        "link": "/referral-program/"
                     },
                     {
-                        "title": "Панель управления",
-                        "link": ""
+                        "title": "Инвесторам",
+                        "link": "/investor-program/"
                     }
                 ]
             },
@@ -291,30 +237,26 @@
                 "isShort": true,
                 "leftMenu": [
                     {
+                        "title": "О компании",
+                        "link": "/about-company/"
+                    },
+                    {
                         "title": "Документы",
-                        "link": "/documents"
+                        "link": "/documents/"
                     },
                     {
                         "title": "Статус сервисов",
-                        "link": "/uptime"
-                    },
-                    {
-                        "title": "Looking Glass",
-                        "link": "/looking-house"
+                        "link": "/uptime/"
                     },
                     {
                         "title": "Бенчмарки",
                         "link": "https://benchmark.spacecore.info/"
-                    },
-                    {
-                        "title": "Авторские статьи",
-                        "link": "/news"
                     }
                 ]
             },
             {
                 "title": "Поддержка",
-                "link": "/support",
+                "link": "/knowledge-base/introduction/how-to-contact-support/",
                 "isShort": true,
                 "leftMenu": []
             }

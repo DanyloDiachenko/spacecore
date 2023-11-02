@@ -1,44 +1,37 @@
 {
     "slider": [
         {
-            "title": "Уникальное предложение!",
-            "description": "Скидки до 50% на выделенные серверы от SpaceCore!",
-            "buttonText": "Купить сервер",
-            "buttonLink": "#",
-            "imageSrc": "/images/banners/servers.png",
-            "discount": "-50%"
+            "title": "Новый веб-сайт",
+            "description": "Мы запустили совершенно новый сайт и предлагаем Вам протестировать его работу. За обнаружение уязвимостей предусмотрена денежная награда.",
+            "imageSrc": "/images/banners/banner-1.webp"
         },
         {
-            "title": "Уникальное предложение!",
-            "description": "Скидки до 50% на выделенные серверы от SpaceCore!",
-            "buttonText": "Купить сервер",
-            "buttonLink": "#",
-            "imageSrc": "/images/banners/servers.png",
-            "discount": "-50%"
+            "title": "Вечные скидки на Intel i9 12900K",
+            "description": "При заказе прямо сейчас Вы получите вечную скидку 50% на весь период действия услуги. Мощные серверы Intel Core i9 с частотой до 5.2GHz для Вас!",
+            "buttonText": "Подробнее",
+            "buttonLink": "/virtual-servers/?country=ru",
+            "imageSrc": "/images/banners/banner-2.webp"
         },
         {
-            "title": "Уникальное предложение!",
-            "description": "Скидки до 50% на выделенные серверы от SpaceCore!",
-            "buttonText": "Купить сервер",
-            "buttonLink": "#",
-            "imageSrc": "/images/banners/servers.png",
-            "discount": "-50%"
+            "title": "Серверы Contabo",
+            "description": "Закажите оригинальное оборудование прямо из дата-центра. Мы являемся официальными партнерами Contabo и гарантируем 100% надежности!",
+            "buttonText": "Подробнее",
+            "buttonLink": "/contabo/",
+            "imageSrc": "/images/banners/banner-3.webp"
         },
         {
-            "title": "Уникальное предложение!",
-            "description": "Скидки до 50% на выделенные серверы от SpaceCore!",
-            "buttonText": "Купить сервер",
-            "buttonLink": "#",
-            "imageSrc": "/images/banners/servers.png",
-            "discount": "-50%"
+            "title": "Скидки за отзывы!",
+            "description": "Напишите отзыв о нашей компании и получите благодарность в виде скидки на новую или существующую услугу.",
+            "buttonText": "Подрбнее",
+            "buttonLink": "/news/discount-for-promocode/",
+            "imageSrc": "/images/banners/banner-4.webp"
         },
         {
-            "title": "Уникальное предложение!",
-            "description": "Скидки до 50% на выделенные серверы от SpaceCore!",
-            "buttonText": "Купить сервер",
-            "buttonLink": "#",
-            "imageSrc": "/images/banners/servers.png",
-            "discount": "-50%"
+            "title": "Заработайте вместе с нами!",
+            "description": "Мы запустили совершенно новый сайт и предлагаем Вам протестировать его работу. За обнаружение уязвимостей предусмотрена денежная награда.",
+            "buttonText": "Прочитать условия",
+            "buttonLink": "/news/referral-and-reseller-programs/",
+            "imageSrc": "/images/banners/banner-5.webp"
         }
     ],
     "about_block": {
@@ -57,7 +50,7 @@
             {
                 "title": "Серверы Contabo",
                 "imgSrc": "/images/medium/cloud-servers.png",
-                "link": "/cloud-servers"
+                "link": "/contabo/"
             },
             {
                 "title": "Выделенные серверы",
@@ -177,7 +170,7 @@
     "clients_block": {
         "title": "Довольные клиенты",
         "clientsNumber": 200,
-        "clientsDescription": "отзывов от клиентов компании SpaceCore. Это помогает нам анализировать пользовательский опыт и улучшать наши сервисы.",
+        "clientsDescription": "отзывов от клиентов компании SpaceCore. Они помогают нам анализировать пользовательский опыт и улучшать наши сервисы.",
         "imgSrc": "/images/banners/austronaut-run.png",
         "buttonText": "Читать все отзывы",
         "buttonLink": "/reviews"

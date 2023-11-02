@@ -80,13 +80,16 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     }
 
     try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/reviews`, {
-            headers: {
-                "Content-Type": "application/json",
-                Authorization:
-                    "Bearer " + process.env.NEXT_PUBLIC_API_AUTH_TOKEN,
+        const res = await fetch(
+            `${process.env.NEXT_PUBLIC_API_URL}/reviews?locale=${context.locale}`,
+            {
+                headers: {
+                    "Content-Type": "application/json",
+                    Authorization:
+                        "Bearer " + process.env.NEXT_PUBLIC_API_AUTH_TOKEN,
+                },
             },
-        });
+        );
 
         const resJson = await res.json();
 

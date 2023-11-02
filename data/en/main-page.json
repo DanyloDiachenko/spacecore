@@ -1,44 +1,37 @@
 {
     "slider": [
         {
-            "title": "Unique Offer!",
-            "description": "Up to 50% off on selected servers from SpaceCore!",
-            "buttonText": "Buy Server",
-            "buttonLink": "#",
-            "imageSrc": "/images/banners/servers.png",
-            "discount": "-50%"
+            "title": "New Website",
+            "description": "We have launched an entirely new website and invite you to test its functionality. A monetary reward is provided for the identification of vulnerabilities.",
+            "imageSrc": "/images/banners/banner-1.webp"
         },
         {
-            "title": "Unique Offer!",
-            "description": "Up to 50% off on selected servers from SpaceCore!",
-            "buttonText": "Buy Server",
-            "buttonLink": "#",
-            "imageSrc": "/images/banners/servers.png",
-            "discount": "-50%"
+            "title": "Eternal Discounts on Intel i9 12900K",
+            "description": "Order now and receive a permanent 50% discount for the entire duration of the service. Powerful Intel Core i9 servers with speeds up to 5.2GHz just for you!",
+            "buttonText": "Learn More",
+            "buttonLink": "/virtual-servers/?country=ru",
+            "imageSrc": "/images/banners/banner-2.webp"
         },
         {
-            "title": "Unique Offer!",
-            "description": "Up to 50% off on selected servers from SpaceCore!",
-            "buttonText": "Buy Server",
-            "buttonLink": "#",
-            "imageSrc": "/images/banners/servers.png",
-            "discount": "-50%"
+            "title": "Contabo Servers",
+            "description": "Order original equipment directly from the data center. As official partners of Contabo, we guarantee 100% reliability.",
+            "buttonText": "Learn More",
+            "buttonLink": "/contabo/",
+            "imageSrc": "/images/banners/banner-3.webp"
         },
         {
-            "title": "Unique Offer!",
-            "description": "Up to 50% off on selected servers from SpaceCore!",
-            "buttonText": "Buy Server",
-            "buttonLink": "#",
-            "imageSrc": "/images/banners/servers.png",
-            "discount": "-50%"
+            "title": "Discounts for Reviews",
+            "description": "Write a review about our company and receive a token of our appreciation in the form of a discount on new or existing services.",
+            "buttonText": "Learn More",
+            "buttonLink": "/news/discount-for-promocode/",
+            "imageSrc": "/images/banners/banner-4.webp"
         },
         {
-            "title": "Unique Offer!",
-            "description": "Up to 50% off on selected servers from SpaceCore!",
-            "buttonText": "Buy Server",
-            "buttonLink": "#",
-            "imageSrc": "/images/banners/servers.png",
-            "discount": "-50%"
+            "title": "Earn With Us",
+            "description": "Become our partners for a steady income stream. Whether reselling or a referral program, the choice is yours.",
+            "buttonText": "Read Terms",
+            "buttonLink": "/news/referral-and-reseller-programs/",
+            "imageSrc": "/images/banners/banner-5.webp"
         }
     ],
     "about_block": {

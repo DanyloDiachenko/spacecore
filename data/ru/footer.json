@@ -12,7 +12,7 @@
                     },
                     {
                         "title": "Серверы Contabo",
-                        "link": "/cloud-servers"
+                        "link": "/contabo"
                     },
                     {
                         "title": "Выделенные серверы",
@@ -48,10 +48,6 @@
                         "link": "/backup-storage"
                     },
                     {
-                        "title": "Colocation",
-                        "link": "/colocation"
-                    },
-                    {
                         "title": "Защита от DDoS",
                         "link": "/ddos-protection"
                     }
@@ -66,19 +62,11 @@
                     },
                     {
                         "title": "Как заказать услугу?",
-                        "link": "/knowledge-base/billing/how-to-order-a-vps-vds"
+                        "link": "/knowledge-base/introduction/how-to-order-a-vps-vds/"
                     },
                     {
                         "title": "Обращение в поддержку",
-                        "link": "/knowledge-base/billing/how-to-contact-support"
-                    },
-                    {
-                        "title": "Работа с сервером",
-                        "link": "#"
-                    },
-                    {
-                        "title": "Обзор панели управления",
-                        "link": "#"
+                        "link": "/knowledge-base/introduction/how-to-contact-support/"
                     }
                 ]
             },
@@ -90,12 +78,12 @@
                         "link": "/about-company"
                     },
                     {
-                        "title": "Служба поддержки",
-                        "link": "#"
+                        "title": "Документы",
+                        "link": "/documents"
                     },
                     {
-                        "title": "Контакты",
-                        "link": "#"
+                        "title": "Служба поддержки",
+                        "link": "/knowledge-base/introduction/how-to-contact-support/"
                     }
                 ]
             },
@@ -139,13 +127,12 @@
             }
         ],
         "stayWithNewsTitle": "Будьте в курсе всех новостей",
-        "vkLink": "#",
-        "telegramLink": "#",
-        "twitterLink": "#",
-        "habrLink": "#",
-        "IPTitle": "",
-        "INNTitle": "",
-        "OGRNIPTitle": "",
+        "vkLink": "https://vk.com/spacecore.pro",
+        "telegramLink": "https://t.me/spacecore_pro",
+        "newsLink": "/news/",
+        "IPTitle": "SPACECORE SOLUTION LTD.",
+        "INNTitle": "71-75 Shelton Street, Covent Garden",
+        "OGRNIPTitle": "London, United Kingdom, WC2H 9JQ",
         "allRightsReserverdTitle": "©2023, SpaceCore.pro. Все права защищены.",
         "pays": [
             {

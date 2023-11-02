@@ -32,7 +32,7 @@ const formatDate = (dateString: string): string => {
             "ноя.",
             "дек.",
         ],
-        uk: [
+        ua: [
             "січ.",
             "лют.",
             "бер.",

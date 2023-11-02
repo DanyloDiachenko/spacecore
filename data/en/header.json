@@ -7,9 +7,9 @@
         "email": "support@spacecore.pro",
         "emailLink": "mailto:support@spacecore.pro",
         "logintitle": "Log In",
-        "loginLink": "/login",
+        "loginLink": "https://billing.spacecore.pro/",
         "registerTitle": "Register",
-        "registerLink": "/register",
+        "registerLink": "https://billing.spacecore.pro/billmgr?func=register",
         "servicesLink": "/uptime",
         "navigation": [
             {
