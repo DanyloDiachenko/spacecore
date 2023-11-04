@@ -15,7 +15,7 @@
         {
             "imgSrc": "/images/icons/ddos-filters.svg",
             "title": "British Quality",
-            "description": "Our company is registered in the United Kingdom. We guarantee absence of external sanctions for your services!"
+            "description": "Our company is registered in the United Kingdom. We guarantee the quality of our services."
         },
         {
             "imgSrc": "/images/icons/unlimited-growth.svg",
@@ -32,7 +32,7 @@
             "title": "Incredibly Low Prices",
             "description": "SpaceCore is one of the cost leaders among hosting providers. It's simple and affordable!"
         }
-    ],    
+    ],
     "services_block": {
         "title": "Our Services",
         "services": [
@@ -83,5 +83,5 @@
     "interesting_facts_block": {
         "title": "SpaceCore: Beyond the Horizon",
         "description": "Founded in 2018, SpaceCore is committed to providing truly high-quality services at affordable prices. We value the opinion of every client and look towards the future with enthusiasm to make our services as simple and efficient as possible!"
-    } 
+    }
 }
