@@ -386,21 +386,6 @@ const strings: IString = {
         ua: "Компанія",
         en: "Company",
     },
-    "Как мы сэкономили 3 млн рублей в год, заменив Slack на Rocket.Chat": {
-        ru: "Как мы сэкономили 3 млн рублей в год, заменив Slack на Rocket.Chat",
-        ua: "Як ми заощадили 3 млн рублів на рік, замінивши Slack на Rocket.Chat",
-        en: "How we saved 3 million rubles a year by replacing Slack with Rocket.Chat",
-    },
-    "Вместо Netflix: подборка полезных и интересных роликов с YouTube": {
-        ru: "Вместо Netflix: подборка полезных и интересных роликов с YouTube",
-        ua: "Замість Netflix: добірка корисних та цікавих роликів з YouTube",
-        en: "Instead of Netflix: a selection of useful and interesting videos from YouTube",
-    },
-    "Spacecore развернул 100 виртуальных машин для олимпиады": {
-        ru: "Spacecore развернул 100 виртуальных машин для олимпиады",
-        ua: "Spacecore розгорнув 100 віртуальних машин для олімпіади",
-        en: "Spacecore deployed 100 virtual machines for the Olympics",
-    },
     "Онлайн-чат поддержки": {
         ru: "Онлайн-чат поддержки",
         ua: "Онлайн-чат підтримки",
@@ -1475,12 +1460,6 @@ const strings: IString = {
             ru: "Подключим защиту в течение 1 часа. До 24 часов уйдёт на обновление доменных записей из-за смены IP. До 1 часа на настройку защиты на 7 уровне для каждого домена",
             ua: "Підключимо захист протягом 1 години. До 24 годин відбувається оновлення доменних записів із-за зміни IP. До 1 години на налаштування захисту на 7 рівнях для кожного домену",
             en: "We will connect the protection within 1 hour. It will take up to 24 hours to update the domain records due to the IP change. Up to 1 hour to configure protection at level 7 for each domain",
-        },
-    "Отключение и повторное подключение DDoS-защиты выполняется платно и стоит 650 рублей":
-        {
-            ru: "Отключение и повторное подключение DDoS-защиты выполняется платно и стоит 650 рублей",
-            ua: "Відключення та повторне підключення DDoS-захисту виконується платно і коштує 650 рублів",
-            en: "Disabling and reconnecting DDoS protection is paid and costs 650 rubles",
         },
     "Условия предоставления": {
         ru: "Условия предоставления",

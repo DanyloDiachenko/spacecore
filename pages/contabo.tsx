@@ -32,7 +32,7 @@ export default CloudServersPage;
 export const getServerSideProps: GetServerSideProps = async (context) => {
     const content = require(`data/${
         context.locale === "default" ? "ru" : context.locale
-    }/cloud-servers.json`);
+    }/contabo.json`);
 
     return {
         props: {

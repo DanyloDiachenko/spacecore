@@ -15,5 +15,9 @@ export default interface TariffesCpuProps {
             antiDdosTitle: string;
             buttonText: string;
         };
+        countries: {
+            title: string;
+            code: string;
+        }[];
     };
 }

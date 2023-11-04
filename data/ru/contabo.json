@@ -1,7 +1,7 @@
 {
     "main_block": {
         "title": "Contabo VPS",
-        "description": "Мы — надежный поставщик официальных серверов Contabo. Но, в свою очередь, мы не требуем документов и принимаем оплату в криптовалюте и рублях.",
+        "description": "Мы — надежный поставщик официальных серверов Contabo. Но, в свою очередь, мы принимаем оплату в криптовалюте.",
         "imgSrc": "/images/banners/cloud-servers.png"
     },
     "tariffes_cpu_block": {
@@ -19,38 +19,68 @@
             "coreTitle": "Процессор",
             "antiDdosTitle": "Anti-DDoS",
             "buttonText": "Заказать"
-        }
+        },
+        "countries": [
+            {
+                "title": "Germany",
+                "code": "de"
+            },
+            {
+                "title": "Великобритания",
+                "code": "uk"
+            },
+            {
+                "title": "США",
+                "code": "us"
+            },
+            {
+                "title": "Австралия",
+                "code": "au"
+            },
+            {
+                "title": "Сингапур",
+                "code": "sg"
+            },
+            {
+                "title": "Япония",
+                "code": "jp"
+            }
+        ]
     },
-
     "tariffes_filters_block": {
         "title": "Тарифные планы",
         "countries": {
             "title": "Локация",
             "countries": [
                 {
-                    "imgSrc": "/images/icons/all-countries.svg",
-                    "title": "Любая",
-                    "key": "any"
-                },
-                {
-                    "imgSrc": "/images/icons/russia.svg",
-                    "title": "Россия",
-                    "key": "ru"
-                },
-                {
-                    "imgSrc": "/images/icons/france.svg",
-                    "title": "Франция",
-                    "key": "fr"
-                },
-                {
                     "imgSrc": "/images/icons/germany.svg",
                     "title": "Германия",
                     "key": "de"
                 },
                 {
-                    "imgSrc": "/images/icons/finland.svg",
-                    "title": "Финляндия",
-                    "key": "fi"
+                    "imgSrc": "/images/icons/united-kingdom.svg",
+                    "title": "Великобритания",
+                    "key": "uk"
+                },
+                {
+                    "title": "США",
+                    "imgSrc": "/images/icons/usa.svg",
+                    "key": "us"
+                },
+                {
+                    "title": "Австралия",
+                    "imgSrc": "/images/icons/australia.svg",
+                    "key": "au"
+                },
+                {
+                    "title": "Сингапур",
+                    "imgSrc": "/images/icons/singapur.svg",
+                    "key": "sg"
+                },
+                {
+                    "title": "Япония",
+                    "imgSrc": "/images/icons/japan.svg",
+                    "key": "jp"
                 }
             ]
         }
@@ -75,7 +105,7 @@
                 "description": "7"
             },
             {
-                "imgSrc": "/images/icons/cent.svg",
+                "imgSrc": "/images/icons/alma.svg",
                 "title": "AlmaLinux",
                 "description": "9, 8"
             }
@@ -84,25 +114,25 @@
     "main_info_block": [
         {
             "id": 0,
-            "imgSrc": "/images/banners/control-panel.png",
+            "imgSrc": "/images/banners/contabo-server.png",
             "title": "Оригинальные серверы Contabo",
-            "description": "Оборудование не имеет отличий от того, которое Вы могли бы приобрести на главном сайте Contabo. Заказывать через нас на 100% безопасно!"
+            "description": "Оборудование не имеет отличий от того, которое Вы могли бы приобрести на главном сайте Contabo. Заказывать через SpaceCore на 100% безопасно!"
         },
         {
             "id": 1,
-            "imgSrc": "/images/banners/rocket.png",
-            "title": "Прием криптовалюты и рублей",
-            "description": "Вы можете производить оплату в криптовалюте или рублях на постоянной основе. Мы принимаем оплату из любой страны!"
+            "imgSrc": "/images/banners/crypto-money.png",
+            "title": "Прием криптовалюты",
+            "description": "Вы можете производить оплату в криптовалюте на постоянной основе. Мы принимаем оплату из любой страны!"
         },
         {
             "id": 2,
-            "imgSrc": "/images/banners/shield.png",
-            "title": "Не требуем документов",
-            "description": "Заказ серверов доступен полностью анонимно. В отличие от Contabo, мы не запрашиваем абсолютно никаких личных документов."
+            "imgSrc": "/images/banners/security.png",
+            "title": "Полная децентрализация",
+            "description": "Мы работаем с пользователями из любых стран, не беря во внимание никакие гео-факторы. Вы можете заказать сервер из любой точки мира, где есть интернет!"
         },
         {
             "id": 3,
-            "imgSrc": "/images/banners/bank-coin.png",
+            "imgSrc": "/images/banners/low_price.png",
             "title": "Самые низкие цены на рынке",
             "description": "Наши расценки на услуги практически соответствуют тем, которые действуют на Contabo. Не переплачивая, Вы получаете дополнительные преимущества."
         }
@@ -121,7 +151,7 @@
                 "imgSrc": "/images/icons/dedicated-servers.svg",
                 "title": "Выделенные серверы",
                 "price": "От 54.99 €",
-                "link": "/dedicated-servers-no-install",
+                "link": "/dedicated-servers",
                 "term": "мес."
             },
             {
@@ -180,7 +210,7 @@
             {
                 "question": "Какие методы оплаты Вы принимаете?",
                 "answerTitle": "Какие методы оплаты Вы принимаете?",
-                "answerDescription": "Данные тарифы можно оплатить точно так же, как и другие наши серверы. Мы принимаем криптовалюту, любые российские и международные банковские карты. Если Вы не найдете подходящего метода оплаты, наши сотрудники смогут предложить альтернативные способы специально для Вас."
+                "answerDescription": "Данные тарифы можно оплатить точно так же, как и другие наши серверы. Мы принимаем криптовалюту и международные банковские карты. Если Вы не найдете подходящего метода оплаты, наши сотрудники смогут предложить альтернативные способы специально для Вас."
             },
             {
                 "question": "Если цены такие же, как на Contabo, в чем выгода для Вас?",

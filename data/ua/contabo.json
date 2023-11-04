@@ -1,0 +1,229 @@
+{
+    "main_block": {
+        "title": "Contabo VPS",
+        "description": "Ми — надійний постачальник офіційних серверів Contabo. Але, водночас, ми приймаємо оплату криптовалютою.",
+        "imgSrc": "/images/banners/cloud-servers.png"
+    },
+    "tariffes_cpu_block": {
+        "title": "Тарифні плани",
+        "standardVcpuText": "Стандартний vCPU",
+        "dedicatedVcpuText": "Виділений vCPU",
+        "ipVersion4Text": "IPv4",
+        "ipVersion6Text": "IPv6",
+        "tariffTitles": {
+            "diskTitle": "Диск",
+            "coresTitle": "Ядра",
+            "ramTitle": "ОЗП",
+            "channelTitle": "Канал",
+            "locationTitle": "Локація",
+            "coreTitle": "Процесор",
+            "antiDdosTitle": "Anti-DDoS",
+            "buttonText": "Замовити"
+        },
+        "countries": [
+            {
+                "title": "Німеччина",
+                "code": "de"
+            },
+            {
+                "title": "Великобританія",
+                "code": "uk"
+            },
+            {
+                "title": "США",
+                "code": "us"
+            },
+            {
+                "title": "Австралія",
+                "code": "au"
+            },
+            {
+                "title": "Сінгапур",
+                "code": "sg"
+            },
+            {
+                "title": "Японія",
+                "code": "jp"
+            }
+        ]
+    },
+    "tariffes_filters_block": {
+        "title": "Тарифні плани",
+        "countries": {
+            "title": "Локація",
+            "countries": [
+                {
+                    "imgSrc": "/images/icons/germany.svg",
+                    "title": "Німеччина",
+                    "key": "de"
+                },
+                {
+                    "imgSrc": "/images/icons/united-kingdom.svg",
+                    "title": "Велика Британія",
+                    "key": "uk"
+                },
+                {
+                    "title": "США",
+                    "imgSrc": "/images/icons/usa.svg",
+                    "key": "us"
+                },
+                {
+                    "title": "Австралія",
+                    "imgSrc": "/images/icons/australia.svg",
+                    "key": "au"
+                },
+                {
+                    "title": "Сінгапур",
+                    "imgSrc": "/images/icons/singapur.svg",
+                    "key": "sg"
+                },
+                {
+                    "title": "Японія",
+                    "imgSrc": "/images/icons/japan.svg",
+                    "key": "jp"
+                }
+            ]
+        }
+    },
+    "operation_systems_block": {
+        "title": "Доступні операційні системи",
+        "description": "Виберіть одну з актуальних операційних систем. Зверніть увагу, що завантаження користувацьких ISO-образів на сервери Contabo є платною послугою. Вартість сховища для образів становить 2,5 € на місяць.",
+        "operationSystems": [
+            {
+                "imgSrc": "/images/icons/ubuntu.svg",
+                "title": "Ubuntu",
+                "description": "Версії: 22.04, 20.04"
+            },
+            {
+                "imgSrc": "/images/icons/debian.svg",
+                "title": "Debian",
+                "description": "Версії: 12, 11"
+            },
+            {
+                "imgSrc": "/images/icons/cent.svg",
+                "title": "CentOS",
+                "description": "Версія: 7"
+            },
+            {
+                "imgSrc": "/images/icons/alma.svg",
+                "title": "AlmaLinux",
+                "description": "Версії: 9, 8"
+            }
+        ]
+    },
+    "main_info_block": [
+        {
+            "id": 0,
+            "imgSrc": "/images/banners/contabo-server.png",
+            "title": "Оригінальні сервери Contabo",
+            "description": "Обладнання не відрізняється від того, яке ви можете придбати на офіційному сайті Contabo. Замовлення через SpaceCore на 100% безпечне!"
+        },
+        {
+            "id": 1,
+            "imgSrc": "/images/banners/crypto-money.png",
+            "title": "Прийом криптовалюти",
+            "description": "Ви можете проводити оплату в криптовалюті або гривні на постійній основі. Ми приймаємо оплату з будь-якої країни!"
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/banners/security.png",
+            "title": "Повна децентралізація",
+            "description": "Ми працюємо з користувачами з будь-яких країн, не беручи до уваги жодні гео-фактори. Ви можете замовити сервер з будь-якої точки світу, де є інтернет!"
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/banners/low_price.png",
+            "title": "Найнижчі ціни на ринку",
+            "description": "Наші ціни на послуги практично відповідають тим, які діють на Contabo. Не переплачуючи, Ви отримуєте додаткові переваги."
+        }
+    ],
+    "not_finded_information_block": {
+        "title": "Не знайшли те, що шукали?",
+        "notFindedInformation": [
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Віртуальні сервери",
+                "price": "Від 1.39 €",
+                "link": "/dedicated-servers",
+                "term": "міс."
+            },
+            {
+                "imgSrc": "/images/icons/dedicated-servers.svg",
+                "title": "Виділені сервери",
+                "price": "Від 54.99 €",
+                "link": "/dedicated-servers",
+                "term": "міс."
+            },
+            {
+                "imgSrc": "/images/icons/cloud-servers.svg",
+                "title": "Сервери без встановлення",
+                "price": "Від 54.99 €",
+                "link": "/dedicated-servers-no-install",
+                "term": "міс."
+            },
+            {
+                "imgSrc": "/images/icons/game-hosting.svg",
+                "title": "Ігровий хостинг",
+                "price": "Від 6 €",
+                "link": "/game-hosting",
+                "term": "міс."
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Резервне сховище",
+                "price": "Від 0.20 €",
+                "link": "/backup-storage",
+                "term": "міс."
+            },
+            {
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Доменні імена",
+                "price": "Від 3 €",
+                "link": "/domains",
+                "term": "рік"
+            }
+        ]
+    },
+    "faq_block": {
+        "title": "Відповіді на питання",
+        "faqItems": [
+            {
+                "question": "Що це за послуга? На що вона спрямована?",
+                "answerTitle": "Що це за послуга? На що вона спрямована?",
+                "answerDescription": "Ми пропонуємо на продаж віртуальні сервери (VPS) від постачальника Contabo. Наша мета полягає в можливості надати змогу придбати сервери цієї компанії особам, які попали під загальні санкції цього хостингу. З недавнього часу на Contabo недоступна оплата з Росії, а також закрита верифікація за паспортами РФ."
+            },
+            {
+                "question": "Наскільки це безпечно? Які гарантії?",
+                "answerTitle": "Наскільки це безпечно? Які гарантії?",
+                "answerDescription": "Ми гарантуємо, що оформлення серверів через SpaceCore на 100% безпечне, як і при покупці безпосередньо через Contabo. Ми є юридичною особою і закуповуємо всі сервери офіційно. Тому блокування послуг через будь-які санкції абсолютно виключене."
+            },
+            {
+                "question": "Чому ці сервери настільки дешевше за інші?",
+                "answerTitle": "Чому ці сервери настільки дешевше за інші?",
+                "answerDescription": "Contabo самостійно розробляє всі програмне забезпечення для взаємодії зі своїми серверами та обслуговування дата-центрів. Таким чином вдається підтримувати такі низькі ціни на ринку. Тут немає жодних підводних каменів, достатньо спробувати і переконатися самостійно!"
+            },
+            {
+                "question": "Як я зможу управляти сервером після покупки?",
+                "answerTitle": "Як я зможу управляти сервером після покупки?",
+                "answerDescription": "Через SSH/sFTP, як і будь-яким іншим віртуальним сервером на Linux. <br>Єдиним нюансом цих серверів є відсутність панелі керування. Це не так страшно, як може здатися з першого погляду. Будь-які технічні дії можна виконати через запит в підтримку, наші співробітники доступні цілодобово і завжди оперативно перезапустять ваш сервер або перевстановлять ОС за необхідності."
+            },
+            {
+                "question": "Які методи оплати ви приймаєте?",
+                "answerTitle": "Які методи оплати ви приймаєте?",
+                "answerDescription": "Ці тарифи можна оплатити точно так само, як і інші наші сервери. Ми приймаємо криптовалюту, будь-які російські та міжнародні банківські картки. Якщо ви не знайдете підходящого методу оплати, наші співробітники зможуть запропонувати альтернативні способи спеціально для вас."
+            },
+            {
+                "question": "Якщо ціни такі самі, як на Contabo, в чому вигода для вас?",
+                "answerTitle": "Якщо ціни такі самі, як на Contabo, в чому вигода для вас?",
+                "answerDescription": "Дуже доцільне питання! Ми є партнерами Contabo і співпрацюємо на спеціальних умовах, які дозволяють надавати користувачам сервери за такою космічною вартістю."
+            }
+        ]
+    },
+    "support_block": {
+        "type": "chat",
+        "imgSrc": "/images/banners/astronaut-lie.png",
+        "title": "Онлайн-чат підтримки",
+        "description": "Є питання? Пишіть нам в чат! Підтримка 24/7",
+        "buttonText": "Відкрити чат"
+    }
+}

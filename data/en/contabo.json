@@ -1,7 +1,7 @@
 {
     "main_block": {
         "title": "Contabo VPS",
-        "description": "We are a reliable provider of official Contabo servers. However, we don't require documentation and accept payments in cryptocurrency and rubles.",
+        "description": "We are a reliable provider of official Contabo servers. However, we don't require documentation and accept payments in cryptocurrency.",
         "imgSrc": "/images/banners/cloud-servers.png"
     },
     "tariffes_cpu_block": {
@@ -19,7 +19,33 @@
             "coreTitle": "Processor",
             "antiDdosTitle": "Anti-DDoS",
             "buttonText": "Order"
-        }
+        },
+        "countries": [
+            {
+                "title": "Germany",
+                "code": "de"
+            },
+            {
+                "title": "United Kingdom",
+                "code": "uk"
+            },
+            {
+                "title": "USA",
+                "code": "us"
+            },
+            {
+                "title": "Australia",
+                "code": "au"
+            },
+            {
+                "title": "Singapore",
+                "code": "sg"
+            },
+            {
+                "title": "Japan",
+                "code": "jp"
+            }
+        ]
     },
     "tariffes_filters_block": {
         "title": "Tariff Plans",
@@ -27,29 +53,34 @@
             "title": "Location",
             "countries": [
                 {
-                    "imgSrc": "/images/icons/all-countries.svg",
-                    "title": "Any",
-                    "key": "any"
-                },
-                {
-                    "imgSrc": "/images/icons/russia.svg",
-                    "title": "Russia",
-                    "key": "ru"
-                },
-                {
-                    "imgSrc": "/images/icons/france.svg",
-                    "title": "France",
-                    "key": "fr"
-                },
-                {
                     "imgSrc": "/images/icons/germany.svg",
                     "title": "Germany",
                     "key": "de"
                 },
                 {
-                    "imgSrc": "/images/icons/finland.svg",
-                    "title": "Finland",
-                    "key": "fi"
+                    "imgSrc": "/images/icons/united-kingdom.svg",
+                    "title": "United Britain",
+                    "key": "uk"
+                },
+                {
+                    "title": "USA",
+                    "imgSrc": "/images/icons/usa.svg",
+                    "key": "us"
+                },
+                {
+                    "title": "Australia",
+                    "imgSrc": "/images/icons/australia.svg",
+                    "key": "au"
+                },
+                {
+                    "title": "Singapore",
+                    "imgSrc": "/images/icons/singapur.svg",
+                    "key": "sg"
+                },
+                {
+                    "title": "Japan",
+                    "imgSrc": "/images/icons/japan.svg",
+                    "key": "jp"
                 }
             ]
         }
@@ -74,7 +105,7 @@
                 "description": "7"
             },
             {
-                "imgSrc": "/images/icons/cent.svg",
+                "imgSrc": "/images/icons/alma.svg",
                 "title": "AlmaLinux",
                 "description": "9, 8"
             }
@@ -83,25 +114,25 @@
     "main_info_block": [
         {
             "id": 0,
-            "imgSrc": "/images/banners/control-panel.png",
+            "imgSrc": "/images/banners/contabo-server.png",
             "title": "Original Contabo Servers",
             "description": "The equipment is no different from what you could purchase from the main Contabo site. Ordering through us is 100% safe!"
         },
         {
             "id": 1,
-            "imgSrc": "/images/banners/rocket.png",
+            "imgSrc": "/images/banners/crypto-money.png",
             "title": "Cryptocurrency Payments",
             "description": "You can make payments in cryptocurrency on a regular basis. We accept payments from any country!"
         },
         {
             "id": 2,
-            "imgSrc": "/images/banners/shield.png",
+            "imgSrc": "/images/banners/security.png",
             "title": "No Documentation Required",
             "description": "Ordering servers is fully anonymous. Unlike Contabo, we do not require any personal documents."
         },
         {
             "id": 3,
-            "imgSrc": "/images/banners/bank-coin.png",
+            "imgSrc": "/images/banners/low_price.png",
             "title": "Market's Lowest Prices",
             "description": "Our prices for services are nearly identical to those of Contabo. Without overpaying, you get additional benefits."
         }
@@ -179,7 +210,7 @@
             {
                 "question": "What payment methods do you accept?",
                 "answerTitle": "What payment methods do you accept?",
-                "answerDescription": "You can pay for these plans just like our other servers. We accept cryptocurrency, various Russian and international bank cards. If you don't find a suitable payment method, our staff can suggest alternative options specifically for you."
+                "answerDescription": "You can pay for these plans just like our other servers. We accept cryptocurrency and international bank cards. If you don't find a suitable payment method, our staff can suggest alternative options specifically for you."
             },
             {
                 "question": "If the prices are the same as Contabo's, what's the benefit for you?",
@@ -194,5 +225,5 @@
         "title": "Online Support Chat",
         "description": "Have questions? Contact us via chat! 24/7 support available.",
         "buttonText": "Open Chat"
-    }    
+    }
 }

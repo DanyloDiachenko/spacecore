@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import ReactSwitch from "react-switch";
+import { useEffect, useState } from "react";
 
 import Button from "components/UI/Button";
 import Tariff from "../../UI/Tariff";
@@ -8,114 +7,67 @@ import TariffesCpuProps from "./tariffes.Cpuprops";
 import { ITariff } from "components/UI/Tariff/tariff.interface";
 
 const TariffesCpu = ({ tariffesCpuBlock }: TariffesCpuProps): JSX.Element => {
-    const [ipVersion, setIpVersion] =
-        useState<boolean>(false); /* false - ipV4, true - ipV6 */
-    const [cpu, setCpu] = useState<"standard" | "dedicated">("standard");
+    const [activeCountryCode, setActiveCountryCode] = useState<string>(
+        tariffesCpuBlock.countries[0].code,
+    );
     const [tariffes, setTariffes] = useState<ITariff[]>([]);
 
     const router = useRouter();
-    const { pathname } = router;
 
-    const segments = pathname.split("/");
-    const lastPath = segments[segments.length - 1];
-
-    const pagePath = `filters[pagePath][$eq]=${lastPath}`;
-
-    const makeQuery = () => {
-        fetch(
-            `${process.env.NEXT_PUBLIC_API_URL}/tariffes-block-items?sort=orderNumber&pagination[pageSize]=1000&filters[tabKey][$eq]=${cpu}&${pagePath}`,
-            {
-                headers: {
-                    Authorization: `Bearer ${process.env.NEXT_PUBLIC_API_AUTH_TOKEN}`,
+    const makeQuery = (countryCode: string) => {
+        try {
+            fetch(
+                `${process.env.NEXT_PUBLIC_API_URL}/tariffes-block-items?sort=orderNumber&filters[$or][0][language][$containsi]=${router.locale}&filters[$or][1][language][$null]=true&pagination[pageSize]=1000&filters[tabKey][$eq]=${countryCode}&filters[pagePath][$eq]=contabo`,
+                {
+                    headers: {
+                        Authorization: `Bearer ${process.env.NEXT_PUBLIC_API_AUTH_TOKEN}`,
+                    },
                 },
-            },
-        )
-            .then((res) => res.json())
-            .then((data) => {
-                if (ipVersion) {
-                    const tariffes = data.data.map((tariff: any) => {
-                        return {
-                            ...tariff,
-                            attributes: {
-                                ...tariff.attributes,
-                                price: tariff.attributes.ipv6Price
-                                    ? tariff.attributes.price +
-                                      tariff.attributes.ipv6Price
-                                    : tariff.attributes.price,
-                            },
-                        };
-                    });
-                    setTariffes(tariffes);
-                    return;
-                }
-
-                setTariffes(data.data);
-            })
-            .catch((error) => {
-                console.log(error);
-            });
+            )
+                .then((res) => res.json())
+                .then((data) => {
+                    if (data.data) {
+                        setTariffes(data.data);
+                    }
+                    console.log(data);
+                });
+        } catch (error) {
+            console.log(error);
+        }
     };
 
     useEffect(() => {
-        makeQuery();
-    }, [cpu, ipVersion]);
+        if (router.query.country) {
+            setActiveCountryCode(router.query.country as string);
+            makeQuery(router.query.country as string);
+        } else {
+            makeQuery(activeCountryCode);
+        }
+    }, []);
+
+    useEffect(() => {
+        makeQuery(activeCountryCode);
+    }, [activeCountryCode]);
 
     return (
         <section className="tariffes-data mt-12">
             <div className="cloud-servers container">
                 <h2>{tariffesCpuBlock.title}</h2>
-                <div className="filters">
-                    <div className="buttons">
+                <div className="buttons">
+                    {tariffesCpuBlock.countries.map((country, index) => (
                         <Button
-                            onClick={() => setCpu("standard")}
-                            className={cpu !== "standard" ? "btn-inactive" : ""}
+                            onClick={() => setActiveCountryCode(country.code)}
+                            key={index}
                             background="white"
-                        >
-                            <span className="h6">
-                                {tariffesCpuBlock.standardVcpuText}
-                            </span>
-                        </Button>
-                        <Button
-                            onClick={() => setCpu("dedicated")}
                             className={
-                                cpu !== "dedicated" ? "btn-inactive" : ""
+                                country.code === activeCountryCode
+                                    ? "active"
+                                    : ""
                             }
-                            background="white"
                         >
-                            <span className="h6">
-                                {tariffesCpuBlock.dedicatedVcpuText}
-                            </span>
+                            <span className="h6">{country.title}</span>
                         </Button>
-                    </div>
-                    <div className="ip-versions">
-                        <p
-                            className={`version ${
-                                !ipVersion ? "version-active" : ""
-                            }`}
-                        >
-                            {tariffesCpuBlock.ipVersion4Text}
-                        </p>
-                        <ReactSwitch
-                            id="cpu-version-switcher"
-                            uncheckedIcon={false}
-                            checkedIcon={false}
-                            className="switcher"
-                            width={60}
-                            height={40}
-                            onColor="#f3ebfe"
-                            offHandleColor="#8A39F8"
-                            onHandleColor="#8A39F8"
-                            checked={ipVersion}
-                            onChange={() => setIpVersion(!ipVersion)}
-                        />
-                        <p
-                            className={`version ${
-                                ipVersion ? "version-active" : ""
-                            }`}
-                        >
-                            {tariffesCpuBlock.ipVersion6Text}
-                        </p>
-                    </div>
+                    ))}
                 </div>
                 {tariffes.map((tariff, index) => (
                     <Tariff
