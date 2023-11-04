@@ -1,38 +1,42 @@
 {
     "footer_block": {
         "logoImgSrc": "/images/icons/logo.svg",
-        "logotitle": "открываем космос с 2018 года",
+        "logotitle": "відкриваємо космос з 2018 року",
         "footerNavigation": [
             {
-                "title": "Продукты",
+                "title": "Продукти",
                 "additional": [
                     {
-                        "title": "Виртуальные серверы (VDS/VPS)",
+                        "title": "Віртуальні сервери (VDS/VPS)",
                         "link": "/virtual-servers"
                     },
                     {
-                        "title": "Выделенные серверы",
+                        "title": "Сервери Contabo",
+                        "link": "/contabo"
+                    },
+                    {
+                        "title": "Виділені сервери",
                         "link": "/dedicated-servers"
                     },
                     {
-                        "title": "Выделенный серверы (без установки)",
-                        "link": "/dedicated-no-install-servers"
+                        "title": "Виділені сервери (без встановлення)",
+                        "link": "/dedicated-servers-no-install/"
                     },
                     {
                         "title": "Веб-хостинг",
                         "link": "/web-hosting"
                     },
                     {
-                        "title": "Игровой хостинг",
+                        "title": "Ігровий хостинг",
                         "link": "/game-hosting"
                     }
                 ]
             },
             {
-                "title": "Услуги",
+                "title": "Послуги",
                 "additional": [
                     {
-                        "title": "Доменные имена",
+                        "title": "Доменні імена",
                         "link": "/domains"
                     },
                     {
@@ -40,83 +44,71 @@
                         "link": "/dns-hosting"
                     },
                     {
-                        "title": "Backup-хранилище",
+                        "title": "Backup-сховище",
                         "link": "/backup-storage"
                     },
                     {
-                        "title": "Colocation",
-                        "link": "/colocation"
-                    },
-                    {
-                        "title": "Защита от DDoS",
+                        "title": "Захист від DDoS",
                         "link": "/ddos-protection"
                     }
                 ]
             },
             {
-                "title": "Документация",
+                "title": "Документація",
                 "additional": [
                     {
-                        "title": "Регистрация",
-                        "link": "#"
+                        "title": "Реєстрація",
+                        "link": "/knowledge-base/billing/how-to-register"
                     },
                     {
-                        "title": "Как заказать услугу?",
-                        "link": "#"
+                        "title": "Як замовити послугу?",
+                        "link": "/knowledge-base/introduction/how-to-order-a-vps-vds/"
                     },
                     {
-                        "title": "Обращение в поддержку",
-                        "link": "#"
-                    },
-                    {
-                        "title": "Работа с сервером",
-                        "link": "#"
-                    },
-                    {
-                        "title": "Обзор панели управления",
-                        "link": "#"
+                        "title": "Звернення до підтримки",
+                        "link": "/knowledge-base/introduction/how-to-contact-support/"
                     }
                 ]
             },
             {
-                "title": "О компании",
+                "title": "Про компанію",
                 "additional": [
                     {
-                        "title": "О компании",
+                        "title": "Про компанію",
                         "link": "/about-company"
                     },
                     {
-                        "title": "Служба поддержки",
-                        "link": "#"
+                        "title": "Документи",
+                        "link": "/documents"
                     },
                     {
-                        "title": "Контакты",
-                        "link": "#"
+                        "title": "Служба підтримки",
+                        "link": "/knowledge-base/introduction/how-to-contact-support/"
                     }
                 ]
             },
             {
-                "title": "Сотрудничество",
+                "title": "Співпраця",
                 "additional": [
                     {
-                        "title": "Реселлинг (White Label)",
+                        "title": "Реселлінг (White Label)",
                         "link": "/reseller-program"
                     },
                     {
-                        "title": "Реферальная программа",
+                        "title": "Реферальна програма",
                         "link": "/referral-program"
                     },
                     {
-                        "title": "Индивидуальные условия",
+                        "title": "Інвесторам",
                         "link": "/investor-program"
                     }
                 ]
             },
             {
-                "title": "Наши сервисы",
+                "title": "Наші сервіси",
                 "additional": [
                     {
-                        "title": "База знаний",
+                        "title": "База знань",
                         "link": "/knowledge-base"
                     },
                     {
@@ -124,29 +116,23 @@
                         "link": "/uptime"
                     },
                     {
-                        "title": "Looking Glass",
-                        "link": "#"
-                    },
-                    {
                         "title": "Бенчмарки",
-                        "link": "#"
+                        "link": "https://benchmark.spacecore.info/"
                     },
                     {
-                        "title": "Авторские статьи",
-                        "link": "#"
+                        "title": "Авторські статті",
+                        "link": "/news"
                     }
                 ]
             }
         ],
-        "stayWithNewsTitle": "Будьте в курсе всех новостей",
-        "vkLink": "#",
-        "telegramLink": "#",
-        "twitterLink": "#",
-        "habrLink": "#",
-        "IPTitle": "",
-        "INNTitle": "",
-        "OGRNIPTitle": "",
-        "allRightsReserverdTitle": "©2023, SpaceCore.pro. Все права защищены.",
+        "stayWithNewsTitle": "Будьте в курсі всіх новин",
+        "telegramLink": "https://t.me/spacecore_pro",
+        "newsLink": "/news/",
+        "IPTitle": "SPACECORE SOLUTION LTD.",
+        "INNTitle": "71-75 Шелтон-стрит, Ковент-Гарден",
+        "OGRNIPTitle": "Лондон, Велика Британія, WC2H 9JQ",
+        "allRightsReserverdTitle": "©2023, SpaceCore.pro. Усі права захищені.",
         "pays": [
             {
                 "imgSrc": "/images/icons/visa.svg",
@@ -155,14 +141,6 @@
             {
                 "imgSrc": "/images/icons/mastercard.svg",
                 "alt": "mastercard"
-            },
-            {
-                "imgSrc": "/images/icons/mir.svg",
-                "alt": "mir"
-            },
-            {
-                "imgSrc": "/images/icons/umoney.svg",
-                "alt": "umoney"
             },
             {
                 "imgSrc": "/images/icons/google-pay.svg",

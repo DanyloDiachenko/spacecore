@@ -1,925 +1,355 @@
 {
     "header_block": {
         "logoImgSrc": "/images/icons/logo.svg",
-        "logotitle": "открываем космос с 2018 года",
-        "servicesWorkTitle": "Все сервисы работают",
-        "servicesNotWorkTitle": "Часть сервисов не работают",
+        "logotitle": "відкриваємо космос з 2018 року",
+        "servicesWorkTitle": "Всі сервіси працюють",
+        "servicesNotWorkTitle": "Усі сервіси працюють",
         "email": "support@spacecore.pro",
         "emailLink": "mailto:support@spacecore.pro",
-        "logintitle": "Войти",
-        "loginLink": "/login",
-        "registerTitle": "Регистрация",
-        "registerLink": "/register",
+        "logintitle": "Увійти",
+        "loginLink": "https://billing.spacecore.pro/",
+        "registerTitle": "Реєстрація",
+        "registerLink": "https://billing.spacecore.pro/billmgr?func=register",
+        "servicesLink": "/uptime",
         "navigation": [
             {
-                "title": "Продукты",
+                "title": "Продукти",
                 "isShort": false,
                 "leftMenu": [
                     {
-                        "title": "Серверы и вычисления",
-                        "link": "",
+                        "title": "Віртуальні сервери (VDS/VPS)",
+                        "link": "/virtual-servers",
                         "additional": [
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Серверы и вычисления",
-                                "link": "#"
+                                "icon": "/images/icons/all-countries.svg",
+                                "title": "Будь-яка",
+                                "link": "/virtual-servers"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Серверы и вычисления",
-                                "link": "#"
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Німеччина",
+                                "link": "/virtual-servers?country=de"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Серверы и вычисления",
-                                "link": "#"
+                                "icon": "/images/icons/finland.svg",
+                                "title": "Фінляндія",
+                                "link": "/virtual-servers?country=fi"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Серверы и вычисления",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Серверы и вычисления",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Серверы и вычисления",
-                                "link": "#"
+                                "icon": "/images/icons/france.svg",
+                                "title": "Франція",
+                                "link": "/virtual-servers?country=fr"
                             }
                         ]
                     },
                     {
-                        "title": "Хранение и восстановление данных",
-                        "link": "#",
+                        "title": "Сервери Contabo",
+                        "link": "/contabo",
                         "additional": [
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Хранение и восстановление данных",
-                                "link": "#"
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Німеччина",
+                                "link": "/contabo/?country=de"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Хранение и восстановление данных",
-                                "link": "#"
+                                "icon": "/images/icons/united-kingdom.svg",
+                                "title": "Велика Британія",
+                                "link": "/contabo/?country=uk"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Хранение и восстановление данных",
-                                "link": "#"
+                                "icon": "/images/icons/usa.svg",
+                                "title": "США",
+                                "link": "/contabo/?country=us"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Хранение и восстановление данных",
-                                "link": "#"
+                                "icon": "/images/icons/australia.svg",
+                                "title": "Австралія",
+                                "link": "/contabo/?country=au"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Хранение и восстановление данных",
-                                "link": "#"
+                                "icon": "/images/icons/singapur.svg",
+                                "title": "Сінгапур",
+                                "link": "/contabo/?country=sg"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Хранение и восстановление данных",
-                                "link": "#"
+                                "icon": "/images/icons/japan.svg",
+                                "title": "Японія",
+                                "link": "/contabo/?country=jp"
                             }
                         ]
                     },
                     {
-                        "title": "Облако на базе VMware",
-                        "link": "#",
+                        "title": "Виділені сервери",
+                        "link": "/dedicated-servers",
                         "additional": [
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Облако на базе VMware",
-                                "link": "#"
+                                "icon": "/images/icons/all-countries.svg",
+                                "title": "Будь-яка",
+                                "link": "/dedicated-servers"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Облако на базе VMware",
-                                "link": "#"
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Німеччина",
+                                "link": "/dedicated-servers?country=de"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Облако на базе VMware",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Облако на базе VMware",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Облако на базе VMware",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Облако на базе VMware",
-                                "link": "#"
+                                "icon": "/images/icons/finland.svg",
+                                "title": "Фінляндія",
+                                "link": "/dedicated-servers?country=fi"
                             }
                         ]
                     },
                     {
-                        "title": "Размещение оборудования",
-                        "link": "#",
+                        "title": "Сервери без плати за встановлення",
+                        "link": "/dedicated-servers-no-install",
                         "additional": [
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Размещение оборудования",
-                                "link": "#"
+                                "icon": "/images/icons/all-countries.svg",
+                                "title": "Будь-яка",
+                                "link": "/dedicated-servers-no-install"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Размещение оборудования",
-                                "link": "#"
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Німеччина",
+                                "link": "/dedicated-servers-no-install?country=de"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Размещение оборудования",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Размещение оборудования",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Размещение оборудования",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Размещение оборудования",
-                                "link": "#"
+                                "icon": "/images/icons/finland.svg",
+                                "title": "Фінляндія",
+                                "link": "/dedicated-servers-no-install?country=fi"
                             }
                         ]
                     },
                     {
-                        "title": "ML и обработка данных",
-                        "link": "#",
+                        "title": "Веб-хостинг",
+                        "link": "/web-hosting",
                         "additional": [
                             {
                                 "icon": "/images/icons/cloud-icon.svg",
-                                "title": "ML и обработка данных",
-                                "link": "#"
+                                "title": "Старт",
+                                "link": "/web-hosting"
                             },
                             {
                                 "icon": "/images/icons/cloud-icon.svg",
-                                "title": "ML и обработка данных",
-                                "link": "#"
+                                "title": "Стандарт",
+                                "link": "/web-hosting"
                             },
                             {
                                 "icon": "/images/icons/cloud-icon.svg",
-                                "title": "ML и обработка данных",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "ML и обработка данных",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "ML и обработка данных",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "ML и обработка данных",
-                                "link": "#"
+                                "title": "Преміум",
+                                "link": "/web-hosting"
                             }
                         ]
                     },
                     {
-                        "title": "Безопасность и 152-ФЗ",
-                        "link": "#",
+                        "title": "Ігровий хостинг",
+                        "link": "/game-hosting",
                         "additional": [
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Безопасность и 152-ФЗ",
-                                "link": "#"
+                                "icon": "/images/icons/all-countries.svg",
+                                "title": "Будь-яка",
+                                "link": "/game-hosting"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Безопасность и 152-ФЗ",
-                                "link": "#"
+                                "icon": "/images/icons/germany.svg",
+                                "title": "Німеччина",
+                                "link": "/game-hosting?country=de"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Безопасность и 152-ФЗ",
-                                "link": "#"
+                                "icon": "/images/icons/finland.svg",
+                                "title": "Фінляндія",
+                                "link": "/game-hosting?country=fi"
                             },
                             {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Безопасность и 152-ФЗ",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Безопасность и 152-ФЗ",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Безопасность и 152-ФЗ",
-                                "link": "#"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Организация сети",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Организация сети",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Организация сети",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Организация сети",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Организация сети",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Организация сети",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Организация сети",
-                                "link": "#"
+                                "icon": "/images/icons/france.svg",
+                                "title": "Франція",
+                                "link": "/game-hosting?country=fr"
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "Доп. услуги",
-                "isShort": false,
-                "leftMenu": [
-                    {
-                        "title": "Доп.услуги",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Доп.услуги 2",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Доп.услуги 3",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Доп.услуги 4",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Доп.услуги 5",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Доп.услуги 6",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Доп.услуги 7",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Доп.услуги",
-                                "link": "#"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Ресурсы",
+                "title": "Дод. послуги",
                 "isShort": true,
                 "leftMenu": [
                     {
-                        "title": "Ресурсы 1",
-                        "link": "#"
+                        "title": "Домени",
+                        "link": "/domains/"
                     },
                     {
-                        "title": "Ресурсы 2",
-                        "link": "#"
+                        "title": "DNS-хостинг",
+                        "link": "/dns-hosting/"
                     },
                     {
-                        "title": "Ресурсы 3",
-                        "link": "#"
+                        "title": "Бекап-сховище",
+                        "link": "/backup-storage/"
                     },
                     {
-                        "title": "Ресурсы 4",
-                        "link": "#"
-                    },
-                    {
-                        "title": "Ресурсы 5",
-                        "link": "#"
-                    },
-                    {
-                        "title": "Ресурсы 6",
-                        "link": "#"
-                    },
-                    {
-                        "title": "Ресурсы 7",
-                        "link": "#"
+                        "title": "Захист від DDoS",
+                        "link": "/ddos-protection/"
                     }
                 ]
             },
             {
-                "title": "О нас",
+                "title": "Документація",
                 "isShort": true,
                 "leftMenu": [
                     {
-                        "title": "О нас 1",
-                        "link": "#"
+                        "title": "База знань",
+                        "link": "/knowledge-base/"
                     },
                     {
-                        "title": "О нас 2",
-                        "link": "#"
+                        "title": "Як замовити послугу?",
+                        "link": "/knowledge-base/introduction/how-to-order-a-vps-vds/"
                     },
                     {
-                        "title": "О нас 3",
-                        "link": "#"
+                        "title": "Реселінг",
+                        "link": "/reseller-program/"
                     },
                     {
-                        "title": "О нас 4",
-                        "link": "#"
+                        "title": "Реферальна программа",
+                        "link": "/referral-program/"
                     },
                     {
-                        "title": "О нас 5",
-                        "link": "#"
-                    },
-                    {
-                        "title": "О нас 6",
-                        "link": "#"
-                    },
-                    {
-                        "title": "О нас 7",
-                        "link": "#"
+                        "title": "Інвесторам",
+                        "link": "/investor-program/"
                     }
                 ]
             },
             {
-                "title": "Партнёрам",
-                "isShort": false,
+                "title": "Про нас",
+                "isShort": true,
                 "leftMenu": [
                     {
-                        "title": "Партнёрам 1",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            }
-                        ]
+                        "title": "Про компанію",
+                        "link": "/about-company/"
                     },
                     {
-                        "title": "Партнёрам 2",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            }
-                        ]
+                        "title": "Документи",
+                        "link": "/documents/"
                     },
                     {
-                        "title": "Партнёрам 3",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            }
-                        ]
+                        "title": "Статус сервісів",
+                        "link": "/uptime/"
                     },
                     {
-                        "title": "Партнёрам 4",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Партнёрам 5",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Партнёрам 6",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Партнёрам 7",
-                        "link": "#",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            },
-                            {
-                                "icon": "/images/icons/cloud-icon.svg",
-                                "title": "Партнёрам",
-                                "link": "#"
-                            }
-                        ]
+                        "title": "Бенчмарки",
+                        "link": "https://benchmark.spacecore.info/"
                     }
                 ]
             },
             {
-                "title": "Поддержка",
-                "link": "/support",
+                "title": "Підтримка",
+                "link": "/knowledge-base/introduction/how-to-contact-support/",
                 "isShort": true,
                 "leftMenu": []
             }
         ],
         "navigationAdaptive": [
             {
-                "title": "Продукты",
+                "title": "Продукти",
                 "additional": [
                     {
-                        "title": "Виртуальные серверы (VDS/VPS)",
-                        "link": "/vps-servers"
+                        "title": "Віртуальні сервери (VDS/VPS)",
+                        "link": "/virtual-servers"
+                    },
+                    {
+                        "title": "Сервери Contabo",
+                        "link": "/contabo"
+                    },
+                    {
+                        "title": "Виділені сервери",
+                        "link": "/dedicated-servers"
+                    },
+                    {
+                        "title": "Сервери без плати за встановлення",
+                        "link": "/dedicated-servers-no-install"
+                    },
+                    {
+                        "title": "Веб-хостинг",
+                        "link": "/web-hosting"
+                    },
+                    {
+                        "title": "Ігровий хостинг",
+                        "link": "/game-hosting"
                     }
                 ]
             },
             {
-                "title": "Услуги",
-                "link": "/our-services"
-            },
-            {
-                "title": "Документация",
-                "link": "/documents"
-            },
-            {
-                "title": "О компании",
+                "title": "Дод. послуги",
                 "additional": [
                     {
-                        "title": "test 1",
-                        "link": "/test 1"
+                        "title": "Домени",
+                        "link": "/domains"
                     },
                     {
-                        "title": "test 2",
-                        "link": "/test 2"
+                        "title": "DNS-хостинг",
+                        "link": "/dns-hosting"
                     },
                     {
-                        "title": "test 3",
-                        "link": "/test 3"
+                        "title": "Backup-сховище",
+                        "link": "/backup-storage"
                     },
                     {
-                        "title": "test 4",
-                        "link": "/test 4"
+                        "title": "Захист від DDoS",
+                        "link": "/ddos-protection"
                     }
                 ]
             },
             {
-                "title": "Сотрудничество",
+                "title": "Документація",
                 "additional": [
                     {
-                        "title": "Реферальная программа",
-                        "link": "/referral-program"
+                        "title": "База знань",
+                        "link": "/knowledge-base/"
                     },
                     {
-                        "title": "Реселлерская программа",
-                        "link": "/reseller-program"
+                        "title": "Як замовити послугу?",
+                        "link": "/knowledge-base/introduction/how-to-order-a-vps-vds/"
+                    },
+                    {
+                        "title": "Реселінг",
+                        "link": "/reseller-program/"
+                    },
+                    {
+                        "title": "Реферальна программа",
+                        "link": "/referral-program/"
+                    },
+                    {
+                        "title": "Інвесторам",
+                        "link": "/investor-program/"
                     }
                 ]
             },
             {
-                "title": "Наши сервисы",
+                "title": "Про нас",
                 "additional": [
                     {
-                        "title": "База знаний",
-                        "link": "/knowledge-base"
+                        "title": "Про компанію",
+                        "link": "/about-company/"
+                    },
+                    {
+                        "title": "Документи",
+                        "link": "/documents"
+                    },
+                    {
+                        "title": "Статус сервісів",
+                        "link": "/uptime"
+                    },
+                    {
+                        "title": "Looking Glass",
+                        "link": "/looking-house"
+                    },
+                    {
+                        "title": "Бенчмарки",
+                        "link": "https://benchmark.spacecore.info/"
                     }
                 ]
+            },
+            {
+                "title": "Підтримка",
+                "link": "/knowledge-base/introduction/how-to-contact-support/"
             }
         ]
     }

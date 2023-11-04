@@ -1,7 +1,7 @@
 {
     "header_block": {
         "logoImgSrc": "/images/icons/logo.svg",
-        "logotitle": "Charting the stars since 2018",
+        "logotitle": "charting the stars since 2018",
         "servicesWorkTitle": "All services operational",
         "servicesNotWorkTitle": "Some services are currently unavailable",
         "email": "support@spacecore.pro",
@@ -27,44 +27,59 @@
                             },
                             {
                                 "icon": "/images/icons/germany.svg",
-                                "title": "Germany, Falkenstein",
+                                "title": "Germany",
                                 "link": "/virtual-servers?country=de"
                             },
                             {
                                 "icon": "/images/icons/finland.svg",
-                                "title": "Finland, Helsinki",
+                                "title": "Finland",
                                 "link": "/virtual-servers?country=fi"
                             },
                             {
                                 "icon": "/images/icons/france.svg",
-                                "title": "France, Gravelines",
+                                "title": "France",
                                 "link": "/virtual-servers?country=fr"
                             },
                             {
-                                "icon": "/images/icons/russia.svg",
-                                "title": "Russia, Moscow",
-                                "link": "/virtual-servers?country=ru"
-                            },
-                            {
-                                "icon": "/images/icons/russia.svg",
-                                "title": "Russia, Saint Petersburg",
+                                "icon": "/images/icons/pirate.svg",
+                                "title": "Military ship...",
                                 "link": "/virtual-servers?country=ru"
                             }
                         ]
                     },
                     {
                         "title": "Contabo Servers",
-                        "link": "/cloud-servers",
+                        "link": "/contabo",
                         "additional": [
                             {
                                 "icon": "/images/icons/germany.svg",
                                 "title": "Germany",
-                                "link": "/cloud-servers"
+                                "link": "/contabo/?country=de"
                             },
                             {
-                                "icon": "/images/icons/finland.svg",
-                                "title": "Finland",
-                                "link": "/cloud-servers"
+                                "icon": "/images/icons/united-kingdom.svg",
+                                "title": "United Kingdom",
+                                "link": "/contabo/?country=uk"
+                            },
+                            {
+                                "icon": "/images/icons/usa.svg",
+                                "title": "USA",
+                                "link": "/contabo/?country=us"
+                            },
+                            {
+                                "icon": "/images/icons/australia.svg",
+                                "title": "Australia",
+                                "link": "/contabo/?country=au"
+                            },
+                            {
+                                "icon": "/images/icons/singapur.svg",
+                                "title": "Singapore",
+                                "link": "/contabo/?country=sg"
+                            },
+                            {
+                                "icon": "/images/icons/japan.svg",
+                                "title": "Japan",
+                                "link": "/contabo/?country=jp"
                             }
                         ]
                     },
@@ -79,17 +94,17 @@
                             },
                             {
                                 "icon": "/images/icons/germany.svg",
-                                "title": "Germany, Falkenstein",
+                                "title": "Germany",
                                 "link": "/dedicated-servers?country=de"
                             },
                             {
                                 "icon": "/images/icons/finland.svg",
-                                "title": "Finland, Helsinki",
+                                "title": "Finland",
                                 "link": "/dedicated-servers?country=fi"
                             },
                             {
-                                "icon": "/images/icons/russia.svg",
-                                "title": "Russia, Moscow",
+                                "icon": "/images/icons/pirate.svg",
+                                "title": "Military ship...",
                                 "link": "/dedicated-servers?country=ru"
                             }
                         ]
@@ -105,12 +120,12 @@
                             },
                             {
                                 "icon": "/images/icons/germany.svg",
-                                "title": "Germany, Falkenstein",
+                                "title": "Germany",
                                 "link": "/dedicated-servers-no-install?country=de"
                             },
                             {
                                 "icon": "/images/icons/finland.svg",
-                                "title": "Finland, Helsinki",
+                                "title": "Finland",
                                 "link": "/dedicated-servers-no-install?country=fi"
                             }
                         ]
@@ -147,27 +162,22 @@
                             },
                             {
                                 "icon": "/images/icons/germany.svg",
-                                "title": "Germany, Falkenstein",
+                                "title": "Germany",
                                 "link": "/game-hosting?country=de"
                             },
                             {
                                 "icon": "/images/icons/finland.svg",
-                                "title": "Finland, Helsinki",
+                                "title": "Finland",
                                 "link": "/game-hosting?country=fi"
                             },
                             {
                                 "icon": "/images/icons/france.svg",
-                                "title": "France, Gravelines",
+                                "title": "France",
                                 "link": "/game-hosting?country=fr"
                             },
                             {
-                                "icon": "/images/icons/russia.svg",
-                                "title": "Russia, Moscow",
-                                "link": "/game-hosting?country=ru"
-                            },
-                            {
-                                "icon": "/images/icons/russia.svg",
-                                "title": "Russia, Saint Petersburg",
+                                "icon": "/images/icons/pirate.svg",
+                                "title": "Military ship...",
                                 "link": "/game-hosting?country=ru"
                             }
                         ]
@@ -175,84 +185,24 @@
                 ]
             },
             {
-                "title": "Additional Services",
-                "isShort": false,
+                "title": "Additional services",
+                "isShort": true,
                 "leftMenu": [
                     {
-                        "title": "Domain Names",
-                        "link": "/domains",
-                        "additional": [
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".com",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".net",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".org",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".pro",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".biz",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".info",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".space",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".su",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".me",
-                                "link": "/domains"
-                            },
-                            {
-                                "icon": "/images/icons/world.svg",
-                                "title": ".ru",
-                                "link": "/domains"
-                            }
-                        ]
+                        "title": "Domains",
+                        "link": "/domains/"
                     },
                     {
                         "title": "DNS Hosting",
-                        "link": "/dns-hosting",
-                        "additional": []
+                        "link": "/dns-hosting/"
                     },
                     {
                         "title": "Backup Storage",
-                        "link": "/backup-storage",
-                        "additional": []
+                        "link": "/backup-storage/"
                     },
                     {
-                        "title": "Colocation",
-                        "link": "/colocation",
-                        "additional": []
-                    },
-                    {
-                        "title": "DDoS Protection",
-                        "link": "/ddos-protection",
-                        "additional": []
+                        "title": "DDos Protection",
+                        "link": "/ddos-protection/"
                     }
                 ]
             },
@@ -261,24 +211,24 @@
                 "isShort": true,
                 "leftMenu": [
                     {
-                        "title": "Registration",
-                        "link": ""
+                        "title": "Knowledge Base",
+                        "link": "/knowledge-base/"
                     },
                     {
                         "title": "How to Order a Service?",
-                        "link": ""
+                        "link": "/knowledge-base/introduction/how-to-order-a-vps-vds/"
                     },
                     {
-                        "title": "Contact Support",
-                        "link": ""
+                        "title": "Reselling",
+                        "link": "/reseller-program/"
                     },
                     {
-                        "title": "Working with Servers",
-                        "link": ""
+                        "title": "Referral Program",
+                        "link": "/referral-program/"
                     },
                     {
-                        "title": "Control Panel",
-                        "link": ""
+                        "title": "For Investors",
+                        "link": "/investor-program/"
                     }
                 ]
             },
@@ -287,34 +237,30 @@
                 "isShort": true,
                 "leftMenu": [
                     {
+                        "title": "About the Company",
+                        "link": "/about-company/"
+                    },
+                    {
                         "title": "Documents",
-                        "link": "/documents"
+                        "link": "/documents/"
                     },
                     {
                         "title": "Service Status",
-                        "link": "/uptime"
-                    },
-                    {
-                        "title": "Looking Glass",
-                        "link": "/looking-house"
+                        "link": "/uptime/"
                     },
                     {
                         "title": "Benchmarks",
                         "link": "https://benchmark.spacecore.info/"
-                    },
-                    {
-                        "title": "Original Articles",
-                        "link": "/news"
                     }
                 ]
             },
             {
                 "title": "Support",
-                "link": "/support",
+                "link": "/knowledge-base/introduction/how-to-contact-support/",
                 "isShort": true,
                 "leftMenu": []
             }
-        ],        
+        ],
         "navigationAdaptive": [
             {
                 "title": "Products",
@@ -324,11 +270,15 @@
                         "link": "/virtual-servers"
                     },
                     {
+                        "title": "Contabo Servers",
+                        "link": "/contabo"
+                    },
+                    {
                         "title": "Dedicated Servers",
                         "link": "/dedicated-servers"
                     },
                     {
-                        "title": "Servers without Installation Fee",
+                        "title": "Servers without Setup Fee",
                         "link": "/dedicated-servers-no-install"
                     },
                     {
@@ -342,10 +292,10 @@
                 ]
             },
             {
-                "title": "Additional Services",
+                "title": "Additional services",
                 "additional": [
                     {
-                        "title": "Domain Names",
+                        "title": "Domains",
                         "link": "/domains"
                     },
                     {
@@ -357,11 +307,7 @@
                         "link": "/backup-storage"
                     },
                     {
-                        "title": "Colocation",
-                        "link": "/colocation"
-                    },
-                    {
-                        "title": "DDoS Protection",
+                        "title": "DDos Protection",
                         "link": "/ddos-protection"
                     }
                 ]
@@ -370,30 +316,34 @@
                 "title": "Documentation",
                 "additional": [
                     {
-                        "title": "Registration",
-                        "link": ""
+                        "title": "Knowledge Base",
+                        "link": "/knowledge-base/"
                     },
                     {
                         "title": "How to Order a Service?",
-                        "link": ""
+                        "link": "/knowledge-base/introduction/how-to-order-a-vps-vds/"
                     },
                     {
-                        "title": "Contact Support",
-                        "link": ""
+                        "title": "Reselling",
+                        "link": "/reseller-program/"
                     },
                     {
-                        "title": "Working with Servers",
-                        "link": ""
+                        "title": "Referral Program",
+                        "link": "/referral-program/"
                     },
                     {
-                        "title": "Control Panel",
-                        "link": ""
+                        "title": "For Investors",
+                        "link": "/investor-program/"
                     }
                 ]
             },
             {
                 "title": "About Us",
                 "additional": [
+                    {
+                        "title": "About the Company",
+                        "link": "/about-company/"
+                    },
                     {
                         "title": "Documents",
                         "link": "/documents"
@@ -409,17 +359,13 @@
                     {
                         "title": "Benchmarks",
                         "link": "https://benchmark.spacecore.info/"
-                    },
-                    {
-                        "title": "Original Articles",
-                        "link": "/news"
                     }
                 ]
             },
             {
                 "title": "Support",
-                "link": "/our-services"
+                "link": "/knowledge-base/introduction/how-to-contact-support/"
             }
-        ]        
+        ]
     }
 }

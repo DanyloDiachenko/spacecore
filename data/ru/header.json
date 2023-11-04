@@ -49,7 +49,7 @@
                     },
                     {
                         "title": "Серверы Contabo",
-                        "link": "/cloud-servers",
+                        "link": "/contabo",
                         "additional": [
                             {
                                 "icon": "/images/icons/germany.svg",
@@ -270,6 +270,10 @@
                         "link": "/virtual-servers"
                     },
                     {
+                        "title": "Серверы Contabo",
+                        "link": "/contabo"
+                    },
+                    {
                         "title": "Выделенные серверы",
                         "link": "/dedicated-servers"
                     },
@@ -291,7 +295,7 @@
                 "title": "Доп. услуги",
                 "additional": [
                     {
-                        "title": "Доменные имена",
+                        "title": "Домены",
                         "link": "/domains"
                     },
                     {
@@ -303,10 +307,6 @@
                         "link": "/backup-storage"
                     },
                     {
-                        "title": "Colocation",
-                        "link": "/colocation"
-                    },
-                    {
                         "title": "Защита от DDoS",
                         "link": "/ddos-protection"
                     }
@@ -316,30 +316,34 @@
                 "title": "Документация",
                 "additional": [
                     {
-                        "title": "Регистрация",
-                        "link": ""
+                        "title": "База знаний",
+                        "link": "/knowledge-base/"
                     },
                     {
                         "title": "Как заказать услугу?",
-                        "link": ""
+                        "link": "/knowledge-base/introduction/how-to-order-a-vps-vds/"
                     },
                     {
-                        "title": "Обращение в поддержку",
-                        "link": ""
+                        "title": "Ресселлинг",
+                        "link": "/reseller-program/"
                     },
                     {
-                        "title": "Работа с серверами",
-                        "link": ""
+                        "title": "Реферальная программа",
+                        "link": "/referral-program/"
                     },
                     {
-                        "title": "Панель управления",
-                        "link": ""
+                        "title": "Инвесторам",
+                        "link": "/investor-program/"
                     }
                 ]
             },
             {
                 "title": "О нас",
                 "additional": [
+                    {
+                        "title": "О компании",
+                        "link": "/about-company/"
+                    },
                     {
                         "title": "Документы",
                         "link": "/documents"
@@ -355,16 +359,12 @@
                     {
                         "title": "Бенчмарки",
                         "link": "https://benchmark.spacecore.info/"
-                    },
-                    {
-                        "title": "Авторские статьи",
-                        "link": "/news"
                     }
                 ]
             },
             {
                 "title": "Поддержка",
-                "link": "/our-services"
+                "link": "/knowledge-base/introduction/how-to-contact-support/"
             }
         ]
     }
