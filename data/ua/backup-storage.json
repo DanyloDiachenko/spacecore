@@ -1,129 +1,121 @@
 {
     "main_block": {
         "imgSrc": "/images/banners/backup-store.png",
-        "title": "Бэкап хранилище",
-        "description": "Надежное и качественное хранение данных — важный шаг в работе любого бизнеса. Доверьте эту задачу нам!"
+        "title": "Бекап-сховище",
+        "description": "Надійне і якісне зберігання даних - важливий крок в роботі будь-якого бізнесу. Довірте це завдання нам!"
     },
     "main_info_block": [
         {
             "id": 0,
-            "imgSrc": "/images/banners/control-panel.png",
-            "title": "Удобная панель управления",
-            "description": "Интуитивно понятные каждому пользователю инструменты для работы с серверами. Переустановка настройка, мониторинг – все, что нужно!"
+            "imgSrc": "/images/banners/low_price.png",
+            "title": "Це дуже вигідно!",
+            "description": "Платіть тільки за необхідний простір для ваших файлів. Нічого зайвого, тільки вигідні тарифи!"
         },
         {
             "id": 1,
-            "imgSrc": "/images/banners/rocket.png",
-            "title": "Установка тарифов за 90 секунд",
-            "description": "Создание сервера начинается сразу же после оплаты и обычно занимает не более пары минут*. * При условии нахождения тарифа в наличии."
+            "imgSrc": "/images/banners/our_dns.png",
+            "title": "Не менш безпечно",
+            "description": "Усі дані зберігаються в захищеному вигляді на накопичувачах з RAID10. Ми гарантуємо 100% збереження ваших файлів."
         },
         {
             "id": 2,
-            "imgSrc": "/images/banners/bank-coin.png",
-            "title": "Гарантия возврата средств",
-            "description": "Мы дорожим качеством и поэтому без лишних заявлений готовы вернуть Ваши денежные средства в случае возникновения технических проблем на стороне нашего оборудования!"
+            "imgSrc": "/images/banners/domain_transfer.png",
+            "title": "Підлягає масштабуванню",
+            "description": "Платіть тільки за необхідні ресурси. Стало не вистачати пам'яті? Ви можете розширити свій простір з доплатою без переносів!"
         },
         {
             "id": 3,
-            "imgSrc": "/images/banners/shield.png",
-            "title": "Надежность",
-            "description": "Постоянные улучшения систем безопасности и круглосуточная техническая поддержка для оперативного решения любых внезапных неполадок."
+            "imgSrc": "/images/banners/dedicated-panel.png",
+            "title": "А саме головне - просто",
+            "description": "Стандартний sFTP-доступ. Використовуйте будь-яку з найбільш зручних і доступних програм. Наші співробітники завжди готові допомогти вам!"
         }
     ],
     "not_finded_information_block": {
-        "title": "Не нашли то, что искали?",
+        "title": "Не знайшли те, що шукали?",
         "notFindedInformation": [
             {
                 "imgSrc": "/images/icons/dedicated-servers.svg",
-                "title": "Выделенные серверы",
-                "price": "45,00₽",
-                "link": "/dedicated-servers"
-            },
-            {
-                "imgSrc": "/images/icons/website-hosting.svg",
-                "title": "Хостинг для сайтов",
-                "price": "399,00₽",
-                "link": "/hosting-site"
+                "title": "Віртуальні сервери",
+                "price": "Від 1.39 €",
+                "link": "/virtual-servers",
+                "term": "міс."
             },
             {
                 "imgSrc": "/images/icons/cloud-servers.svg",
-                "title": "Cloud-серверы",
-                "price": "259,00₽",
-                "link": "/cloud-servers"
+                "title": "Виділені сервери",
+                "price": "Від 54.99 €",
+                "link": "/dedicated-servers",
+                "term": "міс."
             },
             {
-                "imgSrc": "/images/icons/backup-store.svg",
-                "title": "Бекап-хранилище",
-                "price": "115,00₽",
-                "link": "/backup-storage"
-            },
-            {
-                "imgSrc": "/images/icons/domain-names.svg",
-                "title": "Доменные имена",
-                "price": "55,00₽",
-                "link": "/domain-name"
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Сервери Contabo",
+                "price": "Від 8 €",
+                "link": "/contabo",
+                "term": "міс."
             },
             {
                 "imgSrc": "/images/icons/game-hosting.svg",
-                "title": "Игровой хостинг",
-                "price": "65,00₽",
-                "link": "/game-hosting"
+                "title": "Ігровий хостинг",
+                "price": "Від 6 €",
+                "link": "/game-hosting",
+                "term": "міс."
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Бекап-сховище",
+                "price": "Від 0.20 €",
+                "link": "/backup-storage",
+                "term": "міс."
+            },
+            {
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Доменні імена",
+                "price": "Від 3 €",
+                "link": "/domains",
+                "term": "рік"
             }
         ]
     },
     "faq_block": {
-        "title": "Ответы на вопросы",
+        "title": "Відповіді на питання",
         "faqItems": [
             {
-                "question": "Что такое Виртуальный сервер (VDS/VPS)?",
-                "answerTitle": "Что такое Виртуальный сервер?",
-                "answerDescription": "Virtual Dedicated (Private) Server — виртуальная услуга, которая эмулирует работу реального физического сервера. Мы предоставляем полный root-доступ для каждого сервера, при этом каждый клиент имеет индивидуальное ограниченное пространство, которое никак не взаимодействует с «соседями по серверу», благодаря технологии KVM. Обратите внимание, что мы не классифицируем VDS и VPS как разные услуги. Все наши виртуальные серверы относятся к обеим категориям."
+                "question": "Що таке бекап-сховище?",
+                "answerTitle": "Що таке бекап-сховище?",
+                "answerDescription": "Бекап-сховище - це спеціальне місце для зберігання резервних копій будь-яких даних. Його основна мета - надати можливість відновити ваші дані в разі їх втрати, пошкодження або інших непередб ачених ситуацій. Наше бекап-сховище розташовано на окремих серверах, які не мають ніякого відношення до іншої нашої інфраструктури. Таким чином, ми можемо гарантувати безпеку ваших даних."
             },
             {
-                "question": "Это что-то неизвестное для меня! Как быть?",
-                "answerTitle": "Это что-то неизвестное для меня! Как быть?",
-                "answerDescription": "Это что-то неизвестное для меня! Как быть?"
+                "question": "Чи можливо налаштувати автоматичне резервне копіювання?",
+                "answerTitle": "Чи можливо налаштувати автоматичне резервне копіювання?",
+                "answerDescription": "Так, в нашій базі знань є інструкція з налаштування автоматичного вивантаження даних в бекап-сховище. <a href='https://wiki.spacecore.pro/vds-dedicated/the-backups-auto-upload' target='_blank'>Перейти</a>"
             },
             {
-                "question": "Какие программы доступны на серверах?",
-                "answerTitle": "Какие программы доступны на серверах?",
-                "answerDescription": "Какие программы доступны на серверах?"
-            },
-            {
-                "question": "Сколько IP-адресов я получаю при покупке?",
-                "answerTitle": "Сколько IP-адресов я получаю при покупке?",
-                "answerDescription": "Сколько IP-адресов я получаю при покупке?"
-            },
-            {
-                "question": "Как переустановить ОС?",
-                "answerTitle": "Как переустановить ОС?",
-                "answerDescription": "Как переустановить ОС?"
-            },
-            {
-                "question": "Как увеличить мощность сервера после покупки?",
-                "answerTitle": "Как увеличить мощность сервера после покупки?",
-                "answerDescription": "Как увеличить мощность сервера после покупки?"
+                "question": "Які типи даних можуть бути збережені в бекап-сховище?",
+                "answerTitle": "Які типи даних можуть бути збережені в бекап-сховище?",
+                "answerDescription": "У бекап-сховище доступне завантаження даних будь-якого формату: від фотографій до важких архівів."
             }
         ]
     },
     "support_block": {
         "type": "chat",
         "imgSrc": "/images/banners/austronaut-lie.png",
-        "title": "Онлайн-чат поддержки",
-        "description": "Есть вопросы? Пишите нам в чат! Поддержка 24/7",
-        "buttonText": "Открыть чат"
+        "title": "Онлайн-чат підтримки",
+        "description": "Є питання? Пишіть нам в чат! Підтримка 24/7",
+        "buttonText": "Відкрити чат"
     },
     "configurator_block": {
-        "title": "Конфигуратор ",
+        "title": "Конфігуратор",
         "imgSrc": "/images/icons/backup-storage.svg",
-        "description": "3₽ за каждый доп. GB сохраненного",
-        "volumeTitle": "Объем хранилища",
-        "choosedTitle": "Выбранно хранилище",
-        "choosedAdditionalTitle": "Выбрано",
-        "volumeAdditionaltitle": ", объем хранилища",
+        "description": "Починаючи від 0.20 € /ГБ",
+        "volumeTitle": "Об'єм сховища",
+        "choosedTitle": "Сховище",
+        "choosedAdditionalTitle": "Обрано",
+        "volumeAdditionaltitle": ", об'єм сховища",
         "buttonLink": "#",
-        "buttonText": "Заказать",
-        "minVolume": 250,
-        "maxVolume": 1000
+        "buttonText": "Замовити",
+        "minVolume": 10,
+        "maxVolume": 3500,
+        "pricePerGB": 0.02
     }
 }

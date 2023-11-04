@@ -14,7 +14,7 @@ const Configurator = ({
 }: ConfiguratorProps): JSX.Element => {
     const [storageCapacity, setStorageCapacity] = useState<IMinMax>({
         min: configuratorBlock.minVolume,
-        max: configuratorBlock.maxVolume / 2.5,
+        max: configuratorBlock.minVolume,
     });
     const [storagePrice, setStoragePrice] = useState(storageCapacity.max * 3);
     const [changedValue, setChangedValue] = useState("max");
@@ -120,8 +120,8 @@ const Configurator = ({
                             allowSameValues={true}
                         />
                         <div className="value d-flex justify-content-between">
-                            <p className="min">100 GB</p>
-                            <p className="max">1000 GB</p>
+                            <p className="min">10 GB</p>
+                            <p className="max">3500 GB</p>
                         </div>
                     </div>
                 </div>
