@@ -64,8 +64,8 @@
         }
     ],
     "ddos_protection_banner_block": {
-        "imgSrcLight": "/images/banners/ddos-protection-light.png",
-        "imgSrcDark": "/images/banners/ddos-protection-dark.png"
+        "imgSrcLight": "/images/banners/ddos-protection-light-en.webp",
+        "imgSrcDark": "/images/banners/ddos-protection-dark-en.webp"
     },
     "providing_services_block": {
         "title": "Terms of Service Provision",

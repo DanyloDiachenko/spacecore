@@ -57,9 +57,17 @@
 
             @media (max-width: 991px) {
                 padding: 15px 25px;
+
+                &:hover {
+                    padding: 15px 25px;
+                }
             }
             @media (max-width: 600px) {
                 padding: 10px 20px;
+
+                &:hover {
+                    padding: 10px 20px;
+                }
             }
 
             &.active {
