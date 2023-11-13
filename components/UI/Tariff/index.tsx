@@ -26,7 +26,7 @@ const Tariff = ({
     price,
     instalationPrice,
     discountProcent,
-    discountNumber,
+    /* discountNumber, */
     buttonLink,
     link1month,
     link3month,
@@ -48,6 +48,56 @@ const Tariff = ({
         "/" +
         lastPath +
         ".json");
+
+    const returnPrice = () => {
+        if (period === 1 && discountProcent) {
+            return ((price * period * Number(discountProcent)) / 100).toFixed(
+                2,
+            );
+        }
+        if (period === 3) {
+            return (price * 3 - price * 0.09).toFixed(2);
+        }
+        if (period === 6) {
+            return (price * 6 - price * 0.36).toFixed(2);
+        }
+        if (period === 12) {
+            return (price * 12 - price * 1.44).toFixed(2);
+        }
+
+        return (price * period).toFixed(2);
+    };
+
+    const returnDiscountTitle = () => {
+        if (period === 1) {
+            return discountProcent + "%";
+        }
+        if (period === 3) {
+            return "3%";
+        }
+        if (period === 6) {
+            return "6%";
+        }
+        if (period === 12) {
+            return "12%";
+        }
+
+        return discountProcent + "%";
+    };
+
+    const returnPeriodTitle = () => {
+        if (period === 1) {
+            return "1 месяц";
+        } else if (period === 3) {
+            return "3 месяца";
+        } else if (period === 6) {
+            return "6 месяцев";
+        } else if (period === 12) {
+            return "12 месяцев";
+        }
+
+        return period + " месяцев";
+    };
 
     return (
         <div className="item container-large">
@@ -145,20 +195,21 @@ const Tariff = ({
                 </div>
                 <div className="price">
                     <div className="price-discount">
-                        {discountProcent && (
-                            <div className="discount">
-                                <span className="procent">
-                                    -{discountProcent}%
-                                </span>
-                                <span className="value">€{discountNumber}</span>
-                            </div>
-                        )}
-                        <div className="price-text">
-                            <div className="h3">
+                        <div className="discount">
+                            <span className="procent">
+                                -{returnDiscountTitle()}
+                            </span>
+                            <span className="value">
                                 €{(price * period).toFixed(2)}
-                            </div>
+                            </span>
+                        </div>
+                        <div
+                            className="price-text"
+                            style={{ whiteSpace: "nowrap" }}
+                        >
+                            <div className="h3">€{returnPrice()}</div>
                             <p className="per-month">
-                                / <Trans string="месяц" />
+                                / <Trans string={returnPeriodTitle()} />
                             </p>
                         </div>
 

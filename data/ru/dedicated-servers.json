@@ -15,11 +15,6 @@
                     "key": "any"
                 },
                 {
-                    "imgSrc": "/images/icons/russia.svg",
-                    "title": "Россия",
-                    "key": "ru"
-                },
-                {
                     "imgSrc": "/images/icons/france.svg",
                     "title": "Франция",
                     "key": "fr"
@@ -33,6 +28,11 @@
                     "imgSrc": "/images/icons/finland.svg",
                     "title": "Финляндия",
                     "key": "fi"
+                },
+                {
+                    "imgSrc": "/images/icons/pirate.svg",
+                    "title": "Военный корабль...",
+                    "key": "ru"
                 }
             ]
         },
@@ -56,7 +56,7 @@
                     {
                         "title": "NVME",
                         "key": "nvme"
-                    },                    
+                    },
                     {
                         "title": "SSD",
                         "key": "ssd"
@@ -64,7 +64,7 @@
                     {
                         "title": "HDD",
                         "key": "hdd"
-                    } 
+                    }
                 ]
             }
         ],
