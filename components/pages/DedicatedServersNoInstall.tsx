@@ -98,7 +98,7 @@ const DedicatedServersNoInstall = ({
         if (checkedCountries.length) {
             let queryString = "";
             checkedCountries.map((value, i) => {
-                queryString += `&filters[$or][${i}][countryKey][$containsi]=${value}`;
+                queryString += `&filters[$and][1][$or][${i}][countryKey][$containsi]=${value}`;
             });
             return queryString;
         } else {

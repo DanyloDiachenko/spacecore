@@ -1,7 +1,7 @@
 {
     "main_block": {
-        "title": "Dedicated Servers without Installation",
-        "description": "Full equivalence to regular dedicated servers, now without the installation fee!",
+        "title": "Dedicated servers without Installation",
+        "description": "Full equivalence to regular dedicated servers, but without the need to pay for installation.",
         "imgSrc": "/images/banners/dedicated-servers-no-install.png"
     },
     "tariffes_filters_block": {
@@ -13,11 +13,6 @@
                     "imgSrc": "/images/icons/all-countries.svg",
                     "title": "Any",
                     "key": "any"
-                },
-                {
-                    "imgSrc": "/images/icons/russia.svg",
-                    "title": "Russia",
-                    "key": "ru"
                 },
                 {
                     "imgSrc": "/images/icons/france.svg",
@@ -33,6 +28,11 @@
                     "imgSrc": "/images/icons/finland.svg",
                     "title": "Finland",
                     "key": "fi"
+                },
+                {
+                    "imgSrc": "/images/icons/pirate.svg",
+                    "title": "Military Ship...",
+                    "key": "ru"
                 }
             ]
         },
@@ -69,7 +69,7 @@
             }
         ],
         "ranges": {
-            "priceTitle": "Price",
+            "priceTitle": "Cost",
             "priceMin": 50,
             "priceMax": 350,
             "disksTitle": "Number of Disks",
@@ -117,8 +117,8 @@
         }
     },
     "operation_systems_block": {
-        "title": "Choice of Operating Systems",
-        "description": "Install any up-to-date operating system, including from your ISO image.",
+        "title": "Choose Your Operating System",
+        "description": "Install any up-to-date operating system, including from your own ISO image.",
         "operationSystems": [
             {
                 "imgSrc": "/images/icons/windows.svg",
@@ -145,27 +145,27 @@
     "main_info_block": [
         {
             "id": 0,
-            "imgSrc": "/images/banners/control-panel.png",
-            "title": "Server Control Panel",
-            "description": "Numerous functions for comfortable server management. From reinstallation to configuring network firewalls. *Available on select plans"
+            "imgSrc": "/images/banners/dedicated-panel.png",
+            "title": "Server Management Panel",
+            "description": "Many features for comfortable server operation. From reinstallation to configuring the network firewall. *Available on certain tariffs."
         },
         {
             "id": 1,
-            "imgSrc": "/images/banners/rocket.png",
-            "title": "Multiple Available Locations",
-            "description": "Choose the most suitable location for your server among a dozen popular locations. Minimal ping ensures smoother operation."
+            "imgSrc": "/images/banners/dedicated-locations.png",
+            "title": "Numerous Available Locations",
+            "description": "Choose the most suitable location for your server from popular locations. Minimum ping allows for more comfortable work."
         },
         {
             "id": 2,
             "imgSrc": "/images/banners/bank-coin.png",
             "title": "No Need to Pay for Installation!",
-            "description": "Purchase pre-installed plans. This allows you to save significantly and start using the server faster."
+            "description": "Purchase already installed tariffs. This will allow you to save significantly and start using the server faster."
         },
         {
             "id": 3,
-            "imgSrc": "/images/banners/shield.png",
+            "imgSrc": "/images/banners/antiddos.png",
             "title": "DDoS Protection",
-            "description": "All our locations offer the option to connect DDoS attack protection. Prevent malicious actors from causing harm."
+            "description": "Our locations offer the option to connect DDoS protection. Don't let malicious attackers harm your project."
         }
     ],
     "not_finded_information_block": {
@@ -176,87 +176,87 @@
                 "title": "Virtual Servers",
                 "price": "From 1.39 €",
                 "link": "/virtual-servers",
-                "term": "mo."
+                "term": "month"
             },
             {
                 "imgSrc": "/images/icons/cloud-servers.svg",
                 "title": "Dedicated Servers",
                 "price": "From 54.99 €",
                 "link": "/dedicated-servers",
-                "term": "mo."
+                "term": "month"
             },
             {
                 "imgSrc": "/images/icons/website-hosting.svg",
                 "title": "Contabo Servers",
                 "price": "From 8 €",
                 "link": "/cloud-servers",
-                "term": "mo."
+                "term": "month"
             },
             {
                 "imgSrc": "/images/icons/game-hosting.svg",
                 "title": "Game Hosting",
                 "price": "From 6 €",
                 "link": "/game-hosting",
-                "term": "mo."
+                "term": "month"
             },
             {
                 "imgSrc": "/images/icons/backup-store.svg",
                 "title": "Backup Storage",
                 "price": "From 0.20 €",
                 "link": "/backup-storage",
-                "term": "mo."
+                "term": "month"
             },
             {
                 "imgSrc": "/images/icons/domain-names.svg",
                 "title": "Domain Names",
                 "price": "From 3 €",
                 "link": "/domains",
-                "term": "yr."
+                "term": "year"
             }
         ]
     },
     "faq_block": {
-        "title": "Frequently Asked Questions",
+        "title": "Answers to Your Questions",
         "faqItems": [
             {
-                "question": "What is a 'Server without Installation'?",
-                "answerTitle": "What is a 'Server without Installation'?",
-                "answerDescription": "For ordering any dedicated servers in Germany and Finland, an installation fee is required. As users often have to relinquish their servers for various reasons, we offer you the opportunity to purchase servers for which the installation fee has been paid by other clients. This way, you can save up to 50% on the order cost."
+                "question": "What is a 'server without installation'?",
+                "answerTitle": "What is a 'server without installation'?",
+                "answerDescription": "For ordering any dedicated servers in Germany and Finland, installation payment is required. As you may know, sooner or later, users have to part with their servers for various reasons. We offer you to purchase servers whose installation has been paid by other clients. This way, you get the opportunity to save up to 50% on the order cost."
             },
             {
                 "question": "How does a dedicated server differ from VDS/VPS?",
                 "answerTitle": "How does a dedicated server differ from VDS/VPS?",
-                "answerDescription": "The main difference lies in the fact that a dedicated server is a physical piece of equipment. This hardware is entirely at your disposal, with its resources not shared with anyone else. You have complete control and can use the resources as needed within the established rules. Dedicated servers significantly outperform regular VDS in terms of power and capabilities, making them the logical and justified choice for large-scale projects."
+                "answerDescription": "First and foremost, it is worth noting the difference in services, in that a dedicated server is physical hardware. This is a device whose resources are entirely at your disposal, without sharing with anyone else. You get full power and manage it as you wish within the existing rules. Dedicated servers significantly surpass regular VDS in power and conditions, making them the most logical and justified choice for large-scale projects."
             },
             {
-                "question": "How do I manage a dedicated server?",
-                "answerTitle": "How do I manage a dedicated server?",
-                "answerDescription": "After the service is activated, you receive all the necessary details for working with the server, similar to a virtual server. In some locations, access to a cloud control panel is provided, where you can use functions like automatic OS reinstallation, SystemRescue activation, and many other features."
+                "question": "How to manage a dedicated server?",
+                "answerTitle": "How to manage a dedicated server?",
+                "answerDescription": "After activating the service, the user, similar to a virtual server, receives all the necessary data to work. In some locations, access to the cloud control panel is provided, where you can use features such as automatic OS reinstallation, activate SystemRescue, and many other capabilities."
             },
             {
-                "question": "How long does the installation of a dedicated server take?",
-                "answerTitle": "How long does the installation of a dedicated server take?",
-                "answerDescription": "Different locations have varying timeframes for server installation. If potential delays arise, our staff will inform you in advance about installation and activation schedules. According to our regulations, the service processing time is up to 48 hours."
+                "question": "How long does it take to install a dedicated server?",
+                "answerTitle": "How long does it take to install a dedicated server?",
+                "answerDescription": "Different locations allocate different time periods for server installation. In case of potential delays, employees will notify you in advance about the installation and equipment activation timelines. According to our regulations, service processing time is up to 48 hours."
             },
             {
-                "question": "What DDoS protection is provided for servers?",
-                "answerTitle": "What DDoS protection is provided for servers?",
-                "answerDescription": "By default, all our dedicated servers are equipped with standard DDoS protection, which is sufficient for deflecting small attacks or cases where you're not expecting serious attacks on your server. However, if you have unscrupulous competitors or the server's operation is critical, in some locations we offer the option to connect servers to <strong>advanced DDoS protection</strong>, capable of mitigating even the largest attacks with traffic volumes of up to 3.5 Tbps. <a href ='/ddos-protection'>Learn More</a>."
+                "question": "What DDoS protection is provided on servers?",
+                "answerTitle": "What DDoS protection is provided on servers?",
+                "answerDescription": "By default, all our dedicated servers are equipped with standard DDoS protection, which is sufficient to repel small attacks or when you know that serious attacks on your server are not expected. But if you have unscrupulous competitors or server operation is critical, in some locations, we offer additional connection of servers to <b>advanced DDoS protection</b>, which will withstand even the largest attacks with a traffic volume of up to 3.5 Tbit/s. <a href='/ddos-protection' />Learn more</a>."
             }
         ]
     },
     "support_block": {
         "type": "chat",
         "imgSrc": "/images/banners/austronaut-lie.png",
-        "title": "24/7 Support Chat",
-        "description": "Have questions? Write to us in the chat! Support available 24/7",
+        "title": "Online Support Chat",
+        "description": "Have questions? Write to us in the chat! Support 24/7",
         "buttonText": "Open Chat"
     },
     "subscribe_telegram_block": {
         "title": "Subscribe to the Telegram Channel",
-        "description": "To stay updated about dedicated servers without installation!",
-        "buttonLink": "#",
+        "description": "To not miss dedicated servers without installation!",
+        "buttonLink": "https://t.me/spacecore_pro_n_install",
         "buttonText": "Subscribe",
-        "imgSrc": "/images/banners/austronaut-rocket.png"
-    }    
+        "imgSrc": "/images/banners/astronaut-rocket.png"
+    }
 }
