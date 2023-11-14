@@ -68,21 +68,39 @@ const Tariff = ({
         return (price * period).toFixed(2);
     };
 
+    console.log(period);
+
     const returnDiscountTitle = () => {
         if (period === 1) {
-            return discountProcent + "%";
+            if (discountProcent) {
+                return "-" + discountProcent + "%";
+            } else {
+                return "";
+            }
         }
         if (period === 3) {
-            return "3%";
+            return "-3%";
         }
         if (period === 6) {
-            return "6%";
+            return "-6%";
         }
         if (period === 12) {
-            return "12%";
+            return "-12%";
         }
 
         return discountProcent + "%";
+    };
+
+    const returnDiscountNumber = () => {
+        if (period === 1) {
+            if (discountProcent) {
+                return "€" + price * period;
+            } else {
+                return "";
+            }
+        }
+
+        return "€" + (price * period).toFixed(2);
     };
 
     const returnPeriodTitle = () => {
@@ -197,10 +215,10 @@ const Tariff = ({
                     <div className="price-discount">
                         <div className="discount">
                             <span className="procent">
-                                -{returnDiscountTitle()}
+                                {returnDiscountTitle()}
                             </span>
                             <span className="value">
-                                €{(price * period).toFixed(2)}
+                                {returnDiscountNumber()}
                             </span>
                         </div>
                         <div

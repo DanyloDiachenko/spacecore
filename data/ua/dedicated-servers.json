@@ -1,44 +1,44 @@
 {
     "main_block": {
-        "title": "Выделенные серверы",
-        "description": "Наиболее надежное и производительное оборудование для любых требовательных бизнес-задач и не только.",
+        "title": "Виділені сервери",
+        "description": "Найнадійніше та продуктивне обладнання для будь-яких вимогливих бізнес-задач і не лише.",
         "imgSrc": "/images/banners/dedicated-servers.png"
     },
     "tariffes_filters_block": {
-        "title": "Тарифные планы",
+        "title": "Тарифні плани",
         "countries": {
-            "title": "Локация",
+            "title": "Локація",
             "countries": [
                 {
                     "imgSrc": "/images/icons/all-countries.svg",
-                    "title": "Любая",
+                    "title": "Будь-яка",
                     "key": "any"
                 },
                 {
-                    "imgSrc": "/images/icons/russia.svg",
-                    "title": "Россия",
-                    "key": "ru"
-                },
-                {
                     "imgSrc": "/images/icons/france.svg",
-                    "title": "Франция",
+                    "title": "Франція",
                     "key": "fr"
                 },
                 {
                     "imgSrc": "/images/icons/germany.svg",
-                    "title": "Германия",
+                    "title": "Німеччина",
                     "key": "de"
                 },
                 {
                     "imgSrc": "/images/icons/finland.svg",
-                    "title": "Финляндия",
+                    "title": "Фінляндія",
                     "key": "fi"
+                },
+                {
+                    "imgSrc": "/images/icons/pirate.svg",
+                    "title": "Військовий корабель...",
+                    "key": "ru"
                 }
             ]
         },
         "checkboxes": [
             {
-                "title": "Процессор",
+                "title": "Процесор",
                 "filterTitles": [
                     {
                         "title": "AMD",
@@ -56,7 +56,7 @@
                     {
                         "title": "NVME",
                         "key": "nvme"
-                    },                    
+                    },
                     {
                         "title": "SSD",
                         "key": "ssd"
@@ -64,26 +64,26 @@
                     {
                         "title": "HDD",
                         "key": "hdd"
-                    } 
+                    }
                 ]
             }
         ],
         "ranges": {
-            "priceTitle": "Стоимость",
-            "priceMin": 20,
-            "priceMax": 100,
-            "disksTitle": "Кол-во дисков",
+            "priceTitle": "Вартість",
+            "priceMin": 50,
+            "priceMax": 350,
+            "disksTitle": "Кількість дисків",
             "disksMin": 1,
-            "disksMax": 4,
-            "disksVolumeTitle": "Объем дисков",
-            "disksVolumeMin": 512,
-            "disksVolumeMax": 10000,
-            "coresTitle": "Кол-во ядер",
+            "disksMax": 10,
+            "disksVolumeTitle": "Об'єм дисків",
+            "disksVolumeMin": 480,
+            "disksVolumeMax": 16000,
+            "coresTitle": "Кількість ядер",
             "coresMin": 4,
-            "coresMax": 64,
-            "ramTitle": "ОЗУ",
-            "ramMin": 8,
-            "ramMax": 128
+            "coresMax": 32,
+            "ramTitle": "ОЗП",
+            "ramMin": 32,
+            "ramMax": 256
         },
         "periods": [
             {
@@ -91,47 +91,39 @@
                 "titleKey": "1"
             },
             {
-                "title": "2",
-                "titleKey": "2"
-            },
-            {
                 "title": "3",
                 "titleKey": "3"
             },
             {
-                "title": "4",
-                "titleKey": "4"
-            },
-            {
-                "title": "5",
-                "titleKey": "5"
-            },
-            {
                 "title": "6",
                 "titleKey": "6"
+            },
+            {
+                "title": "12",
+                "titleKey": "12"
             }
         ]
     },
     "tariffes_block": {
         "tariffTitles": {
             "diskTitle": "Диск",
-            "coresTitle": "Ядер",
-            "ramTitle": "ОЗУ",
+            "coresTitle": "Ядра",
+            "ramTitle": "ОЗП",
             "channelTitle": "Канал",
-            "locationTitle": "Локация",
-            "coreTitle": "Процессор",
-            "antiDdosTitle": "Защита",
-            "buttonText": "Заказать"
+            "locationTitle": "Місце розташування",
+            "coreTitle": "Процесор",
+            "antiDdosTitle": "Захист від DDoS",
+            "buttonText": "Замовити"
         }
     },
     "operation_systems_block": {
-        "title": "Операционные системы на выбор",
-        "description": "Установите любую актуальную операционную систему, в том числе из своего образа ISO.",
+        "title": "Операційні системи на вибір",
+        "description": "Встановіть будь-яку актуальну операційну систему, включаючи ваш образ ISO.",
         "operationSystems": [
             {
                 "imgSrc": "/images/icons/windows.svg",
                 "title": "Windows Server",
-                "description": "2019, 2016, 2012 R2, Win 10"
+                "description": "2019, 2016, 2012 R2, Windows 10, 11"
             },
             {
                 "imgSrc": "/images/icons/ubuntu.svg",
@@ -141,12 +133,12 @@
             {
                 "imgSrc": "/images/icons/cent.svg",
                 "title": "CentOS",
-                "description": "9, 8, 7, 6"
+                "description": "9, 8, 7"
             },
             {
                 "imgSrc": "/images/icons/debian.svg",
                 "title": "Debian",
-                "description": "11, 10, 9, 8"
+                "description": "12, 11, 10, 9"
             }
         ]
     },
@@ -154,109 +146,110 @@
         {
             "id": 0,
             "imgSrc": "/images/banners/control-panel.png",
-            "title": "Удобная панель управления",
-            "description": "Интуитивно понятные каждому пользователю инструменты для работы с серверами. Переустановка настройка, мониторинг – все, что нужно!"
+            "title": "Панель керування серверами",
+            "description": "Багато функцій для зручної роботи з сервером. Від перевстановлення до налаштування мережевого Firewall. *Доступна на частині тарифів."
         },
         {
             "id": 1,
-            "imgSrc": "/images/banners/rocket.png",
-            "title": "Установка тарифов за 90 секунд",
-            "description": "Создание сервера начинается сразу же после оплаты и обычно занимает не более пары минут*. * При условии нахождения тарифа в наличии."
+            "imgSrc": "/images/banners/dedicated-locations.png",
+            "title": "Багато доступних локацій",
+            "description": "Виберіть найбільш підходяще місце для свого сервера серед популярних локацій. Мінімальний пінг дозволяє працювати комфортніше."
         },
         {
             "id": 2,
-            "imgSrc": "/images/banners/bank-coin.png",
-            "title": "Гарантия возврата средств",
-            "description": "Мы дорожим качеством и поэтому без лишних заявлений готовы вернуть Ваши денежные средства в случае возникновения технических проблем на стороне нашего оборудования!"
+            "imgSrc": "/images/banners/dedicated-windows.png",
+            "title": "Можливість встановлення Windows",
+            "description": "Наші співробітники можуть встановити будь-яку актуальну версію Windows на ваш сервер. Ми використовуємо стандартні офіційні системи, які ви можете активувати самостійно."
         },
         {
             "id": 3,
-            "imgSrc": "/images/banners/shield.png",
-            "title": "Надежность",
-            "description": "Постоянные улучшения систем безопасности и круглосуточная техническая поддержка для оперативного решения любых внезапных неполадок."
+            "imgSrc": "/images/banners/antiddos.png",
+            "title": "Захист від DDoS",
+            "description": "На наших локаціях передбачена можливість підключення захисту від DDoS-атак. Не дозволяйте зловмисникам завдати шкоди вашому проекту."
         }
     ],
     "not_finded_information_block": {
-        "title": "Не нашли то, что искали?",
+        "title": "Не знайшли те, що шукали?",
         "notFindedInformation": [
             {
                 "imgSrc": "/images/icons/dedicated-servers.svg",
-                "title": "Выделенные серверы",
-                "price": "45,00₽",
-                "link": "/dedicated-servers"
-            },
-            {
-                "imgSrc": "/images/icons/website-hosting.svg",
-                "title": "Хостинг для сайтов",
-                "price": "399,00₽",
-                "link": "/hosting-site"
+                "title": "Віртуальні сервери",
+                "price": "Від 1.39 €",
+                "link": "/virtual-servers",
+                "term": "міс."
             },
             {
                 "imgSrc": "/images/icons/cloud-servers.svg",
-                "title": "Cloud-серверы",
-                "price": "259,00₽",
-                "link": "/cloud-servers"
+                "title": "Сервери без встановлення",
+                "price": "Від 54.99 €",
+                "link": "/dedicated-servers-no-install",
+                "term": "міс."
             },
             {
-                "imgSrc": "/images/icons/backup-store.svg",
-                "title": "Бекап-хранилище",
-                "price": "115,00₽",
-                "link": "/backup-storage"
-            },
-            {
-                "imgSrc": "/images/icons/domain-names.svg",
-                "title": "Доменные имена",
-                "price": "55,00₽",
-                "link": "/domain-name"
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Сервери Contabo",
+                "price": "Від 8 €",
+                "link": "/cloud-servers",
+                "term": "міс."
             },
             {
                 "imgSrc": "/images/icons/game-hosting.svg",
-                "title": "Игровой хостинг",
-                "price": "65,00₽",
-                "link": "/game-hosting"
+                "title": "Ігровий хостинг",
+                "price": "Від 6 €",
+                "link": "/game-hosting",
+                "term": "міс."
+            },
+            {
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Бекап-сховище",
+                "price": "Від 0.20 €",
+                "link": "/backup-storage",
+                "term": "міс."
+            },
+            {
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Доменні імена",
+                "price": "Від 3 €",
+                "link": "/domains",
+                "term": "рік"
             }
         ]
     },
     "faq_block": {
-        "title": "Ответы на вопросы",
+        "title": "Відповіді на питання",
         "faqItems": [
             {
-                "question": "Что такое Виртуальный сервер (VDS/VPS)?",
-                "answerTitle": "Что такое Виртуальный сервер?",
-                "answerDescription": "Virtual Dedicated (Private) Server — виртуальная услуга, которая эмулирует работу реального физического сервера. Мы предоставляем полный root-доступ для каждого сервера, при этом каждый клиент имеет индивидуальное ограниченное пространство, которое никак не взаимодействует с «соседями по серверу», благодаря технологии KVM. Обратите внимание, что мы не классифицируем VDS и VPS как разные услуги. Все наши виртуальные серверы относятся к обеим категориям."
+                "question": "Чим виділений сервер відрізняється від VDS/VPS?",
+                "answerTitle": "Чим виділений сервер відрізняється від VDS/VPS?",
+                "answerDescription": "По-перше, слід відзначити відмінність послуг у тому, що виділений сервер є фізичним обладнанням. Це пристрій, ресурси якого цілком та повністю в вашому розпорядженні, не ділячись з кимось іншим. Ви отримуєте повну потужність та розпоряджаєтеся нею на свій розсуд у межах чинних правил. Виділені сервери значно перевершують у потужності та умовах звичайні VDS, тому для масштабних проектів вибір на користь такого обладнання стає найбільш логічним та обґрунтованим."
             },
             {
-                "question": "Это что-то неизвестное для меня! Как быть?",
-                "answerTitle": "Это что-то неизвестное для меня! Как быть?",
-                "answerDescription": "Это что-то неизвестное для меня! Как быть?"
+                "question": "Як керувати виділеним сервером?",
+                "answerTitle": "Як керувати виділеним сервером?",
+                "answerDescription": "Після активації послуги користувач, аналогічно віртуальному серверу, отримує всі необхідні дані для роботи з сервером. У деяких локаціях надається доступ до хмарної панелі керування, де можна скористатися функціями автоматичної перевстановлення операційної системи, активувати SystemRescue та безліч інших можливостей."
             },
             {
-                "question": "Какие программы доступны на серверах?",
-                "answerTitle": "Какие программы доступны на серверах?",
-                "answerDescription": "Какие программы доступны на серверах?"
+                "question": "Скільки часу займає встановлення виділеного сервера?",
+                "answerTitle": "Скільки часу займає встановлення виділеного сервера?",
+                "answerDescription": "На різних локаціях виділяється різний проміжок часу на встановлення сервера. У випадку потенційних затримок співробітники заздалегідь сповістять вас про терміни встановлення та активації обладнання. Згідно з нашим регламентом, час обробки послуги – до 48 годин."
             },
             {
-                "question": "Сколько IP-адресов я получаю при покупке?",
-                "answerTitle": "Сколько IP-адресов я получаю при покупке?",
-                "answerDescription": "Сколько IP-адресов я получаю при покупке?"
+                "question": "Який захист від DDoS надається на серверах?",
+                "answerTitle": "Який захист від DDoS надається на серверах?",
+                "answerDescription": "За замовчуванням всі наші виділені сервери оснащені стандартним захистом від DDoS, який буде достатнім для відбиття невеликих атак або у випадку, коли ви знаєте, що серйозних атак на ваш сервер не очікується. Проте, якщо у вас є недобросовісні конкуренти або робота сервера є критичною, в окремих локаціях ми пропонуємо додаткове підключення серверів до <strong>продвинутого захисту від DDoS</strong>, який відбиватиме навіть найбільші атаки з обсягом трафіку до 3.5Тбіт/с. <a href='/ddos-protection/'>Детальніше</a>."
             },
             {
-                "question": "Как переустановить ОС?",
-                "answerTitle": "Как переустановить ОС?",
-                "answerDescription": "Как переустановить ОС?"
-            },
-            {
-                "question": "Как увеличить мощность сервера после покупки?",
-                "answerTitle": "Как увеличить мощность сервера после покупки?",
-                "answerDescription": "Как увеличить мощность сервера после покупки?"
+                "question": "Чи можливо придбати сервер з нестандартною конфігурацією?",
+                "answerTitle": "Чи можливо придбати сервер з нестандартною конфігурацією?",
+                "answerDescription": "Наші інженери готові скласти будь-який виділений сервер за вашими потребами. <br>Зв'яжіться з нами через запит у особистому кабінеті або за електронною адресою <a href='mailto:support@spacecore.pro'> support@spacecore.pro</a>"
             }
         ]
     },
     "support_block": {
         "type": "chat",
         "imgSrc": "/images/banners/austronaut-lie.png",
-        "title": "Онлайн-чат поддержки",
-        "description": "Есть вопросы? Пишите нам в чат! Поддержка 24/7",
-        "buttonText": "Открыть чат"
+        "title": "Онлайн-чат підтримки",
+        "description": "Є питання? Пишіть нам у чат! Підтримка 24/7",
+        "buttonText": "Відкрити чат"
     }
 }
