@@ -127,7 +127,6 @@
             }
         ],
         "stayWithNewsTitle": "Будьте в курсе всех новостей",
-        "vkLink": "https://vk.com/spacecore.pro",
         "telegramLink": "https://t.me/spacecore_pro",
         "newsLink": "/news/",
         "IPTitle": "SPACECORE SOLUTION LTD.",
@@ -142,14 +141,6 @@
             {
                 "imgSrc": "/images/icons/mastercard.svg",
                 "alt": "mastercard"
-            },
-            {
-                "imgSrc": "/images/icons/mir.svg",
-                "alt": "mir"
-            },
-            {
-                "imgSrc": "/images/icons/umoney.svg",
-                "alt": "umoney"
             },
             {
                 "imgSrc": "/images/icons/google-pay.svg",
