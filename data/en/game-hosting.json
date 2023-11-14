@@ -1,44 +1,44 @@
 {
     "main_block": {
-        "title": "Game Hosting",
-        "description": "Now hosting your gaming server is easier than ever. Get your convenient game hosting now!",
+        "title": "Игровой хостинг",
+        "description": "Теперь разместить свой игровой сервер просто как никогда. Заказывайте удобный игровой хостинг!",
         "imgSrc": "/images/banners/game-hosting.png"
     },
     "tariffes_filters_block": {
-        "title": "Tariff Plans",
+        "title": "Тарифные планы",
         "countries": {
-            "title": "Location",
+            "title": "Локация",
             "countries": [
                 {
                     "imgSrc": "/images/icons/all-countries.svg",
-                    "title": "Any",
+                    "title": "Любая",
                     "key": "any"
                 },
                 {
-                    "imgSrc": "/images/icons/russia.svg",
-                    "title": "Russia",
-                    "key": "ru"
-                },
-                {
                     "imgSrc": "/images/icons/france.svg",
-                    "title": "France",
+                    "title": "Франция",
                     "key": "fr"
                 },
                 {
                     "imgSrc": "/images/icons/germany.svg",
-                    "title": "Germany",
+                    "title": "Германия",
                     "key": "de"
                 },
                 {
                     "imgSrc": "/images/icons/finland.svg",
-                    "title": "Finland",
+                    "title": "Финляндия",
                     "key": "fi"
+                },
+                {
+                    "imgSrc": "/images/icons/pirate.svg",
+                    "title": "Военный корабль...",
+                    "key": "ru"
                 }
             ]
         },
         "checkboxes": [
             {
-                "title": "Processor",
+                "title": "Процессор",
                 "filterTitles": [
                     {
                         "title": "AMD",
@@ -51,7 +51,7 @@
                 ]
             },
             {
-                "title": "Disk",
+                "title": "Диск",
                 "filterTitles": [
                     {
                         "title": "HDD",
@@ -69,19 +69,19 @@
             }
         ],
         "ranges": {
-            "priceTitle": "Price",
+            "priceTitle": "Стоимость",
             "priceMin": 1,
             "priceMax": 120,
-            "disksTitle": "Number of Disks",
+            "disksTitle": "Кол-во дисков",
             "disksMin": 0,
             "disksMax": 1,
-            "disksVolumeTitle": "Disk Volume",
+            "disksVolumeTitle": "Объем дисков",
             "disksVolumeMin": 10,
             "disksVolumeMax": 800,
-            "coresTitle": "Number of Cores",
+            "coresTitle": "Кол-во ядер",
             "coresMin": 1,
             "coresMax": 8,
-            "ramTitle": "RAM",
+            "ramTitle": "ОЗУ",
             "ramMin": 1,
             "ramMax": 32
         },
@@ -106,19 +106,19 @@
     },
     "tariffes_block": {
         "tariffTitles": {
-            "diskTitle": "Disk",
-            "coresTitle": "Cores",
-            "ramTitle": "RAM",
-            "channelTitle": "Channel",
-            "locationTitle": "Location",
-            "coreTitle": "Processor",
+            "diskTitle": "Диск",
+            "coresTitle": "Ядер",
+            "ramTitle": "ОЗУ",
+            "channelTitle": "Канал",
+            "locationTitle": "Локация",
+            "coreTitle": "Процессор",
             "antiDdosTitle": "Anti-DDoS",
-            "buttonText": "Order Now"
+            "buttonText": "Заказать"
         }
     },
     "operation_systems_block": {
-        "title": "Ready-to-Use Game Templates for Installation",
-        "description": "Choose a suitable game server from 40+ ready-made images. If your desired game or service isn't listed, our staff will add it for you!",
+        "title": "Готовые шаблоны игр для установки",
+        "description": "Выберите подходящий игровой сервер из 40+ готовых образов. Если необходимой игры или сервиса нет в списке, наши сотрудники добавят ее для Вас!",
         "operationSystems": [
             {
                 "imgSrc": "/images/icons/garrys-mod.svg",
@@ -145,116 +145,116 @@
     "main_info_block": [
         {
             "id": 0,
-            "imgSrc": "/images/banners/control-panel.png",
-            "title": "Game Server Control Panel",
-            "description": "Incredibly practical Pterodactyl panel with all the necessary features for full administration of any game server."
+            "imgSrc": "/images/banners/dedicated-panel.png",
+            "title": "Панель управления игровыми серверами",
+            "description": "Невероятно практичная панель Pterodactyl со всеми необходимыми функциями для полноценного администрирования любого игрового сервера."
         },
         {
             "id": 1,
-            "imgSrc": "/images/banners/rocket.png",
-            "title": "File Upload via Panel and sFTP",
-            "description": "Upload your server files at maximum speed. This can be done through the web panel or via sFTP."
+            "imgSrc": "/images/banners/gamehost-mine.png",
+            "title": "Загрузка файлов через панель и sFTP",
+            "description": "Загружайте файлы Ваших серверов на максимальной скорости. Это можно сделать как через веб-панель, так и посредством sFTP."
         },
         {
             "id": 2,
-            "imgSrc": "/images/banners/bank-coin.png",
-            "title": "MySQL Databases",
-            "description": "Store your service data in an organized and reliable manner. We provide each client with access to a database."
+            "imgSrc": "/images/banners/gamehost-sql.png",
+            "title": "Базы данных MySQL",
+            "description": "Храните данные Ваших сервисов в упорядоченном и надежном виде. Специально для этого мы предоставляем каждому клиенту доступ к базе данных."
         },
         {
             "id": 3,
-            "imgSrc": "/images/banners/shield.png",
-            "title": "DDoS Protection",
-            "description": "Standard DDoS protection is included on all tariffs by default. Carry out events on your servers with comfort!"
+            "imgSrc": "/images/banners/antiddos.png",
+            "title": "Защита от DDoS",
+            "description": "На всех тарифах по умолчанию предусмотрена стандартная защита от DDoS-атак. Проводите ивенты на своих серверах в комфорте!"
         }
     ],
     "not_finded_information_block": {
-        "title": "Didn't Find What You Were Looking For?",
+        "title": "Не нашли то, что искали?",
         "notFindedInformation": [
             {
                 "imgSrc": "/images/icons/dedicated-servers.svg",
-                "title": "Virtual Servers",
-                "price": "From €1.39",
+                "title": "Виртуальные серверы",
+                "price": "От 1.39 €",
                 "link": "/virtual-servers",
-                "term": "mo."
+                "term": "мес."
             },
             {
                 "imgSrc": "/images/icons/cloud-servers.svg",
-                "title": "Dedicated Servers",
-                "price": "From €54.99",
+                "title": "Выделенные серверы",
+                "price": "От 54.99 €",
                 "link": "/dedicated-servers",
-                "term": "mo."
+                "term": "мес."
             },
             {
                 "imgSrc": "/images/icons/website-hosting.svg",
-                "title": "Contabo Servers",
-                "price": "From €8",
+                "title": "Серверы Contabo",
+                "price": "От 8 €",
                 "link": "/cloud-servers",
-                "term": "mo."
+                "term": "мес."
             },
             {
                 "imgSrc": "/images/icons/website-hosting.svg",
-                "title": "Web Hosting",
-                "price": "From €1.20",
+                "title": "Веб-хостинг",
+                "price": "От 1.20 €",
                 "link": "/web-hosting",
-                "term": "mo."
+                "term": "мес."
             },
             {
                 "imgSrc": "/images/icons/backup-store.svg",
-                "title": "Backup Storage",
-                "price": "From €0.20",
+                "title": "Бекап-хранилище",
+                "price": "От 0.20 €",
                 "link": "/backup-storage",
-                "term": "mo."
+                "term": "мес."
             },
             {
                 "imgSrc": "/images/icons/domain-names.svg",
-                "title": "Domain Names",
-                "price": "From €3",
+                "title": "Доменные имена",
+                "price": "От 3 €",
                 "link": "/domains",
-                "term": "yr."
+                "term": "год"
             }
         ]
     },
     "faq_block": {
-        "title": "Frequently Asked Questions",
+        "title": "Ответы на вопросы",
         "faqItems": [
             {
-                "question": "What is game hosting?",
-                "answerTitle": "What is game hosting?",
-                "answerDescription": "Game hosting is a service specifically designed for hosting gaming servers to ensure their round-the-clock operation. We offer over 40 different types of games. From a technical standpoint, our game hosting is not different from regular virtual servers (VDS), but the key difference lies in the access and management method. While VDS is managed through SSH or RDP protocols, our game hosting provides a convenient control panel optimized specifically for gaming needs."
+                "question": "Что такое игровой хостинг?",
+                "answerTitle": "Что такое игровой хостинг?",
+                "answerDescription": "Это услуга, предназначенная специально для запуска игровых серверов и поддержания их круглосуточной работы. Мы предлагаем свыше 40 различных типов игр. С технической точки зрения, наш игровой хостинг не отличается от обычных виртуальных серверов (VDS), однако ключевое различие заключается в методах доступа и управления. В то время как VDS управляется через протоколы SSH или RDP, наш игровой хостинг предоставляет удобную панель управления, оптимизированную специально для игровых нужд."
             },
             {
-                "question": "Which games are supported by your hosting?",
-                "answerTitle": "Which games are supported by your hosting?",
-                "answerDescription": "We support a wide range of popular games including hits like Minecraft, Garry’s Mod, and GTA. Our game catalog is regularly expanded to meet player requests. If your game is not listed, please let us know. We will make every effort to add it specifically for you."
+                "question": "Какие игры поддерживает ваш хостинг?",
+                "answerTitle": "Какие игры поддерживает ваш хостинг?",
+                "answerDescription": "Мы поддерживаем широкий спектр популярных игр, включая такие хиты, как Minecraft, Garry’s Mod и GTA. Наш каталог игр регулярно расширяется, чтобы соответствовать запросам игроков. Если Вашей игры не оказалось в списке, пожалуйста, дайте нам знать. Мы приложим все усилия, чтобы добавить ее специально для Вас."
             },
             {
-                "question": "Can I install my own mods or plugins on the server?",
-                "answerTitle": "Can I install my own mods or plugins on the server?",
-                "answerDescription": "You can install any plugins and mods on your game server; we do not restrict this. Loading and configuring any additions is available in your server's files."
+                "question": "Могу ли я установить собственные моды или плагины на сервер?",
+                "answerTitle": "Могу ли я установить собственные моды или плагины на сервер?",
+                "answerDescription": "Вы можете произвести установку любых плагинов и модов на свой игровой сервер, мы никак это не ограничиваем. Загрузка и настройка любых дополнений доступна в файлах Вашего сервера."
             },
             {
-                "question": "Is there a player limit on my server?",
-                "answerTitle": "Is there a player limit on my server?",
-                "answerDescription": "No limitations! All our tariffs offer completely unlimited slots for your servers."
+                "question": "Есть ли ограничение на количество игроков на моем сервере?",
+                "answerTitle": "Есть ли ограничение на количество игроков на моем сервере?",
+                "answerDescription": "Никаких ограничений! Все наши тарифы предоставляют полностью безлимитные слоты для Ваших серверов."
             },
             {
-                "question": "Can I install multiple servers on one tariff?",
-                "answerTitle": "Can I install multiple servers on one tariff?",
-                "answerDescription": "Certainly! You can install any number of servers on any ports within a single tariff. Everything is limited only by the resources you acquire."
+                "question": "Возможна ли установка нескольких серверов на одном тарифе?",
+                "answerTitle": "Возможна ли установка нескольких серверов на одном тарифе?",
+                "answerDescription": "Разумеется! Вы можете установить любое количество серверов на любых портах внутри одного тарифа. Все ограничивается лишь приобретенными ресурсами."
             },
             {
-                "question": "How can I transfer data to my server?",
-                "answerTitle": "How can I transfer data to my server?",
-                "answerDescription": "You can do this by transferring data to your new server. If you need assistance, please create a support request. Our staff will transfer all required data to your new server completely free of charge."
+                "question": "Как я могу перенести данные на свой сервер?",
+                "answerTitle": "Как я могу перенести данные на свой сервер?",
+                "answerDescription": "Вы можете сделать это посредством переноса файлов на новый сервер. Если Вам требуется помощь, пожалуйста, создайте запрос в поддержку. Наши сотрудники совершенно бесплатно перенесут все требуемые данные на Ваш новый сервер."
             }
         ]
     },
     "support_block": {
         "type": "chat",
         "imgSrc": "/images/banners/austronaut-lie.png",
-        "title": "Online Support Chat",
-        "description": "Have questions? Write to us in the chat! Support available 24/7",
-        "buttonText": "Open Chat"
-    }    
+        "title": "Онлайн-чат поддержки",
+        "description": "Есть вопросы? Пишите нам в чат! Поддержка 24/7",
+        "buttonText": "Открыть чат"
+    }
 }
