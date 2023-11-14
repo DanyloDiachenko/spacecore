@@ -1,7 +1,7 @@
 {
     "main_block": {
         "title": "Документы компании",
-        "description": "Для положительного опыта от сотрудничества стоит учесть все условия компании. Вы можете сделать это здесь!",
+        "description": "Рекомендуем ознакомиться со всеми условиями нашей компании. Вы можете сделать это здесь.",
         "imgSrc": "/images/banners/documents.png"
     },
     "not_finded_information_block": {
@@ -51,41 +51,6 @@
             }
         ]
     },
-    "faq_block": {
-        "title": "Ответы на вопросы",
-        "faqItems": [
-            {
-                "question": "Что такое Виртуальный сервер (VDS/VPS)?",
-                "answerTitle": "Что такое Виртуальный сервер?",
-                "answerDescription": "Virtual Dedicated (Private) Server — виртуальная услуга, которая эмулирует работу реального физического сервера. Мы предоставляем полный root-доступ для каждого сервера, при этом каждый клиент имеет индивидуальное ограниченное пространство, которое никак не взаимодействует с «соседями по серверу», благодаря технологии KVM. Обратите внимание, что мы не классифицируем VDS и VPS как разные услуги. Все наши виртуальные серверы относятся к обеим категориям."
-            },
-            {
-                "question": "Это что-то неизвестное для меня! Как быть?",
-                "answerTitle": "Это что-то неизвестное для меня! Как быть?",
-                "answerDescription": "Это что-то неизвестное для меня! Как быть?"
-            },
-            {
-                "question": "Какие программы доступны на серверах?",
-                "answerTitle": "Какие программы доступны на серверах?",
-                "answerDescription": "Какие программы доступны на серверах?"
-            },
-            {
-                "question": "Сколько IP-адресов я получаю при покупке?",
-                "answerTitle": "Сколько IP-адресов я получаю при покупке?",
-                "answerDescription": "Сколько IP-адресов я получаю при покупке?"
-            },
-            {
-                "question": "Как переустановить ОС?",
-                "answerTitle": "Как переустановить ОС?",
-                "answerDescription": "Как переустановить ОС?"
-            },
-            {
-                "question": "Как увеличить мощность сервера после покупки?",
-                "answerTitle": "Как увеличить мощность сервера после покупки?",
-                "answerDescription": "Как увеличить мощность сервера после покупки?"
-            }
-        ]
-    },
     "support_block": {
         "type": "chat",
         "imgSrc": "/images/banners/austronaut-lie.png",
@@ -98,32 +63,20 @@
             {
                 "imgSrc": "/images/icons/public-offert.svg",
                 "title": "Публичная оферта",
-                "description": "публичное соглашение хостера с пользователем договор аренды услуг",
-                "link": "/documents/agreement1"
-            },
-            {
-                "imgSrc": "/images/icons/privacy-policy.svg",
-                "title": "Политика конфиденциальности",
-                "description": "публичное соглашение хостера с пользователем договор аренды услуг",
-                "link": "/documents/agreement2"
-            },
-            {
-                "imgSrc": "/images/icons/ddos-shield.svg",
-                "title": "Защита от DDoS (StormWall)",
-                "description": "публичное соглашение хостера с пользователем договор аренды услуг",
-                "link": "/documents/agreement3"
+                "description": "Публичное соглашение компании с пользователем услуг.",
+                "link": "https://cdn.spacecore.media/documents/spacecore_ltd_ru_terms_and_conditions.pdf"
             },
             {
                 "imgSrc": "/images/icons/placing-services.svg",
                 "title": "Услуги размещения оборудования (Colocation)",
-                "description": "публичное соглашение хостера с пользователем договор аренды услуг",
-                "link": "/documents/agreement4"
+                "description": "Условия размещения пользовательского оборудования в партнерских дата-центрах.",
+                "link": "https://cdn.spacecore.media/documents/spacecore_ltd_ru_colocation_terms_and_conditions.pdf"
             },
             {
                 "imgSrc": "/images/icons/rules-workers.svg",
-                "title": "Правила взаимодействия с сотрудниками компании",
-                "description": "публичное соглашение хостера с пользователем договор аренды услуг",
-                "link": "/documents/agreement5"
+                "title": "Программа реселлинга (White Label)",
+                "description": "Условия перепродажи услуг компании.",
+                "link": "https://cdn.spacecore.media/documents/spacecore_ltd_ru_reseller_agreement.pdf"
             }
         ]
     }

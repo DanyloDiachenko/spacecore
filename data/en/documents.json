@@ -1,7 +1,7 @@
 {
     "main_block": {
         "title": "Company Documents",
-        "description": "To ensure a positive collaboration experience, it's important to be aware of all the company's terms and conditions. You can do so here!",
+        "description": "We recommend familiarizing yourself with all the terms of our company. You can do this here.",
         "imgSrc": "/images/banners/documents.png"
     },
     "not_finded_information_block": {
@@ -51,41 +51,6 @@
             }
         ]
     },
-    "faq_block": {
-        "title": "Frequently Asked Questions",
-        "faqItems": [
-            {
-                "question": "What is a Virtual Server (VDS/VPS)?",
-                "answerTitle": "What is a Virtual Server?",
-                "answerDescription": "A Virtual Dedicated (Private) Server is a virtual service that emulates the functioning of a real physical server. We provide full root access for each server, while each client has an individual restricted space that does not interact with 'server neighbors' due to KVM technology. Note that we do not classify VDS and VPS as different services. All our virtual servers fall into both categories."
-            },
-            {
-                "question": "This is something unfamiliar to me! What should I do?",
-                "answerTitle": "This is something unfamiliar to me! What should I do?",
-                "answerDescription": "This is something unfamiliar to me! What should I do?"
-            },
-            {
-                "question": "What programs are available on the servers?",
-                "answerTitle": "What programs are available on the servers?",
-                "answerDescription": "What programs are available on the servers?"
-            },
-            {
-                "question": "How many IP addresses do I get with a purchase?",
-                "answerTitle": "How many IP addresses do I get with a purchase?",
-                "answerDescription": "How many IP addresses do I get with a purchase?"
-            },
-            {
-                "question": "How can I reinstall the OS?",
-                "answerTitle": "How can I reinstall the OS?",
-                "answerDescription": "How can I reinstall the OS?"
-            },
-            {
-                "question": "How can I increase the server's power after purchase?",
-                "answerTitle": "How can I increase the server's power after purchase?",
-                "answerDescription": "How can I increase the server's power after purchase?"
-            }
-        ]
-    },
     "support_block": {
         "type": "chat",
         "imgSrc": "/images/banners/austronaut-lie.png",
@@ -98,33 +63,21 @@
             {
                 "imgSrc": "/images/icons/public-offert.svg",
                 "title": "Public Offer",
-                "description": "public agreement of the host with the user service rental agreement",
-                "link": "/documents/agreement1"
-            },
-            {
-                "imgSrc": "/images/icons/privacy-policy.svg",
-                "title": "Privacy Policy",
-                "description": "public agreement of the host with the user service rental agreement",
-                "link": "/documents/agreement2"
-            },
-            {
-                "imgSrc": "/images/icons/ddos-shield.svg",
-                "title": "DDoS Protection (StormWall)",
-                "description": "public agreement of the host with the user service rental agreement",
-                "link": "/documents/agreement3"
+                "description": "Public agreement of the company with the user of services.",
+                "link": "https://cdn.spacecore.media/documents/spacecore_ltd_ru_terms_and_conditions.pdf"
             },
             {
                 "imgSrc": "/images/icons/placing-services.svg",
                 "title": "Equipment Placement Services (Colocation)",
-                "description": "public agreement of the host with the user service rental agreement",
-                "link": "/documents/agreement4"
+                "description": "Terms of placing user equipment in partner data centers.",
+                "link": "https://cdn.spacecore.media/documents/spacecore_ltd_ru_colocation_terms_and_conditions.pdf"
             },
             {
                 "imgSrc": "/images/icons/rules-workers.svg",
-                "title": "Rules for Interacting with Company Employees",
-                "description": "public agreement of the host with the user service rental agreement",
-                "link": "/documents/agreement5"
+                "title": "Reselling Program (White Label)",
+                "description": "Terms of the company's service resale.",
+                "link": "https://cdn.spacecore.media/documents/spacecore_ltd_ru_reseller_agreement.pdf"
             }
         ]
-    }    
+    }
 }

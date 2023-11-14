@@ -1,123 +1,82 @@
 {
     "main_block": {
-        "title": "Документы компании",
-        "description": "Для положительного опыта от сотрудничества стоит учесть все условия компании. Вы можете сделать это здесь!",
+        "title": "Документи компанії",
+        "description": "Рекомендуємо ознайомитися з усіма умовами нашої компанії. Ви можете зробити це тут.",
         "imgSrc": "/images/banners/documents.png"
     },
     "not_finded_information_block": {
-        "title": "Не нашли то, что искали?",
+        "title": "Не знайшли те, що шукали?",
         "notFindedInformation": [
             {
                 "imgSrc": "/images/icons/dedicated-servers.svg",
-                "title": "Выделенные серверы",
-                "price": "45,00₽",
-                "link": "/dedicated-servers"
-            },
-            {
-                "imgSrc": "/images/icons/website-hosting.svg",
-                "title": "Хостинг для сайтов",
-                "price": "399,00₽",
-                "link": "/hosting-site"
+                "title": "Віртуальні сервери",
+                "price": "Від 1.39 €",
+                "link": "/virtual-servers",
+                "term": "міс."
             },
             {
                 "imgSrc": "/images/icons/cloud-servers.svg",
-                "title": "Cloud-серверы",
-                "price": "259,00₽",
-                "link": "/cloud-servers"
+                "title": "Виділені сервери",
+                "price": "Від 54.99 €",
+                "link": "/dedicated-servers",
+                "term": "міс."
             },
             {
-                "imgSrc": "/images/icons/backup-store.svg",
-                "title": "Бекап-хранилище",
-                "price": "115,00₽",
-                "link": "/backup-storage"
-            },
-            {
-                "imgSrc": "/images/icons/domain-names.svg",
-                "title": "Доменные имена",
-                "price": "55,00₽",
-                "link": "/domain-name"
+                "imgSrc": "/images/icons/website-hosting.svg",
+                "title": "Сервери Contabo",
+                "price": "Від 8 €",
+                "link": "/cloud-servers",
+                "term": "міс."
             },
             {
                 "imgSrc": "/images/icons/game-hosting.svg",
-                "title": "Игровой хостинг",
-                "price": "65,00₽",
-                "link": "/game-hosting"
-            }
-        ]
-    },
-    "faq_block": {
-        "title": "Ответы на вопросы",
-        "faqItems": [
-            {
-                "question": "Что такое Виртуальный сервер (VDS/VPS)?",
-                "answerTitle": "Что такое Виртуальный сервер?",
-                "answerDescription": "Virtual Dedicated (Private) Server — виртуальная услуга, которая эмулирует работу реального физического сервера. Мы предоставляем полный root-доступ для каждого сервера, при этом каждый клиент имеет индивидуальное ограниченное пространство, которое никак не взаимодействует с «соседями по серверу», благодаря технологии KVM. Обратите внимание, что мы не классифицируем VDS и VPS как разные услуги. Все наши виртуальные серверы относятся к обеим категориям."
+                "title": "Хостинг для ігор",
+                "price": "Від 6 €",
+                "link": "/game-hosting",
+                "term": "міс."
             },
             {
-                "question": "Это что-то неизвестное для меня! Как быть?",
-                "answerTitle": "Это что-то неизвестное для меня! Как быть?",
-                "answerDescription": "Это что-то неизвестное для меня! Как быть?"
+                "imgSrc": "/images/icons/backup-store.svg",
+                "title": "Бекап-сховище",
+                "price": "Від 0.20 €",
+                "link": "/backup-storage",
+                "term": "міс."
             },
             {
-                "question": "Какие программы доступны на серверах?",
-                "answerTitle": "Какие программы доступны на серверах?",
-                "answerDescription": "Какие программы доступны на серверах?"
-            },
-            {
-                "question": "Сколько IP-адресов я получаю при покупке?",
-                "answerTitle": "Сколько IP-адресов я получаю при покупке?",
-                "answerDescription": "Сколько IP-адресов я получаю при покупке?"
-            },
-            {
-                "question": "Как переустановить ОС?",
-                "answerTitle": "Как переустановить ОС?",
-                "answerDescription": "Как переустановить ОС?"
-            },
-            {
-                "question": "Как увеличить мощность сервера после покупки?",
-                "answerTitle": "Как увеличить мощность сервера после покупки?",
-                "answerDescription": "Как увеличить мощность сервера после покупки?"
+                "imgSrc": "/images/icons/domain-names.svg",
+                "title": "Доменні імена",
+                "price": "Від 3 €",
+                "link": "/domains",
+                "term": "рік"
             }
         ]
     },
     "support_block": {
         "type": "chat",
         "imgSrc": "/images/banners/austronaut-lie.png",
-        "title": "Онлайн-чат поддержки",
-        "description": "Есть вопросы? Пишите нам в чат! Поддержка 24/7",
-        "buttonText": "Открыть чат"
+        "title": "Онлайн-чат підтримки",
+        "description": "Маєте питання? Пишіть нам у чат! Підтримка доступна 24/7",
+        "buttonText": "Відкрити чат"
     },
     "documents_block": {
         "documents": [
             {
                 "imgSrc": "/images/icons/public-offert.svg",
-                "title": "Публичная оферта",
-                "description": "публичное соглашение хостера с пользователем договор аренды услуг",
-                "link": "/documents/agreement1"
-            },
-            {
-                "imgSrc": "/images/icons/privacy-policy.svg",
-                "title": "Политика конфиденциальности",
-                "description": "публичное соглашение хостера с пользователем договор аренды услуг",
-                "link": "/documents/agreement2"
-            },
-            {
-                "imgSrc": "/images/icons/ddos-shield.svg",
-                "title": "Защита от DDoS (StormWall)",
-                "description": "публичное соглашение хостера с пользователем договор аренды услуг",
-                "link": "/documents/agreement3"
+                "title": "Публічна оферта",
+                "description": "Публічна угода компанії з користувачем послуг.",
+                "link": "https://cdn.spacecore.media/documents/spacecore_ltd_ru_terms_and_conditions.pdf"
             },
             {
                 "imgSrc": "/images/icons/placing-services.svg",
-                "title": "Услуги размещения оборудования (Colocation)",
-                "description": "публичное соглашение хостера с пользователем договор аренды услуг",
-                "link": "/documents/agreement4"
+                "title": "Послуги розміщення обладнання (Colocation)",
+                "description": "Умови розміщення користувальницького обладнання у партнерських дата-центрах.",
+                "link": "https://cdn.spacecore.media/documents/spacecore_ltd_ru_colocation_terms_and_conditions.pdf"
             },
             {
                 "imgSrc": "/images/icons/rules-workers.svg",
-                "title": "Правила взаимодействия с сотрудниками компании",
-                "description": "публичное соглашение хостера с пользователем договор аренды услуг",
-                "link": "/documents/agreement5"
+                "title": "Програма реселінгу (White Label)",
+                "description": "Умови перепродажу послуг компанії.",
+                "link": "https://cdn.spacecore.media/documents/spacecore_ltd_ru_reseller_agreement.pdf"
             }
         ]
     }
