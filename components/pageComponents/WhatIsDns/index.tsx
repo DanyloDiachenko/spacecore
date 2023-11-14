@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useRouter, NextRouter } from "next/router";
 
 import Button from "components/UI/Button";
@@ -17,19 +16,25 @@ const WhatIsDns = ({ whatIsDnsBlock }: WhatIsDnsProps): JSX.Element => {
                 </p>
             </div>
             <div className="right-col">
-                <Image
+                <img
                     src={whatIsDnsBlock.imgSrcLight}
                     alt={whatIsDnsBlock.title + " photo"}
-                    width="520"
-                    height="196"
                     className="light"
+                    style={{
+                        width: "auto",
+                        marginLeft: "auto",
+                        marginRight: "auto",
+                    }}
                 />
-                <Image
+                <img
                     src={whatIsDnsBlock.imgSrcDark}
                     alt={whatIsDnsBlock.title + " photo"}
-                    width="520"
-                    height="196"
                     className="dark"
+                    style={{
+                        width: "auto",
+                        marginLeft: "auto",
+                        marginRight: "auto",
+                    }}
                 />
                 <Button
                     onClick={() => router.push(whatIsDnsBlock.buttonLink)}

@@ -7,25 +7,25 @@
     "main_info_block": [
         {
             "id": 0,
-            "imgSrc": "/images/banners/control-panel.png",
+            "imgSrc": "/images/banners/dns-free.png",
             "title": "100% бесплатно",
             "description": "Полностью бесплатная услуга. Используйте наши DNS-серверы без ограничений и в любом количестве для Ваших веб-сайтов!"
         },
         {
             "id": 1,
-            "imgSrc": "/images/banners/rocket.png",
+            "imgSrc": "/images/banners/antiddos.png",
             "title": "Отказоустойчивость",
             "description": "Мы используем исключительно надежное оборудование для обеспечения круглосуточной работы как Ваших сайтов, так и сайтов компании."
         },
         {
             "id": 2,
-            "imgSrc": "/images/banners/bank-coin.png",
+            "imgSrc": "/images/banners/dedicated-panel.png",
             "title": "Простота настройки",
             "description": "Интеллектуально понятный интерфейс позволяет Вам внести необходимые настройки даже без опыта работы с данной технологией."
         },
         {
             "id": 3,
-            "imgSrc": "/images/banners/shield.png",
+            "imgSrc": "/images/banners/dns-unlimited.png",
             "title": "Отсутствие лимитов",
             "description": "Создайте безлимитное количество любых DNS-записей! Бесплатно. Надежно. Навсегда."
         }
@@ -56,14 +56,14 @@
         "title": "Что такое DNS?",
         "descriptionMain": "DNS помогает пользователям оказаться на необходимом сайте при помощи поискового запроса в браузере.",
         "descriptionAdditional": "Настоящая «книга контактов», только в интернете! Например, чтобы оказаться на нашем веб-сайте, в браузере необходимо ввести доменное имя «‎SpaceCore.pro». Для пользователя происходит практически незаметное перенаправление, а на уровне DNS-серверов обрабатывается IP-адрес сайта, который скрывается за красивыми буквами!",
-        "imgSrcLight": "/images/banners/dns-hosting-light.png",
-        "imgSrcDark": "/images/banners/dns-hosting-dark.png",
+        "imgSrcLight": "/images/banners/dns-hosting-light-ru.webp",
+        "imgSrcDark": "/images/banners/dns-hosting-dark-ru.webp",
         "buttonText": "Попробовать",
         "buttonLink": "https://billing.spacecore.pro/billmgr#/?func=dnshost.order.pricelist&plid="
     },
     "what_need_to_use_dns_block": {
         "title": "Что нужно для использования наших DNS-серверов",
-        "buttonLink": "#",
+        "buttonLink": "https://billing.spacecore.pro/",
         "buttonText": "Подробнее в нашей базе знаний",
         "steps": [
             {
