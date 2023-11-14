@@ -7,25 +7,25 @@
     "main_info_block": [
         {
             "id": 0,
-            "imgSrc": "",
+            "imgSrc": "/images/banners/domain-laptop.png",
             "title": "Оптимальная стоимость доменных зон",
             "description": "Окунитесь в разнообразие доменных зон и стоимостей. От стандартных доменов до наиболее премиальных!"
         },
         {
             "id": 1,
-            "imgSrc": "/images/banners/transfer_domain.png",
+            "imgSrc": "/images/banners/domain_transfer.png",
             "title": "Вы можете перенести домен к нам!",
             "description": "Уже приобрели домен? Ничего страшного, для удобной оплаты и взаимодействия Вы можете перенести его к нам в несколько кликов!"
         },
         {
             "id": 2,
-            "imgSrc": "/images/banners/comfort_usage.png",
+            "imgSrc": "/images/banners/dedicated-panel.png",
             "title": "Удобное управление в совмещенной панели",
             "description": "Используйте удобную панель управления, совмещенную с интерфейсом настройки DNS. Направить домен не составит никакого труда!"
         },
         {
             "id": 3,
-            "imgSrc": "/images/banners/transfer_domain.png",
+            "imgSrc": "/images/banners/our_dns.png",
             "title": "Собственные серверы DNS",
             "description": "Надежные DNS прямиком от SpaceCore. С ними процесс направления доменного имени до наших серверов происходит значительно быстрее."
         }
