@@ -1,8 +1,8 @@
 {
     "knowledge_base_block": {
-        "title": "База знаний",
-        "placeholder": "Поиск по базе знаний",
-        "buttonText": "Найти",
-        "nothingFound": "Ничего не найдено"
+        "title": "База знань",
+        "placeholder": "Пошук по базі знань",
+        "buttonText": "Знайти",
+        "nothingFound": "Нічого не знайдено"
     }
 }
