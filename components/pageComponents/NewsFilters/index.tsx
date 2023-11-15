@@ -46,7 +46,9 @@ const NewsFilters = ({ newsFiltersBlock }: NewsFiltersProps): JSX.Element => {
                 ))}
             </div>
             <div className="mailing">
-                <Link href={`#`}>{newsFiltersBlock.newsletterTitle}</Link>
+                <Link href="https://billing.spacecore.pro/">
+                    {newsFiltersBlock.newsletterTitle}
+                </Link>
                 <Image
                     alt={newsFiltersBlock.newsletterTitle + "photo"}
                     src={
