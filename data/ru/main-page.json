@@ -1,118 +1,118 @@
 {
     "slider": [
         {
-            "title": "Новый веб-сайт",
-            "description": "Мы запустили совершенно новый сайт и предлагаем Вам протестировать его работу. За обнаружение уязвимостей предусмотрена денежная награда.",
+            "title": "Новий веб-сайт",
+            "description": "Ми запустили абсолютно новий веб-сайт і пропонуємо вам протестувати його роботу. За виявлення вразливостей передбачена грошова винагорода.",
             "imageSrc": "/images/banners/banner-1.webp"
         },
         {
-            "title": "Вечные скидки на Intel i9 12900K",
-            "description": "При заказе прямо сейчас Вы получите вечную скидку 50% на весь период действия услуги. Мощные серверы Intel Core i9 с частотой до 5.2GHz для Вас!",
-            "buttonText": "Подробнее",
+            "title": "Вічні знижки на Intel i9 12900K",
+            "description": "При замовленні прямо зараз ви отримаєте вічну знижку 50% на весь період дії послуги. Потужні сервери Intel Core i9 з тактовою частотою до 5.2GHz для вас!",
+            "buttonText": "Детальніше",
             "buttonLink": "/virtual-servers/?country=ru",
             "imageSrc": "/images/banners/banner-2.webp"
         },
         {
-            "title": "Серверы Contabo",
-            "description": "Закажите оригинальное оборудование прямо из дата-центра. Мы являемся официальными партнерами Contabo и гарантируем 100% надежности!",
-            "buttonText": "Подробнее",
+            "title": "Сервери Contabo",
+            "description": "Замовте оригінальне обладнання прямо з дата-центру. Ми є офіційними партнерами Contabo і гарантуємо 100% надійності!",
+            "buttonText": "Детальніше",
             "buttonLink": "/contabo/",
             "imageSrc": "/images/banners/banner-3.webp"
         },
         {
-            "title": "Скидки за отзывы!",
-            "description": "Напишите отзыв о нашей компании и получите благодарность в виде скидки на новую или существующую услугу.",
-            "buttonText": "Подрбнее",
+            "title": "Знижки за відгуки!",
+            "description": "Напишіть відгук про нашу компанію та отримайте вдячність у вигляді знижки на нову або існуючу послугу.",
+            "buttonText": "Детальніше",
             "buttonLink": "/news/discount-for-promocode/",
             "imageSrc": "/images/banners/banner-4.webp"
         },
         {
-            "title": "Заработайте вместе с нами!",
-            "description": "Мы запустили совершенно новый сайт и предлагаем Вам протестировать его работу. За обнаружение уязвимостей предусмотрена денежная награда.",
-            "buttonText": "Прочитать условия",
+            "title": "Зарабатайте разом з нами!",
+            "description": "Ми запустили абсолютно новий веб-сайт і пропонуємо вам протестувати його роботу. За виявлення вразливостей передбачена грошова винагорода.",
+            "buttonText": "Прочитати умови",
             "buttonLink": "/news/referral-and-reseller-programs/",
             "imageSrc": "/images/banners/banner-5.webp"
         }
     ],
     "about_block": {
-        "title": "Все о SpaceCore за ~1 минуту",
-        "description": "Мы ценим Ваше время!",
+        "title": "Все про SpaceCore за ~1 хвилину",
+        "description": "Ми цінуємо ваш час!",
         "videoLink": "https://www.youtube.com/embed/TXVp-o4bA0A",
         "videoDuration": ""
     },
     "services_block": {
         "services": [
             {
-                "title": "Виртуальные серверы (VDS/VPS)",
+                "title": "Віртуальні сервери (VDS/VPS)",
                 "imgSrc": "/images/medium/virtual-servers.png",
                 "link": "/virtual-servers"
             },
             {
-                "title": "Серверы Contabo",
+                "title": "Сервери Contabo",
                 "imgSrc": "/images/medium/cloud-servers.png",
                 "link": "/contabo/"
             },
             {
-                "title": "Выделенные серверы",
+                "title": "Виділені сервери",
                 "imgSrc": "/images/medium/emitted-servers.png",
                 "link": "/dedicated-servers"
             },
             {
-                "title": "Серверы без установки",
+                "title": "Сервери без встановлення",
                 "imgSrc": "/images/medium/no-installed-servers.png",
                 "link": "/dedicated-no-install-servers"
             },
             {
-                "title": "Игровой хостинг",
+                "title": "Ігровий хостинг",
                 "imgSrc": "/images/medium/game-hosting.png",
                 "link": "/game-hosting"
             },
             {
-                "title": "Хостинг для сайтов",
+                "title": "Хостинг для сайтів",
                 "imgSrc": "/images/medium/site-hosting.png",
                 "link": "/web-hosting"
             },
             {
-                "title": "Доменные имена",
+                "title": "Доменні імена",
                 "imgSrc": "/images/medium/domain-names.png",
                 "link": "/domains"
             },
             {
-                "title": "Бекап-хранилище",
+                "title": "Бекап-сховище",
                 "imgSrc": "/images/medium/backup-store.png",
                 "link": "/backup-storage"
             }
         ],
-        "title": "Наши услуги",
+        "title": "Наші послуги",
         "buttonText": "",
         "buttonLink": ""
     },
     "services_additional_block": [
         {
             "imgSrc": "/images/icons/transfer-project.svg",
-            "title": "Перенесем Ваш проект!",
-            "description": "Наши сотрудники готовы в любое время бесплатно перенести Ваши данные со старого хостинг-провайдера."
+            "title": "Перенесемо Ваш проект!",
+            "description": "Наші співробітники готові у будь-який час безкоштовно перенести Ваші дані зі старого хостинг-провайдера."
         },
         {
             "imgSrc": "/images/icons/speed-equipment.svg",
-            "title": "Скоростное оборудование",
-            "description": "Премиальные серверы с производительностью для проектов любых потребительских масштабов."
+            "title": "Швидкісне обладнання",
+            "description": "Преміальні сервери з продуктивністю для проектів будь-яких споживчих масштабів."
         },
         {
             "imgSrc": "/images/icons/uptime.svg",
             "title": "Аптайм 99.9%",
-            "description": "Мы используем самое надежное оборудование, чтобы гарантировать бесперебойную работу Вашего продукта."
+            "description": "Ми використовуємо найнадійніше обладнання, щоб гарантувати безперебійну роботу Вашого продукту."
         },
         {
             "imgSrc": "/images/icons/available-prices.svg",
-            "title": "Доступные цены",
-            "description": "Мы ценим Ваш выбор и предлагаем лучшие условия сотрудничества — выгодные тарифы и бонусы для всех!"
+            "title": "Доступні ціни",
+            "description": "Ми цінуємо Ваш вибір і пропонуємо найкращі умови співпраці — вигідні тарифи та бонуси для всіх!"
         }
     ],
     "domain_block": {
-        "title": "Давай подберем домен",
-        "placeholder": "Название домена",
-        "buttonInputText": "Проверить",
+        "title": "Оберемо домен",
+        "placeholder": "Назва домену",
+        "buttonInputText": "Перевірити",
         "buttons": [
             {
                 "title": ".su",
@@ -127,64 +127,64 @@
                 "price": "29.00€"
             }
         ],
-        "buttonMore": "Еще",
-        "priceDescription": "*На срок от 1 года.",
-        "mainDescription": "При покупке веб-хостинга* домен в подарок!",
+        "buttonMore": "Ще",
+        "priceDescription": "*На строк від 1 року.",
+        "mainDescription": "При покупці веб-хостингу* домен у подарунок!",
         "imgSrc": "/images/banners/astronaut.png"
     },
     "advantages_block": {
-        "title": "Преимущества SpaceCore",
+        "title": "Переваги SpaceCore",
         "advantages": [
             {
-                "title": "Репутация компании",
+                "title": "Репутація компанії",
                 "imgSrc": "/images/icons/reputation.svg",
-                "description": "С 2018 года мы обслуживаем тысячи клиентов и получаем множество положительных отзывов и благодарностей!"
+                "description": "З 2018 року ми обслуговуємо тисячі клієнтів і отримуємо безліч позитивних відгуків та подяк!"
             },
             {
-                "title": "Надежные дата-центры",
+                "title": "Надійні дата-центри",
                 "imgSrc": "/images/icons/reliability.svg",
-                "description": "Оборудование размещается в лучших дата-центрах высокого уровня надёжности по всей галактике!"
+                "description": "Обладнання розміщується в найкращих дата-центрах високого рівня надійності по всій галактиці!"
             },
             {
-                "title": "Современный интерфейс",
+                "title": "Сучасний інтерфейс",
                 "imgSrc": "/images/icons/modern.svg",
-                "description": "Популярные и удобные панели управления для всех услуг. Интуитивно понятное взаимодействие."
+                "description": "Популярні та зручні панелі керування для всіх послуг. Інтуїтивно зрозуміле взаємодія."
             },
             {
-                "title": "Профессиональная поддержка",
+                "title": "Професійна підтримка",
                 "imgSrc": "/images/icons/professionals.svg",
-                "description": "Скоростные и теплые ответы от наших сотрудников в любое время суток без выходных!"
+                "description": "Швидкі та теплі відповіді від наших співробітників у будь-який час доби без вихідних!"
             },
             {
-                "title": "Устойчивые накопители",
+                "title": "Стійкі накопичувачі",
                 "imgSrc": "/images/icons/reservs.svg",
-                "description": "Сверхнадежные хранилища с RAID. Спите спокойно, Ваши данные в целости и сохранности!"
+                "description": "Надійні сховища з RAID. Спокійно сплять, ваші дані в цілості та збереженості!"
             },
             {
-                "title": "Защита от DDoS",
+                "title": "Захист від DDoS",
                 "imgSrc": "/images/icons/ddos-defense.svg",
-                "description": "Качественная и круглосуточная защита Вашего проекта. Автоматическое отражение всех видов атак мощностью до 2Тбит/с."
+                "description": "Якісний та цілодобовий захист вашого проекту. Автоматичне відображення всіх видів атак потужністю до 2Тбіт/с."
             }
         ]
     },
     "clients_block": {
-        "title": "Довольные клиенты",
+        "title": "Задоволені клієнти",
         "clientsNumber": 200,
-        "clientsDescription": "отзывов от клиентов компании SpaceCore. Они помогают нам анализировать пользовательский опыт и улучшать наши сервисы.",
+        "clientsDescription": "відгуків від клієнтів компанії SpaceCore. Вони допомагають нам аналізувати користувацький досвід та вдосконалювати наші сервіси.",
         "imgSrc": "/images/banners/austronaut-run.png",
-        "buttonText": "Читать все отзывы",
+        "buttonText": "Читати всі відгуки",
         "buttonLink": "/reviews"
     },
     "actual_news_block": {
-        "title": "Актуальные новости",
-        "buttonText": "Все новости",
+        "title": "Актуальні новини",
+        "buttonText": "Усі новини",
         "buttonLink": "/news"
     },
     "support_block": {
         "type": "chat",
         "imgSrc": "/images/banners/austronaut-lie.png",
-        "title": "Онлайн-чат поддержки",
-        "description": "Есть вопросы? Пишите нам в чат! Поддержка 24/7",
-        "buttonText": "Открыть чат"
+        "title": "Онлайн-чат підтримки",
+        "description": "Є питання? Пишіть нам у чат! Підтримка 24/7",
+        "buttonText": "Відкрити чат"
     }
 }
