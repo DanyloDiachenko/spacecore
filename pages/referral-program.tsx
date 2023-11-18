@@ -11,8 +11,8 @@ const ReferralProgramPage = ({
         support_block,
         services_description_block,
         referral_block,
+        faq_block,
         referral_invite_friends_block,
-        where_referral_link_block,
     } = content;
 
     return (
@@ -21,8 +21,8 @@ const ReferralProgramPage = ({
             supportBlock={support_block}
             servicesDescriptionBlock={services_description_block}
             referralBlock={referral_block}
+            faqBlock={faq_block}
             referralInviteFriendsBlock={referral_invite_friends_block}
-            whereReferralLinkBlock={where_referral_link_block}
         />
     );
 };

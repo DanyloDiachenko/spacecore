@@ -3,8 +3,8 @@ import ReferralText from "components/pageComponents/MainTextComponent";
 import ServicesDescription from "components/pageComponents/ServicesDescription";
 import Support from "components/pageComponents/Support";
 import ReferralInviteFriends from "components/pageComponents/ReferralInviteFriends";
-import WhereReferralLink from "components/pageComponents/WhereReferralLink";
 import ReferralProgramPageComponentProps from "interfaces/referralProgramPageComponent.props";
+import QuestionsAnswers from "components/pageComponents/QuestionsAnswers";
 
 const ReferralProgram = ({
     mainBlock,
@@ -12,7 +12,7 @@ const ReferralProgram = ({
     servicesDescriptionBlock,
     referralBlock,
     referralInviteFriendsBlock,
-    whereReferralLinkBlock,
+    faqBlock,
 }: ReferralProgramPageComponentProps): JSX.Element => {
     return (
         <>
@@ -31,9 +31,7 @@ const ReferralProgram = ({
             <ReferralInviteFriends
                 referralInviteFriendsBlock={referralInviteFriendsBlock}
             />
-            <WhereReferralLink
-                whereReferralLinkBlock={whereReferralLinkBlock}
-            />
+            <QuestionsAnswers faqBlock={faqBlock} />
             <Support supportBlock={supportBlock} />
         </>
     );
