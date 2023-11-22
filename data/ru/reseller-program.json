@@ -16,7 +16,7 @@
         {
             "imgSrc": "/images/icons/ddos-filters.svg",
             "title": "Специальные условия",
-            "description": "Мы индивидуально подберем для Вас скидочный план для всех основных типов наших услуг.⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ Больше оборот — больше скидок!"
+            "description": "Мы индивидуально подберем для Вас скидочный план для всех основных типов наших услуг. Больше оборот — больше скидок!"
         },
         {
             "imgSrc": "/images/icons/custom-protection.svg",
@@ -89,7 +89,6 @@
                         "level": 1,
                         "length": 5,
                         "circulation": {
-                            "from": 5000,
                             "to": 50
                         },
                         "update": 2,
@@ -100,7 +99,6 @@
                         "level": 2,
                         "length": 15,
                         "circulation": {
-                            "from": 20000,
                             "to": 200
                         },
                         "update": 1,
@@ -111,7 +109,6 @@
                         "level": 3,
                         "length": 30,
                         "circulation": {
-                            "from": 50000,
                             "to": 500
                         },
                         "update": 1,
@@ -122,7 +119,6 @@
                         "level": "Особые условия",
                         "length": 0,
                         "circulation": {
-                            "from": 100000,
                             "to": 1000
                         },
                         "update": 0,
@@ -139,7 +135,6 @@
                         "level": 1,
                         "length": 5,
                         "circulation": {
-                            "from": 1000,
                             "to": 10
                         },
                         "update": 2,
@@ -150,7 +145,6 @@
                         "level": 2,
                         "length": 15,
                         "circulation": {
-                            "from": 5000,
                             "to": 50
                         },
                         "update": 1,
@@ -161,7 +155,6 @@
                         "level": 3,
                         "length": 30,
                         "circulation": {
-                            "from": 15000,
                             "to": 150
                         },
                         "update": 1,
@@ -172,7 +165,6 @@
                         "level": "Особые условия",
                         "length": 0,
                         "circulation": {
-                            "from": 25000,
                             "to": 250
                         },
                         "update": 0,
@@ -189,7 +181,6 @@
                         "level": 1,
                         "length": 5,
                         "circulation": {
-                            "from": 2500,
                             "to": 25
                         },
                         "update": 2,
@@ -200,7 +191,6 @@
                         "level": 2,
                         "length": 15,
                         "circulation": {
-                            "from": 7000,
                             "to": 70
                         },
                         "update": 1,
@@ -211,7 +201,6 @@
                         "level": 3,
                         "length": 30,
                         "circulation": {
-                            "from": 15000,
                             "to": 150
                         },
                         "update": 1,
@@ -222,7 +211,6 @@
                         "level": "Особые условия",
                         "length": 0,
                         "circulation": {
-                            "from": 25000,
                             "to": 250
                         },
                         "update": 0,
@@ -239,7 +227,6 @@
                         "level": 1,
                         "length": 5,
                         "circulation": {
-                            "from": 1500,
                             "to": 15
                         },
                         "update": 2,
@@ -250,7 +237,6 @@
                         "level": 2,
                         "length": 15,
                         "circulation": {
-                            "from": 5000,
                             "to": 50
                         },
                         "update": 1,
@@ -261,7 +247,6 @@
                         "level": 3,
                         "length": 30,
                         "circulation": {
-                            "from": 15000,
                             "to": 150
                         },
                         "update": 1,
@@ -272,7 +257,6 @@
                         "level": "Особые условия",
                         "length": 0,
                         "circulation": {
-                            "from": 25000,
                             "to": 250
                         },
                         "update": 0,

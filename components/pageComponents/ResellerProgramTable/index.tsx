@@ -106,15 +106,10 @@ const ResellerProgramTable = ({
                                     <Trans string="от" />{" "}
                                     <span className="value circulation">
                                         <span>
-                                            {formatNumber(
-                                                tableItem.circulation.from,
-                                            )}
-                                            ₽
-                                        </span>
-                                        ,{" "}
-                                        <span>
                                             <br />
-                                            {tableItem.circulation.to}
+                                            {formatNumber(
+                                                tableItem.circulation.to,
+                                            )}{" "}
                                             EUR
                                         </span>
                                     </span>

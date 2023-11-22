@@ -2,12 +2,12 @@
     "main_block": {
         "imgSrc": "/images/banners/reseller-program.png",
         "title": "Reseller Program",
-        "description": "This is the simplest way to start your business from scratch. We offer terms to sell our services under your own brand! No hidden catches."
+        "description": "This is the easiest way to start Your business from scratch. We offer terms to sell our services under Your own brand! No hidden pitfalls."
     },
     "support_block": {
         "type": "email",
         "imgSrc": "/images/banners/austronaut-lie.png",
-        "title": "Awaiting Your Inquiry!",
+        "title": "We're waiting for Your inquiry!",
         "description": "partner@spacecore.pro",
         "buttonText": "",
         "emailLink": "mailto:partner@spacecore.pro"
@@ -15,28 +15,28 @@
     "services_description_block": [
         {
             "imgSrc": "/images/icons/ddos-filters.svg",
-            "title": "Special Terms",
-            "description": "We will individually tailor a discount plan for all major types of our services for you. More turnover means more discounts!"
+            "title": "Special Conditions",
+            "description": "We will individually tailor a discount plan for all major types of our services. More turnover means more discounts!"
         },
         {
             "imgSrc": "/images/icons/custom-protection.svg",
             "title": "Branding",
-            "description": "You can completely conceal any connection of your services to our hosting. It's White Label, baby!"
+            "description": "You can completely conceal any association of Your services with our hosting. It's White Label, baby!"
         },
         {
             "imgSrc": "/images/icons/option-connect.svg",
             "title": "24/7 Support",
-            "description": "You'll receive a dedicated 24/7 support channel to address any partner-related queries."
+            "description": "You will receive a dedicated 24/7 support channel to address any partner-related inquiries."
         },
         {
             "imgSrc": "/images/icons/high-filter-power.svg",
             "title": "High Security",
-            "description": "We guarantee the security of your customers' data using modern protection protocols."
+            "description": "We guarantee the security of Your clients' data by using modern protection protocols."
         }
     ],
     "resellers_text_block": {
-        "title": "We Welcome Our Partners",
-        "description": "Start growing your business with SpaceCore! We offer astronomically advantageous terms for our resellers, modern technological solutions complemented by a dedicated support channel, and an individual approach to each partner."
+        "title": "We are glad to welcome our partners",
+        "description": "Start growing Your business together with SpaceCore! We offer incredibly favorable conditions for our resellers and modern technological solutions, accompanied by a dedicated support channel and an individual approach to each partner."
     },
     "faq_block": {
         "title": "Answers to Questions",
@@ -44,37 +44,37 @@
             {
                 "question": "Where to start? How to set everything up?",
                 "answerTitle": "Where to start? How to set everything up?",
-                "answerDescription": "We're always ready to guide you on how to properly set up your products for collaboration with us. Don't hesitate to reach out to our support team! To begin, you need to install your own BILLmanager software. Upon request, we can provide you with a server at a good discount for this purpose. All the basic information is provided in our article (link)."
+                "answerDescription": "We are always ready to guide you on how to correctly configure Your products for cooperation with us. Feel free to contact our support service!⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ To start, you need to install Your own BILLmanager software. Upon request, we can provide you with a server at a good discount. All the basic information is mentioned in our article (link)."
             },
             {
                 "question": "Who can become a reseller?",
                 "answerTitle": "Who can become a reseller?",
-                "answerDescription": "Whether it's a web studio, online school, or even another hosting project—in reality, there are no limitations! The key point is strict adherence to the terms of the partner agreement. If your activities do not violate our rules, we welcome the start of our collaboration with open arms!"
+                "answerDescription": "Whether it's a web studio, an online school, or even another hosting project — in reality, there are no restrictions! The key point is strict compliance with the terms of the partnership agreement. If Your activity does not violate our rules, we eagerly await the start of our cooperation!"
             },
             {
                 "question": "How to effectively sell my services?",
                 "answerTitle": "How to effectively sell my services?",
-                "answerDescription": "By default, we offer two main methods of service sales—Manual and Automatic. In the first case, all orders are under your direct control. The Automatic method implies that all processes occur without your involvement. For most of our services, an automatic processing method is available; it's truly convenient!"
+                "answerDescription": "By default, we offer two main methods of selling services — Manual and Automatic. In the first case, all orders are under Your direct control. The automatic method means that all processes occur without Your involvement. For most of our services, an automatic processing method is available, which is truly convenient!"
             },
             {
                 "question": "How much can I earn as a reseller?",
                 "answerTitle": "How much can I earn as a reseller?",
-                "answerDescription": "Let's consider a real Level 2 case example: There's a VPS X tariff, which with a 15% discount costs you 20 euros/month. Suppose you set a markup of 30% on it, and the tariff's cost on your hosting becomes 26 euros/month. You engage in promoting your hosting and find 15 customers who purchased this tariff and extended it for 12 months. This way, your monthly income per client will be 26 € - 20 € = 6 €. And after a year, for 15 such servers, you'll receive a net income of 6 € * 15 units * 12 months = 1080 €."
+                "answerDescription": "Let's consider a real case example of 'Level 2': There is a VPS X tariff, which costs you 20 euros/month with a 15% discount. Suppose you set a markup of 30%, making the tariff cost 26 euros/month on Your hosting. You start promoting Your hosting and find 15 customers who purchase this tariff and renew it for 12 months. Thus, Your monthly income per customer will be 26 € - 20 € = 6 €. After a year, for 15 such servers, you will receive 6 € * 15 units * 12 months = 1080 € net income."
             },
             {
-                "question": "How can I receive profits?",
-                "answerTitle": "How can I receive profits?",
-                "answerDescription": "We provide the option to credit earned funds to the balance of your personal account (minimum – 3 €), or withdraw funds to your bank card or crypto wallet (minimum – 10 €)."
+                "question": "How can I receive my profits?",
+                "answerTitle": "How can I receive my profits?",
+                "answerDescription": "We provide the option to credit Your earnings to Your personal account balance (minimum - 3 €) or withdraw funds to Your bank card or cryptocurrency wallet (minimum - 10 €)."
             },
             {
-                "question": "What support do you provide for resellers?",
-                "answerTitle": "What support do you provide for resellers?",
-                "answerDescription": "For each partner, we offer a dedicated 24/7 support channel, where our specialists are always ready to assist in resolving any technical tasks."
+                "question": "What kind of support do you provide to resellers?",
+                "answerTitle": "What kind of support do you provide to resellers?",
+                "answerDescription": "For each partner, we provide a dedicated 24/7 support channel where our specialists are always ready to assist in resolving any technical issues."
             }
         ]
     },
     "resellers_description_block": {
-        "description": "Detailed collaboration terms — ",
+        "description": "Detailed cooperation terms — ",
         "documentLink": "https://web.spacecore.media/2023/documents/spacecore_ltd_ru_reseller_agreement.pdf",
         "documentTitle": "reselling.pdf"
     },
@@ -89,7 +89,6 @@
                         "level": 1,
                         "length": 5,
                         "circulation": {
-                            "from": 5000,
                             "to": 50
                         },
                         "update": 2,
@@ -100,7 +99,6 @@
                         "level": 2,
                         "length": 15,
                         "circulation": {
-                            "from": 20000,
                             "to": 200
                         },
                         "update": 1,
@@ -111,7 +109,6 @@
                         "level": 3,
                         "length": 30,
                         "circulation": {
-                            "from": 50000,
                             "to": 500
                         },
                         "update": 1,
@@ -119,10 +116,9 @@
                     },
                     {
                         "id": 3,
-                        "level": "Special Terms",
+                        "level": "Special Conditions",
                         "length": 0,
                         "circulation": {
-                            "from": 100000,
                             "to": 1000
                         },
                         "update": 0,
@@ -139,7 +135,6 @@
                         "level": 1,
                         "length": 5,
                         "circulation": {
-                            "from": 1000,
                             "to": 10
                         },
                         "update": 2,
@@ -150,7 +145,6 @@
                         "level": 2,
                         "length": 15,
                         "circulation": {
-                            "from": 5000,
                             "to": 50
                         },
                         "update": 1,
@@ -161,7 +155,6 @@
                         "level": 3,
                         "length": 30,
                         "circulation": {
-                            "from": 15000,
                             "to": 150
                         },
                         "update": 1,
@@ -169,10 +162,9 @@
                     },
                     {
                         "id": 3,
-                        "level": "Special Terms",
+                        "level": "Special Conditions",
                         "length": 0,
                         "circulation": {
-                            "from": 25000,
                             "to": 250
                         },
                         "update": 0,
@@ -189,7 +181,6 @@
                         "level": 1,
                         "length": 5,
                         "circulation": {
-                            "from": 2500,
                             "to": 25
                         },
                         "update": 2,
@@ -200,7 +191,6 @@
                         "level": 2,
                         "length": 15,
                         "circulation": {
-                            "from": 7000,
                             "to": 70
                         },
                         "update": 1,
@@ -211,7 +201,6 @@
                         "level": 3,
                         "length": 30,
                         "circulation": {
-                            "from": 15000,
                             "to": 150
                         },
                         "update": 1,
@@ -219,10 +208,9 @@
                     },
                     {
                         "id": 3,
-                        "level": "Special Terms",
+                        "level": "Special Conditions",
                         "length": 0,
                         "circulation": {
-                            "from": 25000,
                             "to": 250
                         },
                         "update": 0,
@@ -239,7 +227,6 @@
                         "level": 1,
                         "length": 5,
                         "circulation": {
-                            "from": 1500,
                             "to": 15
                         },
                         "update": 2,
@@ -250,7 +237,6 @@
                         "level": 2,
                         "length": 15,
                         "circulation": {
-                            "from": 5000,
                             "to": 50
                         },
                         "update": 1,
@@ -261,7 +247,6 @@
                         "level": 3,
                         "length": 30,
                         "circulation": {
-                            "from": 15000,
                             "to": 150
                         },
                         "update": 1,
@@ -269,10 +254,9 @@
                     },
                     {
                         "id": 3,
-                        "level": "Special Terms",
+                        "level": "Special Conditions",
                         "length": 0,
                         "circulation": {
-                            "from": 25000,
                             "to": 250
                         },
                         "update": 0,
