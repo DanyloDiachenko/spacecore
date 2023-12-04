@@ -22,7 +22,10 @@ const PreviewReleasePopup = ({
     }, [openPopup]);
 
     return (
-        <section className="popup-wrapper preview-release-wrapper">
+        <section
+            className="popup-wrapper preview-release-wrapper"
+            style={{ zIndex: openPopup ? 15 : 0 }}
+        >
             <div className={popupClassName}>
                 <video
                     ref={videoRef}

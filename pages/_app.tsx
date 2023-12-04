@@ -92,7 +92,7 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
     }, []);
 
     const releaseDate = new Date(
-        "Mon Sep 6 2023 21:08:30 GMT+0200 (Восточная Европа, стандартное время)",
+        "Mon Nov 22 2023 10:44:00 GMT+0200 (Восточная Европа, стандартное время)",
     );
 
     return (
@@ -154,7 +154,7 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
                 }
             `}</style>
             <Provider store={store}>
-                {releaseDate.getTime() > Date.now() /* false */ ? (
+                {releaseDate.getTime() > Date.now() /* true */ ? (
                     <main className={inter.className}>
                         <TimerComponent releaseDate={releaseDate} />
                     </main>
