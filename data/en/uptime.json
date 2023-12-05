@@ -18,21 +18,199 @@
         "groups": [
             {
                 "title": "Our Services",
-                "ids": [788263674, 788263676, 788263678, 787698359, 787615884, 787615904, 787615915, 787615755]
+                "ids": [
+                    788263674,
+                    788263676,
+                    788263678,
+                    787698359,
+                    787615884,
+                    787615904,
+                    787615915,
+                    787615755
+                ]
             },
             {
                 "title": "NS Servers",
-                "ids": [795057495, 795057497]
+                "ids": [
+                    795057495,
+                    795057497
+                ]
             },
             {
                 "title": "Nodes",
-                "ids": [788431420, 788431420, 788431420, 793304781, 787615683, 791803674, 787615684, 789338763, 789512142, 791267757, 791267759, 787615692, 787615688, 792529817, 792684315, 792544354, 793304795, 792586439, 792586443, 794537557, 794537557, 794537546, 794537546, 794537553, 787615694, 791803693, 792567376, 794537536, 794862729, 795146126]
+                "ids": [
+                    788431420,
+                    788431420,
+                    788431420,
+                    793304781,
+                    787615683,
+                    791803674,
+                    787615684,
+                    789338763,
+                    789512142,
+                    791267757,
+                    791267759,
+                    787615692,
+                    787615688,
+                    792529817,
+                    792684315,
+                    792544354,
+                    793304795,
+                    792586439,
+                    792586443,
+                    794537557,
+                    794537557,
+                    794537546,
+                    794537546,
+                    794537553,
+                    787615694,
+                    791803693,
+                    792567376,
+                    794537536,
+                    794862729,
+                    795146126
+                ]
             }
         ]
     },
     "status_update_block": {
         "title": "Update Status",
         "titleAdditional": "last 30 days",
-        "updateHistoryTitle": "Status Update History"
+        "updateHistoryTitle": "Status Update History",
+        "updates": [
+            {
+                "id": 1,
+                "title": "Integration of the Plisio payment system for cryptocurrency acceptance.",
+                "description": "We are pleased to announce the implementation of the new Plisio payment system, which allows you to securely and conveniently accept payments in cryptocurrencies. This update will expand your capabilities in the online payment sphere.",
+                "from": "Update from 20:13 GMT+03:00",
+                "date": "Oct 15, 2022"
+            },
+            {
+                "id": 2,
+                "title": "Signing a contract for network services with Combahton provider.",
+                "description": "We are proud to announce the signing of a strategic agreement with the Combahton provider. This partnership will enable us to provide our customers with even higher-quality and more reliable network services.",
+                "from": "Update from 20:14 GMT+03:00",
+                "date": "Oct 3, 2022"
+            },
+            {
+                "id": 3,
+                "title": "Addition of Contabo | Germany location and discounts for it.",
+                "description": "We are expanding our global network by adding a new location in Germany from Contabo. For our customers using this location, we are launching special discounts. Now you can enjoy a wider selection and more favorable conditions.",
+                "from": "Update from 20:15 GMT+03:00",
+                "date": "Sep 26, 2022"
+            },
+            {
+                "id": 4,
+                "title": "Additional maintenance on the network equipment side.",
+                "description": "To enhance the reliability and performance of our network infrastructure, we have conducted additional technical work on the network equipment side. This update will help improve the quality of services for all our customers.",
+                "from": "Update from 20:16 GMT+03:00",
+                "date": "Sep 26, 2022"
+            },
+            {
+                "id": 5,
+                "title": "Update of the BILLmanager personal cabinet system.",
+                "description": "Our development team has released an update for the BILLmanager personal cabinet system. Now you can take advantage of new features and an improved interface for more convenient management of your services.",
+                "from": "Update from 20:17 GMT+03:00",
+                "date": "Sep 5, 2022"
+            },
+            {
+                "id": 6,
+                "title": "Launch of a discount promotion for I9-12900K tariffs in Germany and Moscow.",
+                "description": "We are launching a special discount promotion for tariffs with the I9-12900K processor in Germany and Moscow. This is an excellent opportunity to get high-performance servers at favorable terms.",
+                "from": "Update from 20:18 GMT+03:00",
+                "date": "Sep 5, 2022"
+            },
+            {
+                "id": 7,
+                "title": "Price adjustments for tariffs in OVH data center locations.",
+                "description": "We have updated the prices for tariffs in OVH data center locations to offer our customers more competitive rates. This update makes our services even more affordable for you.",
+                "from": "Update from 20:19 GMT+03:00",
+                "date": "Aug 29, 2022"
+            },
+            {
+                "id": 8,
+                "title": "Updated payment details for account top-up.",
+                "description": "We have updated the payment details for account top-up to provide you with more convenient and secure payment methods. Now you can replenish your account even more easily.",
+                "from": "Update from 20:20 GMT+03:00",
+                "date": "Aug 29, 2022"
+            },
+            {
+                "id": 9,
+                "title": "Creation of a 50% discount promotion for Ryzen 9 5950X tariffs in Moscow until September 15.",
+                "description": "We are pleased to announce the launch of a discount promotion for tariffs with the Ryzen 9 5950X processor in Moscow. This is a great opportunity to get high-performance servers at very favorable terms. The promotion is valid until September 15.",
+                "from": "Update from 20:21 GMT+03:00",
+                "date": "Aug 29, 2022"
+            },
+            {
+                "id": 10,
+                "title": "Launch of new tariffs for Ryzen 9 5950X in Moscow.",
+                "description": "We are excited to introduce new tariffs with the Ryzen 9 5950X processor in Moscow. These servers provide outstanding performance and are available at competitive prices. Start using them now!",
+                "from": "Update from 20:22 GMT+03:00",
+                "date": "Aug 29, 2022"
+            },
+            {
+                "id": 11,
+                "title": "Activation of a second node for i9-12900K in Germany.",
+                "description": "To improve customer service quality, we have activated a second node for servers with the i9-12900K processor in Germany. This will expand the capabilities of our customers and ensure higher service availability.",
+                "from": "Update from 20:23 GMT+03:00",
+                "date": "Aug 29, 2022"
+            },
+            {
+                "id": 12,
+                "title": "Launch of a 50% discount promotion for i9-12900K tariffs until September 20.",
+                "description": "We are launching a special 50% discount promotion for tariffs with the i9-12900K processor. Now you can get high-performance servers at half the price. The promotion is valid until September 20.",
+                "from": "Update from 20:24 GMT+03:00",
+                "date": "Aug 29, 2022"
+            },
+            {
+                "id": 13,
+                "title": "Launch of a node for i9-12900K in Germany.",
+                "description": "We are pleased to announce the launch of a new node for servers with the i9-12900K processor in Germany. This update will allow our customers to achieve higher performance and reliability.",
+                "from": "Update from 20:25 GMT+03:00",
+                "date": "Aug 29, 2022"
+            },
+            {
+                "id": 14,
+                "title": "Transfer of all tariffs from UA provider to EURO.",
+                "description": "We have transferred all tariffs from the UA provider to the EURO currency. This update helps us simplify the payment process and improve financial transparency. Now you can pay for services in a more stable currency.",
+                "from": "Update from 20:26 GMT+03:00",
+                "date": "Aug 8, 2022"
+            },
+            {
+                "id": 15,
+                "title": "Addition of a new payment method, CoinPayments (for cryptocurrencies).",
+                "description": "We are pleased to introduce a new payment method - CoinPayments, which allows you to make payments using various cryptocurrencies. This update expands your choice of payment methods.",
+                "from": "Update from 20:27 GMT+03:00",
+                "date": "Aug 8, 2022"
+            },
+            {
+                "id": 16,
+                "title": "Activation of a new design for billmanager v6.",
+                "description": "We have activated a new design for the account management system - billmanager v6. This update brings an improved interface and more convenient features for managing your services.",
+                "from": "Update from 20:28 GMT+03:00",
+                "date": "Jul 23, 2022"
+            },
+            {
+                "id": 17,
+                "title": "Default installation of Ubuntu 20.04 for all virtual servers.",
+                "description": "We have installed Ubuntu 20.04 as the default operating system for all virtual servers. This update will help you start with your server with minimal effort and get a stable operating system.",
+                "from": "Update from 20:29 GMT+03:00",
+                "date": "Jul 23, 2022"
+            },
+            {
+                "id": 18,
+                "title": "Activation of the PayMaster payment method.",
+                "description": "We have activated a new payment method - PayMaster, to provide you with more options for convenient payment of our services. Now you can choose the payment method that suits you best.",
+                "from": "Update from 20:30 GMT+03:00",
+                "date": "Jul 13, 2022"
+            },
+            {
+                "id": 19,
+                "title": "Update of descriptions for payment methods.",
+                "description": "We have updated the descriptions for all payment methods to provide you with more detailed information about each of them. Now you can better understand the payment options for our services.",
+                "from": "Update from 20:31 GMT+03:00",
+                "date": "Jul 13, 2022"
+            }
+        ]
     }
 }

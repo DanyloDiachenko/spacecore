@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 import { IUpdate, StatusUpdateProps } from "./statusUpdate.props";
-import formatDate from "helpers/formatDate";
 
 const StatusUpdate = ({
     statusUpdateBlock,
@@ -22,9 +21,7 @@ const StatusUpdate = ({
                           <>
                               {update ? (
                                   <div className="main-content" key={update.id}>
-                                      <p className="date">
-                                          {formatDate(update.date)}
-                                      </p>
+                                      <p className="date">{update.date}</p>
                                       <div className="h4">{update.title}</div>
                                       <div
                                           className="text"

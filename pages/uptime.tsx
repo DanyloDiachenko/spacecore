@@ -23,26 +23,32 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
         context.locale === "default" ? "ru" : context.locale
     }/uptime.json`);
 
-    const res = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/uppertime-reviews?locale=${context.locale}&sort=orderNumber`,
-        {
-            headers: {
-                "Content-Type": "application/json",
-                Authorization:
-                    "Bearer " + process.env.NEXT_PUBLIC_API_AUTH_TOKEN,
-            },
-        },
-    );
-    const resJson = await res.json();
-
-    if (resJson.data) {
-        content.status_update_block.updates = resJson.data.map(
-            (item: { attributes: any }) => {
-                return {
-                    ...item.attributes,
-                };
+    try {
+        const res = await fetch(
+            `${process.env.NEXT_PUBLIC_API_URL}/uppertime-reviews?locale=${context.locale}&sort=orderNumber`,
+            {
+                headers: {
+                    "Content-Type": "application/json",
+                    Authorization:
+                        "Bearer " + process.env.NEXT_PUBLIC_API_AUTH_TOKEN,
+                },
             },
         );
+        const resJson = await res.json();
+
+        if (resJson.data) {
+            content.status_update_block.updates = resJson.data.map(
+                (item: { attributes: any }) => {
+                    return {
+                        ...item.attributes,
+                    };
+                },
+            );
+        }
+    } catch (e) {
+        return {
+            props: { content },
+        };
     }
 
     return {

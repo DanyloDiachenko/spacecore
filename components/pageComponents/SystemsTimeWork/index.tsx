@@ -8,29 +8,15 @@ import SystemsTimeWorkProps from "./systemsTimeWork.props";
 import { renderTitle } from "./renderTitle";
 import ITrafic from "./trafic.interface";
 
+const dotsNumber = 18;
+
 const SystemTimeWork = ({
     systemsTimeWorkBlock,
 }: SystemsTimeWorkProps): JSX.Element => {
     const [trafic, setTrafic] = useState<ITrafic[]>([]);
     const [lastUpdateTime, setLastUpdateTime] = useState<Date | null>(null);
-    // const [timeLeftToUpdate, setTimeLeftToUpdate] = useState<string>("");
     const [secLeftToUpdate, setSecLeftToUpdate] = useState<number>(0);
-    const [dotsNumber, setDotsNumber] = useState<70 | 18>(70);
     const [isAllWorks, setIsAllWorks] = useState<boolean | null>(null);
-
-    // const setMaxDateTimeHandler = (monitors: ITrafic[]) => {
-    //     let maxDatetime: number = 0;
-
-    //     const datetimeArray: number[] = monitors.flatMap((monitor: ITrafic) =>
-    //         monitor.logs.map((log) => log.datetime * 1000),
-    //     );
-
-    //     if (datetimeArray.length > 0) {
-    //         maxDatetime = Math.max(...datetimeArray);
-    //     }
-
-    //     setLastUpdateTime(new Date(maxDatetime));
-    // };
 
     useEffect(() => {
         setTimeout(() => {
@@ -121,30 +107,10 @@ const SystemTimeWork = ({
 
     useEffect(() => {
         getUppertimeHandler();
-    }, [dotsNumber]);
-
-    useEffect(() => {
-        const handleResize = () => {
-            const screenWidth: number = window.innerWidth;
-            if (screenWidth > 1200) {
-                setDotsNumber(70);
-            } else {
-                setDotsNumber(18);
-            }
-        };
-
-        window.addEventListener("resize", handleResize);
-        handleResize();
-
-        getUppertimeHandler();
 
         isUppertimeWorks().then((isWorks) => {
             setIsAllWorks(isWorks);
         });
-
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
     }, []);
 
     const addLeadingZero = (number: number): string => {
@@ -199,9 +165,6 @@ const SystemTimeWork = ({
                     </>
                 </div>
                 <div className="right-col">
-                    {/* {!lastUpdateTime || !secLeftToUpdate ? (
-                        ""
-                    ) : ( */}
                     <div>
                         <div className="h3">
                             {systemsTimeWorkBlock.statusTitle}
@@ -222,7 +185,6 @@ const SystemTimeWork = ({
                             <Trans string="сек" />.
                         </p>
                     </div>
-                    {/* )} */}
                 </div>
             </div>
 
