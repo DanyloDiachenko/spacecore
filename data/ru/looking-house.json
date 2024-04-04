@@ -1,0 +1,67 @@
+{
+    "main_block": {
+        "imgSrc": "/images/banners/looking-house.png",
+        "title": "Looking house",
+        "description": "Проверьте нашу сеть перед покупкой услуг: traceroute, ping, speedtest и тестовые файлы"
+    },
+    "check_stability_speed_block": {
+        "title": "Проверьте стабильность соединения сами",
+        "buttons": [
+            {
+                "title": "Amsterdam, Netherlands",
+                "titleKey": "Amsterdam, Netherlands"
+            }
+        ],
+        "downloadTitle": "Скачивание",
+        "downloadSpeedTitle": "Мбит/с",
+        "loadTitle": "Загрузка",
+        "loadSpeedTitle": "Мбит/с",
+        "pingTitle": "Пинг",
+        "pingSpeedTitle": "мс",
+        "jitterTitle": "Джиттер",
+        "jitterSpeedTitle": "мс",
+        "buttonText": "Запустить"
+    },
+    "comands_files_block": {
+        "comandTitle": "Выполнение команд",
+        "comandSelectTitle": "Команда",
+        "commands": [
+            {
+                "title": "Пинг",
+                "titleKey": "ping"
+            },
+            {
+                "title": "Скачивание",
+                "titleKey": "download"
+            },
+            {
+                "title": "Загрузка",
+                "titleKey": "load"
+            },
+            {
+                "title": "Джиттер",
+                "titleKey": "jitter"
+            }
+        ],
+        "resourseAdressTitle": "Адрес ресурса",
+        "resourseAdressPlaceholder": "spacecore.pro",
+        "buttonText": "Выполнить",
+        "resultTitle": "Результат выполнения команды",
+        "fileTitle": "Тестовые файлы",
+        "fileDescription": "Протестируйте скорость загрузки с вашего сервера",
+        "files": [
+            {
+                "title": "Тестовый файл 100 МБ",
+                "fileSrc": "https://lg-nl-ams.hybula.net/100MB.bin"
+            },
+            {
+                "title": "Тестовый файл 1 ГБ",
+                "fileSrc": "https://lg-nl-ams.hybula.net/1GB.bin"
+            },
+            {
+                "title": "Тестовый файл 10 ГБ",
+                "fileSrc": "https://lg-nl-ams.hybula.net/10GB.bin"
+            }
+        ]
+    }
+}

@@ -28,6 +28,7 @@ import "../styles/knowledge-base.scss";
 import "../styles/news.scss";
 import "../styles/small-page-styles.scss";
 import "../styles/popups.scss";
+import "../styles/looking-house.scss";
 
 import Header from "components/Header";
 import Footer from "components/Footer";
@@ -140,7 +141,7 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
                 <link
                     rel="icon"
                     type="image/png"
-                    href="https://spacecore.pro/template/images/logotype.png"
+                    href="https://spacecore.pro/images/icons/logo.svg"
                 />
                 <link
                     rel="preload"

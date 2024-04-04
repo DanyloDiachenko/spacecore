@@ -22,6 +22,28 @@ const ComandsFiles = ({
         setCommand(commandClicked.title);
     };
 
+    /* async function executeLookingGlass(websiteUrl: string) {
+        const startTime = performance.now(); // Записываем время начала запроса
+        try {
+            const response = await fetch(websiteUrl);
+            const endTime = performance.now(); // Записываем время завершения запроса
+            const latency = endTime - startTime; // Вычисляем задержку (время ответа) в миллисекундах
+
+            if (response.ok) {
+                console.log(
+                    `Ping ${websiteUrl} (${
+                        response.url
+                    }) took ${latency.toFixed(2)}ms`,
+                );
+                // Вместо console.log вы можете обновить интерфейс вашего приложения с результатами
+            } else {
+                console.error(`Failed to ping ${websiteUrl}`);
+            }
+        } catch (error) {
+            console.error(`Error: ${error}`);
+        }
+    } */
+
     const executeLookingGlass = () => {
         const outputContent = outputContentRef.current;
         const executeButton = executeButtonRef.current;
@@ -35,35 +57,61 @@ const ComandsFiles = ({
             outputCard.style.display = "inherit";
         }
 
-        fetch("http://95.181.153.55/backend.php")
-            .then(async (response) => {
-                // response.body is a ReadableStream
-                const reader = response.body ? response.body.getReader() : "";
-                const decoder = new TextDecoder();
-
-                for await (const chunk of readChunks(reader)) {
-                    const text = decoder.decode(chunk);
-                    if (command == "mtr") {
-                        const splittedText = text.split("---");
-                        if (!splittedText[1]) {
-                            continue;
-                        }
-                        outputContent
-                            ? (outputContent.innerHTML = splittedText[1].trim())
-                            : "";
-                    } else {
-                        outputContent
-                            ? (outputContent.innerHTML =
-                                  outputContent.innerHTML +
-                                  text.trim().replace(/<br \/> +/g, "<br />"))
-                            : "";
-                    }
-                }
+        try {
+            fetch("https://lg-nl-ams.hybula.net/backend.php", {
+                /* use no-cors for no error */
+                mode: "no-cors",
+                method: "get",
+                credentials: "include",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Remote-Address": "2.58.57.56:443",
+                    Cookie: "HYLOOKINGLASS=guabsrvje7dpf3h5vp6574ncn8",
+                    Host: "lg-nl-ams.hybula.net",
+                    Referer: "https://lg-nl-ams.hybula.net/",
+                },
             })
-            .finally(() => {
-                executeButton ? (executeButton.innerText = "Execute") : "";
-                executeButton ? (executeButton.disabled = false) : "";
-            });
+                .then(async (response) => {
+                    console.log(response);
+                    // response.body is a ReadableStream
+                    if (response.body) {
+                        const reader = response.body
+                            ? response.body.getReader()
+                            : "";
+                        const decoder = new TextDecoder();
+
+                        for await (const chunk of readChunks(reader)) {
+                            const text = decoder.decode(chunk);
+                            if (command == "mtr") {
+                                const splittedText = text.split("---");
+                                if (!splittedText[1]) {
+                                    continue;
+                                }
+                                outputContent
+                                    ? (outputContent.innerHTML =
+                                          splittedText[1].trim())
+                                    : "";
+                            } else {
+                                outputContent
+                                    ? (outputContent.innerHTML =
+                                          outputContent.innerHTML +
+                                          text
+                                              .trim()
+                                              .replace(/<br \/> +/g, "<br />"))
+                                    : "";
+                            }
+                        }
+                    } else {
+                        return;
+                    }
+                })
+                .finally(() => {
+                    executeButton ? (executeButton.innerText = "Execute") : "";
+                    executeButton ? (executeButton.disabled = false) : "";
+                });
+        } catch (error) {
+            console.log(error);
+        }
 
         // readChunks() reads from the provided reader and yields the results into an async iterable
         function readChunks(reader: any) {

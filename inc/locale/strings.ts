@@ -1663,11 +1663,6 @@ const strings: IString = {
         ua: "Цікаві факти про",
         en: "Interesting facts about",
     },
-    "Looking house": {
-        ru: "Looking house",
-        ua: "Looking house",
-        en: "Looking house",
-    },
     "Проверьте нашу сеть перед покупкой услуг: traceroute, ping, speedtest и тестовые файлы":
         {
             ru: "Проверьте нашу сеть перед покупкой услуг: traceroute, ping, speedtest и тестовые файлы",
