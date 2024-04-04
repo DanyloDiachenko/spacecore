@@ -1,7 +1,8 @@
 stage: production ready
 
 Page-link (prod): https://spacecore.pro/en/
-Page-link (dev): https://spacecore.pro/en/
+
+Page-link (dev): https://spacecore.vercel.app/en/
 
 # Spacecore
 ### Stack:
